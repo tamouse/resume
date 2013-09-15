@@ -1,0 +1,259 @@
+---
+Title: Tamara Temple\'s Resume
+Last Update:
+  Time-stamp: <2012-10-07 02:40:08 tamara>
+Name: Tamara Temple
+Contact Info:
+  Address:
+    Apartment: 202
+    City: Mendota Heights
+    State: MN
+    Street: 1585 Dodd Road
+    Zip: 55118
+  Email: tamara@tamaratemple.com
+  Phone: +1-(415) 503-9241
+  Web Site: http://tamouse.github.io/
+  Web Site: http://about.me/tamouse
+Summary: Experienced in providing technical leadership, managing and facilitating
+  teams, analyzing technical and business processes, developing software products
+  and utilities, setting up testing laboratories, testing software and managing the
+  testing process, and designing and developing static and dynamic websites. Recognized
+  as a leader among peers, effectively making a strong positive impact on products,
+  processes and people.
+Skills:
+  Analysis:
+  - UML
+  - IDEF-0
+  Languages:
+  - Ruby
+  - Gherkin
+  - JavaScript
+  - Perl
+  - C/C++
+  - Shell
+  - PHP
+  Methods:
+  - Advanced Quality Assurance
+  - Test-Driven Development
+  - Behaviour-Driven Development
+  - Structured Analysis, Design, Programming, and Testing
+  - Data Flow Analysis
+  - Object-Oriented Design, Development, and Testing
+  - Agile Programming, Scrum Master
+  OSes:
+  - Linux
+  - Mac OS X
+  Software:
+  - Emacs
+  - Sublime Text 2
+  - RubyMine
+  - IntelliJ IDEA
+  - Eclipse
+  Web Design:
+  - HTML5
+  - CSS3
+  - jQuery
+  - Twitter Bootstrap
+  Web Dev:
+  - Rails
+  - Sinatra
+  - Backbone.js
+  - node.js
+  Databases:
+  - MySQL
+  - SQLite
+  - MongoDB
+  - Redis
+  Servers:
+  - Apache
+  - Lighttpd
+  - nginx
+  - Passenger
+  - unicorn
+  Testing:
+  - RSpec
+  - Cucumber (Gherkin)
+  - Capybara
+  - Watir-Webdriver
+  - PHPUnit
+  - Mocha
+  - Chai
+  - Jasmine
+Education:
+  University:
+    Degree: Bachelor of Science, Computer Science
+    GPA: 3.2
+    Location: Minneapolis
+    School: University of Minnesota
+    Years: 1975-1980
+  Additional Training:
+  - Structured Analysis, Design, Programming and Testing
+  - system testing
+  - Objected Oriented Analysis, Design, Programming and Testing
+  - consulting and facilitating skills
+  - Neuro-Linguistic Programming Certified Practitioner
+  - project management
+  - public speaking and presentation skills
+Experience:
+  2001-Present:
+    Position: Web Developer
+    Company: Tamara Temple Web Development
+    Description: Contract web design and development, including pro bono work for
+      non-profits and individuals desiring a presence on the Internet. Included finding
+      hosting space, development of information architecture, design layout of site,
+      development and/or repurposing of content, and maintenance. Work in Perl, PHP,
+      Ruby on Rails, CSS, MySQL, SQLite, Apache, Lighttpd, Linux, Mac OS X.
+    Location: Mendota Heights, Minnesota
+    Accomplishments and Duties:
+    - Proficient in PHP, Ruby on Rails, JavaScript, and OO
+    - Proficient in Database driven development
+    - Proficient in HTML, CSS, Cross-browser development and testing
+    - Able to read and understand new technologies and languages rapidly and understand
+      code written others rapidly
+  2012-2013:
+    Position: Deployment Validation Lead
+    Company: Novu, LLC
+    Description: Ensure the quality, accuracy and timely delivery of
+      web site features and software, establishing quality goals and
+      program for planning, design and development of new features, and
+      providing guidance and leadership in best practices for web
+      application development under Ruby on Rails.
+    Location: St. Louis Park, Minnesota
+    Accomplishments and Duties:
+    - Ensure web site features and external design are implemented as
+      expected and intended
+    - Provide guidance during planning, design, and development to
+      ensure testable and maintainable code
+    - Provide feedback to designers and developers on user experience,
+      usability, accessibility and other aspects of the overall
+      site\'s quality
+    - Create automated front-end integration and full-system testing
+      suite based on Cucumber, Capybara and Watir-webdriver
+  2007-2008:
+    Position: Senior QA Engineer
+    Company: Shopzilla, Inc.
+    Description: Sole software quality assurance engineer on business information engineering software providing testing, validation, automation, consulting, and quality leadership to development teams.
+    Location: Los Angeles, California
+    Accomplishments and Duties:
+    - Capturing business intelligence information from the website logs for upstream
+      viewing for the health and financials of the company. Created test scripts and
+      automation in Perl. Used Oracle 9i and 10g data bases.
+    - Service to provide a logging facility to record redirects (click-throughs) which
+      is how the company obtains it\'s revenue. Development of tools to provide testing
+      capabilities in Java, Spring, Hibernate, Mason and Jython (Python) using Eclipse.
+      Modeled in UML.
+    - Worked in an Agile/Scrum environment
+  2003-2006:
+    Position: Business Analyst
+    Company: Hewlett-Packard
+    Description: Providing technical leadership and support for the migration of the
+      contracts management system to a new system, ensuring the smooth transition
+      of users and data.
+    Location: Cupertino, California
+    Accomplishments and Duties:
+    - Analyzed requirements and wrote a detailed requirements specification and migration
+      plan for users, meta-data, and contract files. Documentation done in FrameMaker.
+    - Developed several Perl tools to analyze and convert data to the new system.
+      Demonstrated the migration tools for potential clients and their stakeholders.
+      Analyzed clients\' business processes and matched them to processes for the
+      new system; created process and flowchart diagrams to communicate the processes
+      to client users.
+    - Provided training for clients.
+    - Provided ongoing technical support for the new contract management system.
+  2002-2003:
+    Position: Web Developer
+    Company: FEDICO
+    Description: Primary web developer for database-driven external and internal web
+      sites.
+    Location: San Mateo, California
+    Accomplishments and Duties:
+    - Designed and developed intranet application in HTML, Javascript and MySQL utilizing
+      a proprietary backend language for managing the insurance sign up process for
+      federal employees.
+    - Designed and developed a secure web form to collect and transmit insurance applicant
+      information to the insurance administration site, using JavaScript to validate
+      the form.
+  1991-2001:
+    Position: Software Process Improvement Consultant
+    Company: Hewlett-Packard
+    Description: Provided internal business and technical consulting to senior managers,
+      middle managers and individual contributors to improve business processes and
+      product market performance.
+    Location: Palo Alto. California
+    Accomplishments and Duties:
+    - Analyzed engineering processes for strategies to improve processes and ensure
+      standards compliance.
+    - Facilitated teams and people networks, analyzed and modeled data flow, and identified
+      successful solutions to existing challenges. Methodologies included NLP, UML,
+      IDEF-0, Dataflow analysis, TQC, RCA, Mindmapping and others.
+    - Assisted multiple teams with implementing Lightweight and Agile programming
+      techniques.
+    - Developed several web-based applications including CRM, contact, and contract
+      applications for managing client information, using UML, Dreamweaver, HTML,
+      PHP, Perl/CGI, and JavaScript.
+    - Recognized as the key resource for starting up new teams in client organizations,
+      with the ability to enable teams to ramp up quickly and to more effectively
+      reach their goals.
+    - Conducted several software process assessments and implemented process improvement
+      programs based on the Software Engineering Institute (SEI) Capability Maturity
+      Model for Software (SW-CMM).
+    - Significant author of SEI special report "IDEAL- A User\'s Guide for Software
+      Process Improvement". Documentation done in FrameMaker.
+  1989-1991:
+    Position: Senior Software Engineer
+    Company: Hewlett-Packard
+    Description: Developed network and nodal management tools for HP-UX.
+    Location: Cupertino, California
+    Accomplishments and Duties:
+    - Provided technical project management for the development of software for the
+      managing network configurations.
+    - Investigated the future direction of host-based installation, configuration,
+      verification, and troubleshooting tools.
+    - Designed and developed networking software in C and C++, Perl, and shell scripts.
+    - Wrote customer documentation in FrameMaker and man pages for features implemented.
+    - Gathered and analyzed product requirements utilizing UML and IDEF-0 diagrams,
+      obtained commitments from project dependencies, wrote and presented the investigation
+      report, and led high-level design of network management software.
+    - Wrote white papers using FrameMaker describing future directions of network
+      management software.
+  1987-1989:
+    Position: Senior Quality Assurance Engineer
+    Company: Hewlett-Packard
+    Description: Improved the quality assurance and testing processes for network
+      software development.
+    Location: Cupertino, California
+    Accomplishments and Duties:
+    - Managed experiments, collected metrics, and developed tools to increase effectiveness
+      and efficiency of network software quality assurance.
+    - Developed and implemented strategies to reduce the costs of testing network
+      software.
+    - Increased the quality and usefulness of network management software, making
+      it a more efficient tool for users.
+  1985-1987:
+    Position: Quality Assurance Manager
+    Company: Hewlett-Packard
+    Description: Led a team of software reliability engineers focusing on networking
+      products.
+    Location: Cupertino, California
+    Accomplishments and Duties:
+    - Managed 10 software quality assurance engineers, including assigning tasks,
+      creating schedules, reviewing performance, determining ranking and salary, and
+      assisting the engineers in achieving their professional goals within the organizational
+      framework.
+    - Managed the interoperability testing project for the different TCP/IP implementations
+      on company systems. Led a team of 2 engineers, created test plans, developed
+      tests
+    - Built and operated a test laboratory, monitored testing, and reported to senior
+      management.
+  1982-1985:
+    Position: Software Quality Assurance Engineer
+    Company: Hewlett-Packard
+    Description: Provided quality assurance and testing for networking products.
+    Location: Cupertino, California
+    Accomplishments and Duties:
+    - Specified quality criteria, wrote test plans, developed test cases and executed
+      black box, white box, integration and system testing, and monitored and reported
+      testing progress.
+    - Designed a testing laboratory that made it possible to quickly switch test configurations
+      without rewiring hardware, saving approximately two weeks setup time for each
+      configuration change.
