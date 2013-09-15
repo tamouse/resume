@@ -1,3 +1,16 @@
+require 'yaml'
+require 'erb'
+
 module FrankHelpers
-  # helpers go here
+
+  class Resume
+
+    attr_accessor :data
+
+    def initialize(yaml="resume.yml")
+      @data = YAML.load(ERB.new(File.read(yaml)).result)
+    end
+
+  end
+
 end

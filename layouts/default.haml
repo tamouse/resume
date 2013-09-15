@@ -1,9 +1,13 @@
-!!! Strict
+!!! 5
 %html
   %head
-    %title Frank's on the scene.
-    %link{:rel=>'stylesheet', :type=>'text/css', :href=>'/css/frank.css'}
-    %script{:type=>'text/javascript', :src=>'/js/frank.js'}
+    %title= $resume.data["Title"]
+    %meta{:name=>"viewport", :content=>"width=device-width, initial-scale=1.0"}
+    %link{:href=>"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css", :rel=>"stylesheet"}
+    %link{:href=>"/css/resume.css", :rel=>"stylesheet"}
+    %script{:src=>"//code.jquery.com/jquery.js"}
+    %script{:src=>"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"}
+    %script{:src=>"/js/resume.js"}
   %body
-    #wrapper
+    .container
       = yield

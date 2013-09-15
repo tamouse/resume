@@ -78,3 +78,11 @@ Frank.export.path = "exported"
 #
 # Add any other project setup code, or requires here
 # ....
+
+require 'yaml'
+require 'erb'
+require 'awesome_print'
+
+$resume = FrankHelpers::Resume.new
+
+ap $resume.data

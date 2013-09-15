@@ -1,1 +1,3 @@
 .sass*
+public/
+.sass-cache/
