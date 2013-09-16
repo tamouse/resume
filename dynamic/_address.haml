@@ -1,0 +1,13 @@
+.row
+  .col-md-2.text-right
+    .label.label-primary= address["label"]
+  .col-md-6
+    %address
+      %span#street= address["Street"]
+      %span#apt
+        Apt.
+        =           address["Apartment"]
+      %br
+      %span#city    #{address["City"]},
+      %span#state=  address['State']
+      %span#zip=    address['Zip']

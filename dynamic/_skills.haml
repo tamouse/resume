@@ -1,3 +1,25 @@
+.page-header
+  %h1
+    Skills
+    %br
+      %small things I know how to do really well
 .row
-  .col-md-12
-    %h2 Skills
+  .col-md-10.col-md-offset-1
+    .panel.panel-primary
+      .panel-heading
+        %p
+          Methodologies
+          %br
+          %small techniques and practices that I use and mix in many ways
+      .panel-body
+        %ul
+          - methods.each do |item|
+            %li= item
+    - skills.each do |key,list|
+      .panel.panel-primary
+        .panel-heading
+          %p= key
+        .panel-body
+          %ul
+            - list.each do |item|
+              %li= item

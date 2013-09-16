@@ -1,29 +1,105 @@
 ---
 Title: "Tamara Temple's Resume"
 Last Update:
-  Time-stamp: <2013-09-15 10:35:44 tamara>
+  Time-stamp: <2013-09-16 01:59:16 tamara>
 Name: Tamara Temple
 Contact Info:
   Address:
+  - label: Home
     Apartment: 202
     City: Mendota Heights
     State: MN
     Street: 1585 Dodd Road
     Zip: 55118
-  Email: tamara@tamaratemple.com
-  Phone: +1-(415) 503-9241
-  Web Site: http://tamouse.github.io/
-  Web Site: http://about.me/tamouse
-Summary: Experienced in providing technical leadership, managing and facilitating
-  teams, analyzing technical and business processes, developing software products
-  and utilities, setting up testing laboratories, testing software and managing the
-  testing process, and designing and developing static and dynamic websites. Recognized
-  as a leader among peers, effectively making a strong positive impact on products,
-  processes and people.
+  Email:
+  - label: Work
+    address: tamara@tamaratemple.com
+  - label: Personal
+    address: tamouse@gmail.com
+  Phone:
+  - label: Work
+    number: +1-(415) 503-9241
+  Web Sites:
+  - label: Blog
+    url: http://blog.tamouse.org/
+  - label: About
+    url: http://about.me/tamouse
+  - label: Github
+    url: http://github.com/tamouse
+  - label: Diaspora
+    url: https://joindiaspora.com/people/4d11235b2c17436ab9001050
+  - label: Facebook
+    url: http://www.facebook.com/tamara.temple
+  - label: Twitter
+    url: http://twitter.com/tamouse
+  - label: Google Plus
+    url: https://plus.google.com/104157810059860300833/
+Summary:
+  - "**Webologist** and Tech Maven, deeply into the practice of
+    **Software Engineering as a Craft**.
+    Leading software developers in the art of
+    **Test-** and **Behaviour-Driven Development**,
+    and providing a wealth of
+    experience in guiding teams of developers, testers, operations and
+    other people involved in the creation and deployment of web
+    applications."
+
+  - Critically concerned with delivering products and services that
+    **delight** and **amaze** customers and users, building strong brand
+    recognition and loyalty by the means of solid user experience,
+    function and form.
+
+  - Constantly striving for ways to **reduce technical debt**,
+    overhead, and
+    wasteful activity within projects. Not afraid to **ask
+    critical questions** to ensure healthy features are delivered on
+    time and within budget.
+
+  - Work with team members to provide a fun, healthy, productive, diverse, and
+    cohesive team of managers, analysts, developers, quality
+    assurance, and operations.
+
+  - "Experienced in:"
+  - "* technical leadership"
+  - "* managing and facilitating teams"
+  - "* analyzing technical and business processes"
+  - "* developing software products and utilities"
+  - "* setting up testing laboratories, automating software testing and managing the testing process"
+  - "* designing and developing static and dynamic websites."
+
+:summary_links:
+- text: Software As A Craft
+  link: http://blog.tamouse.org/blog/2013/05/15/introduction-to-software-as-a-craft/
+- text: Test Driven Development
+  link: http://www.agiledata.org/essays/tdd.html
+- text: Behaviour Driven Development (Dan North)
+  link: http://dannorth.net/introducing-bdd/
+- text: Technical Debt (Martin Fowler)
+  link: http://martinfowler.com/bliki/TechnicalDebt.html
 Skills:
-  Analysis:
-  - UML
-  - IDEF-0
+  Web Development:
+  - Rails
+  - Sinatra
+  - jQuery
+  - Coffeescript
+  - Backbone.js
+  - node.js
+  - Jekyll
+  - Octopress
+  - Frank
+  - HAML
+  - PHP
+  Web Design:
+  - HTML5
+  - CSS3
+  - SCSS/SASS
+  - Twitter Bootstrap
+  Databases:
+  - MySQL
+  - SQLite
+  - PostgreSQL
+  - MongoDB
+  - Redis
   Languages:
   - Ruby
   - Gherkin
@@ -32,85 +108,97 @@ Skills:
   - C/C++
   - Shell
   - PHP
-  Methods:
-  - Advanced Quality Assurance
-  - Test-Driven Development
-  - Behaviour-Driven Development
-  - Structured Analysis, Design, Programming, and Testing
-  - Data Flow Analysis
-  - Object-Oriented Design, Development, and Testing
-  - Agile Programming, Scrum Master
-  OSes:
-  - Linux
-  - Mac OS X
-  Software:
-  - Emacs
-  - Sublime Text 2
-  - RubyMine
-  - IntelliJ IDEA
-  - Eclipse
-  Web Design:
-  - HTML5
-  - CSS3
-  - jQuery
-  - Twitter Bootstrap
-  Web Dev:
-  - Rails
-  - Sinatra
-  - Backbone.js
-  - node.js
-  Databases:
-  - MySQL
-  - SQLite
-  - MongoDB
-  - Redis
   Servers:
   - Apache
   - Lighttpd
   - nginx
   - Passenger
   - unicorn
+  Software:
+  - Emacs
+  - Sublime Text 2
+  - RubyMine
+  - IntelliJ IDEA
+  - Eclipse
   Testing:
+  - Guard
   - RSpec
   - Cucumber (Gherkin)
   - Capybara
   - Watir-Webdriver
-  - PHPUnit
+  - "Test'em"
   - Mocha
   - Chai
   - Jasmine
+  DevOps:
+  - Chef
+  - Vagant
+  - Berkshelf
+  - Travis.CI
+  - Codeship.IO
+  - TeamCity
+  OSes:
+  - Linux
+  - Mac OS X
+  Analysis:
+  - UML
+  - IDEF-0
+Methods:
+  - Advanced Quality Assurance, Automation and Remote Testing
+  - User- / Task-Centered Design
+  - Test- / Behaviour-Driven Development
+  - Structured Analysis, Design, Development, and Testing
+  - Process Flow Analysis, Systems Theory, Cybernetics
+  - Object-Oriented Analysis, Design, Development, and Testing
+  - Agile Development, Scrum Master
+  - "Continuous Everything: Integration, Testing, Deployment"
+  - Precision Elicitation and Facilitation, Communication for Action
 Education:
-  University:
+  - label: bscs
     Degree: Bachelor of Science, Computer Science
     GPA: 3.2
     Location: Minneapolis
     School: University of Minnesota
     Years: 1975-1980
-  Additional Training:
-  - Structured Analysis, Design, Programming and Testing
-  - system testing
-  - Objected Oriented Analysis, Design, Programming and Testing
-  - consulting and facilitating skills
-  - Neuro-Linguistic Programming Certified Practitioner
-  - project management
-  - public speaking and presentation skills
+Additional Training:
+- Structured Analysis, Design, Programming and Testing
+- system testing
+- Objected Oriented Analysis, Design, Programming and Testing
+- consulting and facilitating skills
+- Neuro-Linguistic Programming Certified Practitioner
+- project management
+- public speaking and presentation skills
+Self Training:
+- "Scripting: Bash/Grep/Sed/Awk, Perl, Ruby"
+- "Web Development: Perl/CGI, Coldfusion, PHP, Ruby on Rails, Sinatra, HAML, SCSS, Coffeescript"
+- "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Test'em"
+- jQuery, Backbone.js, Node.js
+- Jekyll, Octopress, Frank
+- Web interface design, Web application design, User Experience
+- "Relational database management and database design: MySQL, SQLite, PostgreSQL"
+- "Non-relational (key-value) database management and design: MongoDB, Redis"
+- "Unix and Linux System Administration and DevOps: Chef, Vagrant"
+- Continuous Development, Continuous Testing, Continuous Deployment
 Experience:
-  2001-Present:
+  - label: ttwebdev
+    Years: 2001-Present
     Position: Web Developer
     Company: Tamara Temple Web Development
-    Description: Contract web design and development, including pro bono work for
-      non-profits and individuals desiring a presence on the Internet. Included finding
+    Description: Freelance web design and development, including <em>pro bono</em> work for
+      non-profits and individuals desiring a presence on the Web. Includes finding
       hosting space, development of information architecture, design layout of site,
       development and/or repurposing of content, and maintenance. Work in Perl, PHP,
       Ruby on Rails, CSS, MySQL, SQLite, Apache, Lighttpd, Linux, Mac OS X.
     Location: Mendota Heights, Minnesota
     Accomplishments and Duties:
-    - Proficient in PHP, Ruby on Rails, JavaScript, and OO
-    - Proficient in Database driven development
-    - Proficient in HTML, CSS, Cross-browser development and testing
-    - Able to read and understand new technologies and languages rapidly and understand
-      code written others rapidly
-  2012-2013:
+      - User experience and User-centered design for interactive web sites
+      - Database design for dynamic web sites and applications
+      - Frameworks and infrastructure to implement business logic and web site features
+      - Environments and tools for development, testing, integration and deployment
+      - Teach and coach new developers
+
+  - label: novu
+    Years: 2012-2013
     Position: Deployment Validation Lead
     Company: Novu, LLC
     Description: Ensure the quality, accuracy and timely delivery of
@@ -124,12 +212,13 @@ Experience:
       expected and intended
     - Provide guidance during planning, design, and development to
       ensure testable and maintainable code
-    - Provide feedback to designers and developers on user experience,
+    - "Provide feedback to designers and developers on user experience,
       usability, accessibility and other aspects of the overall
-      site\'s quality
+      site's quality"
     - Create automated front-end integration and full-system testing
       suite based on Cucumber, Capybara and Watir-webdriver
-  2007-2008:
+  - label: shopzilla
+    Years: 2007-2008
     Position: Senior QA Engineer
     Company: Shopzilla, Inc.
     Description: Sole software quality assurance engineer on business information engineering software providing testing, validation, automation, consulting, and quality leadership to development teams.
@@ -143,7 +232,8 @@ Experience:
       capabilities in Java, Spring, Hibernate, Mason and Jython (Python) using Eclipse.
       Modeled in UML.
     - Worked in an Agile/Scrum environment
-  2003-2006:
+  - label: hpba
+    Years: 2003-2006
     Position: Business Analyst
     Company: Hewlett-Packard
     Description: Providing technical leadership and support for the migration of the
@@ -160,7 +250,8 @@ Experience:
       to client users.
     - Provided training for clients.
     - Provided ongoing technical support for the new contract management system.
-  2002-2003:
+  - label: fedicao
+    Years: 2002-2003
     Position: Web Developer
     Company: FEDICO
     Description: Primary web developer for database-driven external and internal web
@@ -173,7 +264,8 @@ Experience:
     - Designed and developed a secure web form to collect and transmit insurance applicant
       information to the insurance administration site, using JavaScript to validate
       the form.
-  1991-2001:
+  - label: hpswi
+    Years: 1991-2001
     Position: Software Process Improvement Consultant
     Company: Hewlett-Packard
     Description: Provided internal business and technical consulting to senior managers,
@@ -197,9 +289,10 @@ Experience:
     - Conducted several software process assessments and implemented process improvement
       programs based on the Software Engineering Institute (SEI) Capability Maturity
       Model for Software (SW-CMM).
-    - Significant author of SEI special report "IDEAL- A User\'s Guide for Software
+    - Significant author of SEI special report "IDEAL- A User's Guide for Software
       Process Improvement". Documentation done in FrameMaker.
-  1989-1991:
+  - label: hpnet
+    Years: 1989-1991
     Position: Senior Software Engineer
     Company: Hewlett-Packard
     Description: Developed network and nodal management tools for HP-UX.
@@ -216,7 +309,8 @@ Experience:
       report, and led high-level design of network management software.
     - Wrote white papers using FrameMaker describing future directions of network
       management software.
-  1987-1989:
+  - label: hpsqeng2
+    Years: 1987-1989
     Position: Senior Quality Assurance Engineer
     Company: Hewlett-Packard
     Description: Improved the quality assurance and testing processes for network
@@ -229,7 +323,8 @@ Experience:
       software.
     - Increased the quality and usefulness of network management software, making
       it a more efficient tool for users.
-  1985-1987:
+  - label: hpsqmgr
+    Years: 1985-1987
     Position: Quality Assurance Manager
     Company: Hewlett-Packard
     Description: Led a team of software reliability engineers focusing on networking
@@ -245,7 +340,8 @@ Experience:
       tests
     - Built and operated a test laboratory, monitored testing, and reported to senior
       management.
-  1982-1985:
+  - label: hpsqeng1
+    Years: 1982-1985
     Position: Software Quality Assurance Engineer
     Company: Hewlett-Packard
     Description: Provided quality assurance and testing for networking products.

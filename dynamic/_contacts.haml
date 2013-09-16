@@ -1,3 +1,22 @@
+.page-header
+  %h1
+    Contacts
+    %small where to reach me
 .row
-  .col-md-12
-    %h2 Contacts
+  .col-md-10.col-md-offset-1
+    .row
+      .col-md-8
+        %h3 Email:
+        - contact['Email'].each do |em|
+          = render_partial 'email', :email => em
+    .row
+      .col-md-8
+        %h3 Phone:
+        - contact['Phone'].each do |ph|
+          = render_partial 'phone', :phone => ph
+
+    .row
+      .col-md-8
+        %h3 Web:
+        - contact['Web Sites'].each do |site|
+          = render_partial 'website', :site => site 

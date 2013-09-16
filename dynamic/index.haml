@@ -1,14 +1,14 @@
 #header= render_partial 'header', :title => $resume.data["Title"]
 #main.tab-content
   .tab-pane.active#summary
-    = render_partial 'summary', :contact => $resume.data["Contact Info"], :summary => $resume.data["Summary"]
+    = render_partial 'summary', :summary => $resume.data["Summary"], :summary_links => $resume.data[:summary_links]
   .tab-pane#skills
-    = render_partial 'skills', :skills => $resume.data["Skills"]
+    = render_partial 'skills', :skills => $resume.data["Skills"], :methods => $resume.data['Methods']
   .tab-pane#education
-    = render_partial 'education', :education => $resume.data["Education"]
+    = render_partial 'education', :education => $resume.data["Education"], :additional => $resume.data['Additional Training'], :self_taught => $resume.data['Self Training']
   .tab-pane#experience
     = render_partial 'experience', :experience => $resume.data["Experience"]
   .tab-pane#contacts
-    = render_partial 'contacts'
+    = render_partial 'contacts', :contact => $resume.data["Contact Info"]
 #footer= render_partial 'footer'
 
