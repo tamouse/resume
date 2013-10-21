@@ -59,14 +59,12 @@ Frank.export.path = "public"
 #  Just uncomment the Publish settings below and
 #  make the appropriate changes.
 #
-#  Frank.publish.host = "example.com"
-#  Frank.publish.path = "/www"
-#  Frank.publish.username = 'me'
+Frank.publish.host = "tamouse.org"
+Frank.publish.path = "Sites/tamouse.org/resume"
+Frank.publish.username = 'tamara'
 #  Frank.publish.password = 'secret'
 #  Frank.publish.port = 22
-#  Frank.publish.mode = :scp (or :ftp, :ftptls, :sftp)  #no ftptls in ruby 1.9
-#
-#
+Frank.publish.mode = :scp
 
 # ----------------------
 # Sass Options:

@@ -1,7 +1,7 @@
 ---
 Title: "Tamara Temple's Resume"
 Last Update:
-  Time-stamp: <2013-09-16 01:59:16 tamara>
+  Time-stamp: <2013-10-21 14:22:35 tamara>
 Name: Tamara Temple
 Contact Info:
   Address:
@@ -20,10 +20,10 @@ Contact Info:
   - label: Work
     number: +1-(415) 503-9241
   Web Sites:
-  - label: Blog
-    url: http://blog.tamouse.org/
   - label: About
     url: http://about.me/tamouse
+  - label: Blog
+    url: http://blog.tamouse.org/
   - label: Github
     url: http://github.com/tamouse
   - label: Diaspora
