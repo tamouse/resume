@@ -4,4 +4,4 @@
 .row
   .col-md-10.col-md-offset-1
     - experience.each do |job|
-      = render_partial 'job', :job => job
+      = partial(:job, locals: {:job => job})

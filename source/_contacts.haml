@@ -7,16 +7,22 @@
     .row
       .col-md-8
         %h3 Email:
-        - contact['Email'].each do |em|
-          = render_partial 'email', :email => em
+        - contact.email.each do |em|
+          = partial(:email, locals: { :email => em })
     .row
       .col-md-8
         %h3 Phone:
-        - contact['Phone'].each do |ph|
-          = render_partial 'phone', :phone => ph
+        - contact.phone.each do |ph|
+          = partial(:phone, locals: { :phone => ph })
+
+    .row
+      .col-md-8
+        %h3 Social:
+        - contact.social.each do |soc|
+          = partial(:social, locals: { :soc => soc })
 
     .row
       .col-md-8
         %h3 Web:
-        - contact['Web Sites'].each do |site|
-          = render_partial 'website', :site => site 
+        - contact.web_sites.each do |site|
+          = partial(:website, locals: { :site => site })

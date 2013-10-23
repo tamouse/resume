@@ -5,17 +5,22 @@
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      %a.navbar-brand{:href => '/'}= title
+      /%a.navbar-brand{:href => '/'}= title
+      = link_to title, '/', class: 'navbar-brand'
     .navbar-collapse.collapse
       %ul.nav.navbar-nav#resTab
-        %li.active
-          %a{:href=>'#summary'}Summary
+        %li.active= link_to 'Summary', '#summary'
+        %li= link_to 'Skills', '#skills'
+        %li= link_to 'Education', '#education'
+        %li= link_to 'Experience', '#experience'
+        %li= link_to 'Contacts', "#contacts"
+      %ul.nav.navbar-nav.navbar-right
         %li
-          %a{:href=>'#skills'}Skills
+          - link_to 'resume.pdf', title: "Printable version of resume in PDF" do
+            %i.glyphicon.glyphicon-print
+            PDF
         %li
-          %a{:href=>'#education'}Education
-        %li
-          %a{:href=>'#experience'}Experience
-        %li
-          %a{:href=>'#contacts'}Contacts
+          - link_to 'resume.rtf', title: "Editable in dumb word processors" do
+            %i.glyphicon.glyphicon-thumbs-down
+            RTF
 

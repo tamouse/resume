@@ -11,5 +11,5 @@
     %h3 Topic Links
     %ul
       - summary_links.each do |lnk|
-        %li
-          %a{:href => lnk['link']}= lnk['text']
+        %li= link_to lnk.text, lnk.link
+          

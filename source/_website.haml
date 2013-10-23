@@ -1,6 +1,7 @@
 .row
   .col-md-2.col-sm-4.col-xs-6
-    .label.label-primary=     site['label']
+    .label.label-primary=     site.label
   .col-md-6
     %address
-      %a{:href => site['url'], :target => '_blank'}= site['url']
+      /%a{:href => site['url'], :target => '_blank'}= site['url']
+      = link_to site.url, site.url, target: '_blank'

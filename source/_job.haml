@@ -1,19 +1,19 @@
 .row.job
   .col-md-2
-    %h3.label.label-primary= job['Years']
+    %h3.label.label-primary= job.years
   .col-md-8
     %p.job-info
-      %span.position>= job['Position']
+      %span.position>= job.position
       ,
       %span
 
-      %span.company>= job['Company']
+      %span.company>= job.company
       ,
       %span
       
-      %span.location= job['Location']
-    %p.description= job['Description']
+      %span.location= job.location
+    %p.description= job.description
     %h4 Accomplishments and Duties
     %ul
-      - job['Accomplishments and Duties'].each do |t|
+      - job.accomplishments_and_duties.each do |t|
         %li= t

@@ -39,11 +39,11 @@
 # activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def full_name
+    %w[given middle family].map{|np| data.resume.name[np]}.join(" ")
+  end
+end
 
 set :css_dir, 'stylesheets'
 
@@ -63,16 +63,28 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
 
-
 ## Extensions
-#
-# after_build
+
+# Deploy
+
+activate :deploy do |deploy|
+  deploy.build_before = true    # always make sure we've built before we deploy
+
+  deploy.method = :rsync
+  deploy.host   = 'tamouse.org'
+  deploy.path   = 'Sites/tamouse.org/resume'
+  deploy.clean  = true
+end
+
+
+
+# Create the PDF and RTF versions after_build
 
 class CreatePDFandRTF < Middleman::Extension
   

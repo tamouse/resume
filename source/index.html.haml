@@ -1,5 +1,17 @@
 ---
 layout: layout
 ---
-%h1 A proof of concept
-%h2= data.resume.Title
+#header= partial(:header, locals: {:title => full_name})
+#main.tab-content
+  .tab-pane.active#summary
+    = partial(:summary,   locals: { :summary => data.resume.summary,      :summary_links => data.resume.summary_links })
+  .tab-pane#skills
+    = partial(:skills,    locals: { :skills => data.resume.skills,        :methodologies => data.resume.methodologies})
+  .tab-pane#education
+    = partial(:education, locals: { :education => data.resume.education,  :additional => data.resume.additional_training, :self_taught => data.resume.self_training})
+  .tab-pane#experience
+    = partial(:experience,locals: { :experience => data.resume.experience})
+  .tab-pane#contacts
+    = partial(:contacts,  locals: { :contact => data.resume.contact_info})
+#footer= partial 'footer'
+
