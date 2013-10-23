@@ -1,0 +1,27 @@
+.page-header
+  %h1
+    Education
+    %small life-long learning
+.row
+  .col-md-10.col-md-offset-1
+    .row
+      .col-md-6
+        %h3 Formal Education
+        - ['School', 'Degree', 'Years', 'Location', 'GPA'].each do |lbl|
+          .row
+            .col-md-2.col-sm-4
+              .label.label-primary= lbl
+            .col-md-8.col-sm-6
+              %p= education[0][lbl]
+
+        %h3 Additional Training
+        %ul
+          - additional.each do |course|
+            %li= course
+
+      .col-md-6
+        %h3 Self-Taught Skills and Knowledge
+        %p Because it is always important to keep learning new things, growing, and expanding your horizons, knowledge and skills.
+        %ul
+          - self_taught.each do |topic|
+            %li= topic

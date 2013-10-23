@@ -1,0 +1,51 @@
+---
+layout: false
+---
+- data.resume.name.tap do |n|
+  %h1= [n.given, n.middle, n.family].join(" ")
+  
+%h2 Summary
+%p= data.resume.brief_summary
+
+%h2 Skills
+%dl
+  - data.resume.skills.each do |k,v|
+    %dt{style: "display:inline-block;minwidth: 12%;width: 20%;"}= k.gsub(/_/,' ')
+    %dd{style: "display:inline-block"}= v.join(", ")
+    %dd= ""
+
+%h3 Methods
+%p= data.resume.methodologies.join("; ")
+
+%h2 Education
+- data.resume.education.each do |degree|
+  %a{:name => degree.label}= ''
+  %p
+    %span.years= degree.years
+    %span.degree= degree.degree
+    %span.school= degree.school
+    %span.location= degree.location
+    %span.gpa= "#{degree.gpa} GPA"
+
+%h3 Additional Training
+%ul
+  - data.resume.additional_training.each do |t|
+    %li= t
+
+%h2 Experience
+- data.resume.experience.each do |job|
+  .job
+    %a{:name => job.label}= ''
+    %h3
+      %span.years= job.years
+      \:
+      %span.position= job.position
+      ,
+      %span.company= job.company
+      ,
+      %span.location= job.location
+    .description= job.description
+    %ul.duties
+      - job.accomplishments_and_duties.each do |t|
+        %li.task= t
+

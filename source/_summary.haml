@@ -1,0 +1,15 @@
+.page-header
+  %h1
+    Summary
+    %small who I am and what I do
+.row
+  .col-md-6.col-md-offset-1
+    - summary.each do |par|
+      :markdown
+        #{par}
+  .col-md-3.col-md-offset-1
+    %h3 Topic Links
+    %ul
+      - summary_links.each do |lnk|
+        %li
+          %a{:href => lnk['link']}= lnk['text']
