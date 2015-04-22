@@ -1,10 +1,3 @@
-.navbar.navbar-inverse.navbar-fixed-bottom
-  .container
-    .navbar-header
-      %p.navbar-text
-        Copyright &copy; Tamara Temple.
-        Created with
-        = link_to "Middleman", "http://middlemanapp.com"
-        and
-        = link_to "Twitter Bootstrap 3.0", "http://getbootstrap.com/", alt: 'Link to home of Twitter Bootstrap', title: 'Twitter Bootstrap: Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.'
-
+%nav.navbar.navbar-inverse.navbar-fixed-bottom
+  %p.navbar-text= "Copyright &copy; #{Time.now.year} Tamara Temple. Created with <a class=\"navbar-link\" href=\"http://middlemanapp.com\">Middleman</a> and <a class=\"navbar-link\" href=\"http://getbootstrap.com/\">Twitter Bootstrap 3.0</a>"
+  %p.navbar-text.navbar-right= link_to "Colophon", "/colophon.html", class: "navbar-link"

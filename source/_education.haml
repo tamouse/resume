@@ -25,5 +25,7 @@
         %h3 Self-Taught Skills and Knowledge
         %p Because it is always important to keep learning new things, growing, and expanding your horizons, knowledge and skills.
         %ul
-          - self_taught.each do |topic|
-            %li= topic
+          - self_taught.each do |topic, skills|
+            %li
+              %strong= "#{topic}:"
+              = skills

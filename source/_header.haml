@@ -1,5 +1,5 @@
-.navbar.navbar-inverse.navbar-fixed-top
-  .container
+%nav.navbar.navbar-inverse.navbar-fixed-top
+  .container-fluid
     .navbar-header
       %button.navbar-toggle{:type=>'button', :data => {:toggle => 'collapse', :target => '.navbar-collapse'}}
         %span.icon-bar
@@ -8,19 +8,18 @@
       /%a.navbar-brand{:href => '/'}= title
       = link_to title, '/', class: 'navbar-brand'
     .navbar-collapse.collapse
-      %ul.nav.navbar-nav#resTab
-        %li.active= link_to 'Summary', '#summary'
-        %li= link_to 'Skills', '#skills'
-        %li= link_to 'Education', '#education'
-        %li= link_to 'Experience', '#experience'
-        %li= link_to 'Contacts', "#contacts"
+      %ul.nav.navbar-nav
+        %li= link_to 'Summary', 'index.html'
+        %li= link_to 'Skills', 'skills.html'
+        %li= link_to 'Education', 'education.html'
+        %li= link_to 'Experience', 'experience.html'
+        %li= link_to 'Contacts', "contacts.html"
       %ul.nav.navbar-nav.navbar-right
         %li
-          - link_to 'resume.pdf', title: "Printable version of resume in PDF" do
+          = link_to 'resume.pdf', title: "Printable version of resume in PDF" do
             %i.glyphicon.glyphicon-print
-            PDF
+            Print
         %li
-          - link_to 'resume.rtf', title: "Editable in dumb word processors" do
-            %i.glyphicon.glyphicon-thumbs-down
-            RTF
-
+          = link_to 'resume.rtf', title: "Editable in dumb word processors" do
+            %i.glyphicon.glyphicon-save
+            Editable
