@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2015-06-01 09:04:48 tamara>
+  Time-stamp: <2015-06-01 09:15:11 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -21,25 +21,15 @@ contact_info:
     - label: Gvoice
       number: +1-(415) 503-9241
   web_sites:
-    - label: About
-      url: http://about.me/tamouse
     - label: Github
       url: http://github.com/tamouse
     - label: DevBlog
       url: http://swaac.tamouse.org/
-    - label: Diaspora
-      url: https://joindiaspora.com/people/4d11235b2c17436ab9001050
-    - label: Facebook
-      url: http://www.facebook.com/tamara.temple
     - label: Twitter
       url: http://twitter.com/tamouse
-    - label: Google Plus
-      url: https://plus.google.com/104157810059860300833/
   social:
     twitter: tamouse
     github: tamouse
-    linkedin: tamara.temple
-    facebook: tamara.temple
 summary:
   - '**Webologist** and Tech Maven, deeply into the practice of **Software Engineering
     as a Craft**. Leading software developers in the art of **Test-** and **Behaviour-Driven
@@ -102,23 +92,24 @@ skills:
     - Redis
   languages:
     - Ruby
-    - Gherkin
     - JavaScript
     - Coffeescript
     - Perl
     - C/C++
     - Shell
     - PHP
+    - Gherkin
   servers:
-    - Apache
     - Lighttpd
     - nginx
-    - Passenger
     - unicorn
+    - puma
+    - Apache
   software:
     - Emacs
     - Sublime Text 2
     - RubyMine
+    - WebStorm
     - Git
     - GitHub
     - JIRA
@@ -221,7 +212,7 @@ experience:
       Contract development in the areas of Rails and JavaScript on
       several A-D projects.
     accomplishments_and_duties:
-      - Pro subscriptions in Brewtoad
+      - Pro subscriptions and e-commerce in Brewtoad
       - One-button recipe ordering in Brewtoad
       - Customer Onboarding
       - Micro-service architecture and implementation
@@ -257,89 +248,17 @@ experience:
       - Development of tools to provide testing capabilities in Java, Spring, Hibernate, Mason and Jython (Python) using Eclipse.
       - Modeled in UML.
       - Worked in an Agile/Scrum environment
-  - label: hpba
-    years: 2003-2006
-    position: Business Analyst
+  - label: hp
+    years: 1982-2006
+    position: Various
     company: Hewlett-Packard
     description: >-
-      Providing technical leadership and support for the migration of the
-      contracts management system to a new system, ensuring the smooth transition of
-      users and data.
-    location: Cupertino, California
+      Business and Technology Process Consulting, Senior Software Quality Engineering and Management, Senior Software Engineering, Business Analysis.
+    location: California
     accomplishments_and_duties:
-      - Analyzed requirements and wrote a detailed requirements specification and migration plan for users, meta-data, and contract files. Documentation done in FrameMaker.
-      - Developed several Perl tools to analyze and convert data to the new system.
-      - Demonstrated the migration tools for potential clients and their stakeholders.
       - Analyzed clients\' business processes and matched them to processes for the new system; created process flowchart diagrams to communicate the processes to client users.
-      - Provided training for clients.
-      - Provided ongoing technical support for the new contract management system.
-  - label: fedico
-    years: 2002-2003
-    position: Web Developer
-    company: FEDICO
-    description: >-
-      Primary web developer for database-driven external and internal web
-      sites.
-    location: San Mateo, California
-    accomplishments_and_duties:
-      - Designed and developed intranet application in HTML, Javascript and MySQL utilizing a proprietary backend language for managing the insurance sign up process for federal employees.
-      - Designed and developed a secure web form to collect and transmit insurance applicant information to the insurance administration site, using JavaScript to validate form.
-  - label: hpswi
-    years: 1991-2001
-    position: Software Process Improvement Consultant
-    company: Hewlett-Packard
-    description: >-
-      Provided internal business and technical consulting to senior managers,
-      middle managers and individual contributors to improve business processes and
-      product market performance.
-    location: Palo Alto. California
-    accomplishments_and_duties:
-      - Analyzed engineering processes for strategies to improve processes and ensure standards compliance.
-      - Facilitated teams and people networks, analyzed and modeled data flow, and identified successful solutions to existing challenges. Methodologies included NLP, UML, IDEF-0, Dataflow analysis, TQC, RCA, Mindmapping and others.
-      - Assisted multiple teams with implementing Lightweight and Agile programming techniques.
-      - Developed several web-based applications including CRM, contact, and contract applications for managing client information, using UML, Dreamweaver, HTML, PHP, Perl/CGI, and JavaScript.
-      - Recognized as the key resource for starting up new teams in client organizations, with the ability to enable teams to ramp up quickly and to more effectively reach their goals.
-      - Conducted several software process assessments and implemented process improvement programs based on the Software Engineering Institute (SEI) Capability Maturity Model for Software (SW-CMM).
-      - Significant author of SEI special report "IDEAL- A User's Guide for Software Process Improvement". Documentation done in FrameMaker.
-  - label: hpnet
-    years: 1989-1991
-    position: Senior Software Engineer
-    company: Hewlett-Packard
-    description: Developed network and nodal management tools for HP-UX.
-    location: Cupertino, California
-    accomplishments_and_duties:
-      - Provided technical project management for the development of software for the managing network configurations.
-      - Investigated the future direction of host-based installation, configuration, verification, and troubleshooting tools.
-      - Designed and developed networking software in C and C++, Perl, and shell scripts.
-      - Wrote customer documentation in FrameMaker and man pages for features implemented.
-      - Gathered and analyzed product requirements utilizing UML and IDEF-0 diagrams, obtained commitments from project dependencies, wrote and presented the investigation report, and led high-level design of network management software.
-      - Wrote white papers using FrameMaker describing future directions of network management software.
-  - label: hpsqeng2
-    years: 1987-1989
-    position: Senior Quality Assurance Engineer
-    company: Hewlett-Packard
-    description: Improved the quality assurance and testing processes for network software development.
-    location: Cupertino, California
-    accomplishments_and_duties:
-      - Managed experiments, collected metrics, and developed tools to increase effectiveness and efficiency of network software quality assurance.
-      - Developed and implemented strategies to reduce the costs of testing network software.
-      - Increased the quality and usefulness of network management software, making it a more efficient tool for users.
-  - label: hpsqmgr
-    years: 1985-1987
-    position: Quality Assurance Manager
-    company: Hewlett-Packard
-    description: Led a team of software reliability engineers focusing on networking products.
-    location: Cupertino, California
-    accomplishments_and_duties:
-      - Managed 10 software quality assurance engineers, including assigning tasks, creating schedules, reviewing performance, determining ranking and salary, and assisting the engineers in achieving their professional goals within the organizational framework.
-      - Managed the interoperability testing project for the different TCP/IP implementations on company systems. Led a team of 2 engineers, created test plans, developed tests
-      - Built and operated a test laboratory, monitored testing, and reported to senior management.
-  - label: hpsqeng1
-    years: 1982-1985
-    position: Software Quality Assurance Engineer
-    company: Hewlett-Packard
-    description: Provided quality assurance and testing for networking products.
-    location: Cupertino, California
-    accomplishments_and_duties:
-      - Specified quality criteria, wrote test plans, developed test cases and executed black box, white box, integration and system testing, and monitored and reported testing progress.
-      - Designed a testing laboratory that made it possible to quickly switch test configurations without rewiring hardware, saving approximately two weeks setup time for each configuration change.
+      - Provided internal business and technical consulting to senior managers, middle managers and individual contributors to improve business processes and product market performance.
+      - Developed network and nodal management tools for HP-UX.
+      - Improved the quality assurance and testing processes for network software development.
+      - Led a team of software reliability engineers focusing on networking products.
+      - Provided quality assurance and testing for networking products.
