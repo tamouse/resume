@@ -1,371 +1,345 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2014-03-27 15:16:25 tamara>
+  Time-stamp: <2015-06-01 09:04:48 tamara>
 name:
   given: Tamara
   middle: Paula
   family: Temple
 contact_info:
   address:
-  - label: Home
-    street: 1585 Dodd Road
-    apartment: 202
-    city: Mendota Heights
-    state: MN
-    zip: 55118
+    - label: Home
+      street: 1585 Dodd Road
+      apartment: 202
+      city: Mendota Heights
+      state: MN
+      zip: 55118
   email:
-  - label: Work
-    address: tamara@tamaratemple.com
-  - label: Personal
-    address: tamouse@gmail.com
+    - label: Gmail
+      address: tamouse@gmail.com
   phone:
-  - label: Work
-    number: +1-(415) 503-9241
+    - label: Gvoice
+      number: +1-(415) 503-9241
   web_sites:
-  - label: About
-    url: http://about.me/tamouse
-  - label: Blog
-    url: http://blog.tamouse.org/
-  - label: Github
-    url: http://github.com/tamouse
-  - label: Diaspora
-    url: https://joindiaspora.com/people/4d11235b2c17436ab9001050
-  - label: Facebook
-    url: http://www.facebook.com/tamara.temple
-  - label: Twitter
-    url: http://twitter.com/tamouse
-  - label: Google Plus
-    url: https://plus.google.com/104157810059860300833/
+    - label: About
+      url: http://about.me/tamouse
+    - label: Github
+      url: http://github.com/tamouse
+    - label: DevBlog
+      url: http://swaac.tamouse.org/
+    - label: Diaspora
+      url: https://joindiaspora.com/people/4d11235b2c17436ab9001050
+    - label: Facebook
+      url: http://www.facebook.com/tamara.temple
+    - label: Twitter
+      url: http://twitter.com/tamouse
+    - label: Google Plus
+      url: https://plus.google.com/104157810059860300833/
   social:
     twitter: tamouse
     github: tamouse
     linkedin: tamara.temple
     facebook: tamara.temple
 summary:
-- '**Webologist** and Tech Maven, deeply into the practice of **Software Engineering
-  as a Craft**. Leading software developers in the art of **Test-** and **Behaviour-Driven
-  Development**, and providing a wealth of experience in guiding teams of developers,
-  testers, operations and other people involved in the creation and deployment of
-  web applications.'
-- Critically concerned with delivering products and services that **delight** and
-  **amaze** customers and users, building strong brand recognition and loyalty by
-  the means of solid user experience, function and form.
-- Constantly striving for ways to **reduce technical debt**, overhead, and wasteful
-  activity within projects. Not afraid to **ask critical questions** to ensure healthy
-  features are delivered on time and within budget.
-- Work with team members to provide a fun, healthy, productive, diverse, and cohesive
-  team of managers, analysts, developers, quality assurance, and operations.
-- 'Experienced in:'
-- '* technical leadership'
-- '* managing and facilitating teams'
-- '* analyzing technical and business processes'
-- '* developing software products and utilities'
-- '* setting up testing laboratories, automating software testing and managing the
-  testing process'
-- '* designing and developing static and dynamic websites.'
+  - '**Webologist** and Tech Maven, deeply into the practice of **Software Engineering
+    as a Craft**. Leading software developers in the art of **Test-** and **Behaviour-Driven
+    Development**, and providing a wealth of experience in guiding teams of developers,
+    testers, operations and other people involved in the creation and deployment of
+    web applications.'
+  - 'Critically concerned with delivering products and services that **delight** and
+    **amaze** customers and users, building strong brand recognition and loyalty by
+    the means of solid user experience, function and form.'
+  - 'Constantly striving for ways to **reduce technical debt**, overhead, and wasteful
+    activity within projects. Not afraid to **ask critical questions** to ensure healthy
+    features are delivered on time and within budget.'
+  - 'Work with team members to provide a fun, healthy, productive, diverse, and cohesive
+    team of managers, analysts, developers, quality assurance, and operations.'
+  - 'Experienced in:'
+  - '* architecting and developing web applications, software products, and utilities'
+  - '* designing and developing static and dynamic websites.'
+  - '* technical leadership, knowledge sharing, teaching, and coaching'
+  - '* managing and facilitating teams'
+  - '* analyzing technical and business processes'
+  - '* designing and assembling development-to-deployment processes'
+  - '* creating sharable development environments'
 summary_links:
-- text: Software As A Craft
-  link: http://blog.tamouse.org/blog/2013/05/15/introduction-to-software-as-a-craft/
-- text: Test Driven Development
-  link: http://www.agiledata.org/essays/tdd.html
-- text: Behaviour Driven Development (Dan North)
-  link: http://dannorth.net/introducing-bdd/
-- text: Technical Debt (Martin Fowler)
-  link: http://martinfowler.com/bliki/TechnicalDebt.html
+  - text: Software As A Craft
+    link: http://swaac.tamouse.org/swaac-intro/
+  - text: Test Driven Development
+    link: http://www.agiledata.org/essays/tdd.html
+  - text: Behaviour Driven Development (Dan North)
+    link: http://dannorth.net/introducing-bdd/
+  - text: Technical Debt (Martin Fowler)
+    link: http://martinfowler.com/bliki/TechnicalDebt.html
 brief_summary: |
-  Deeply experienced in software design and development methodologies,
-  especially related to the disciplines of software quality, web
-  applications, user experience, and team building.
+    Deeply experienced in software design and development methodologies,
+    especially related to the disciplines of software quality, web
+    applications, user experience, and team building.
 skills:
   web_development:
-  - Rails
-  - Sinatra
-  - jQuery
-  - Backbone.js
-  - Jekyll
-  - Octopress
-  - Frank
-  - Middleman
-  - HAML
-  - PHP
+    - Rails
+    - Sinatra
+    - Jekyll
+    - Middleman
+    - HAML
+    - SASS/SCSS
+    - jQuery
+    - Backbone.js
+    - node.js / io.js
+    - AngularJS
+    - PHP
   web_design:
-  - HTML5
-  - CSS3
-  - SCSS/SASS
-  - Twitter Bootstrap
+    - HTML5
+    - CSS3
+    - SCSS/SASS
+    - Twitter Bootstrap
+    - SMACSS
   databases:
-  - MySQL
-  - SQLite
-  - PostgreSQL
-  - MongoDB
-  - Redis
+    - PostgreSQL
+    - MySQL
+    - SQLite
+    - MongoDB
+    - Redis
   languages:
-  - Ruby
-  - Gherkin
-  - JavaScript
-  - Coffeescript
-  - Perl
-  - C/C++
-  - Shell
-  - PHP
+    - Ruby
+    - Gherkin
+    - JavaScript
+    - Coffeescript
+    - Perl
+    - C/C++
+    - Shell
+    - PHP
   servers:
-  - Apache
-  - Lighttpd
-  - nginx
-  - Passenger
-  - unicorn
-  - node.js
+    - Apache
+    - Lighttpd
+    - nginx
+    - Passenger
+    - unicorn
   software:
-  - Emacs
-  - Sublime Text 2
-  - RubyMine
-  - IntelliJ IDEA
-  - Eclipse
+    - Emacs
+    - Sublime Text 2
+    - RubyMine
+    - Git
+    - GitHub
+    - JIRA
+    - Pivotal
   testing:
-  - RSpec
-  - Cucumber (Gherkin)
-  - Capybara
-  - Watir-Webdriver
-  - Guard
-  - "Test'em"
-  - Mocha
-  - Chai
-  - Jasmine
-  devops:
-  - Chef
-  - Vagant
-  - Berkshelf
-  - Travis.CI
-  - Codeship.IO
-  - TeamCity
-  - DataDog
-  - New Relic
-  oses:
-  - Linux
-  - Mac OS X
+    - RSpec
+    - Cucumber (Gherkin)
+    - Capybara
+    - Watir-Webdriver
+    - Guard
+    - "Test'em"
+    - Mocha
+    - Chai
+    - Jasmine
+    - Karma
+    - Protractor
+  dev_ops:
+    - Chef
+    - Puppet
+    - Ansible
+    - Vagant
+    - Docker
+    - Travis.CI
+    - Codeship.IO
+    - TeamCity
+    - DataDog
+    - New Relic
+    - Airbrake
+  operating_systems:
+    - Linux
+    - Mac OS X
   analysis:
-  - UML
-  - IDEF-0
+    - UML
+    - IDEF-0
 methodologies:
-- User-/Task-Centered Design
-- Object-Oriented Analysis, Design, Development, and Testing
-- Structured Analysis, Design, Development, and Testing
-- Agile Development, Scrum Master
-- 'Continuous Everything: Integration, Testing, Deployment'
-- Process Flow Analysis, Systems Theory, Cybernetics
-- Test-/Behaviour-Driven Development
-- Precision Elicitation and Facilitation, Communication for Action
-- Advanced Quality Assurance, Automation and Remote Testing
+  - Program architecture and design
+  - User-/task-centered design
+  - Test-/behaviour-driven development
+  - Structured analysis, design, development, and testing
+  - Process flow analysis, systems theory, cybernetics
+  - Object-oriented analysis, design, programming, and testing
+  - Agile development, scrum master
+  - 'Continuous everything: integration, testing, deployment'
+  - Precision elicitation and facilitation, communication for action
 education:
-- label: bscs
-  degree: Bachelor of Science, Computer Science
-  gpa: 3.2
-  location: Minneapolis
-  school: University of Minnesota
-  years: 1975-1980
+  - label: bscs
+    degree: Bachelor of Science, Computer Science
+    gpa: 3.2
+    location: Minneapolis
+    school: University of Minnesota
+    years: 1975-1980
 additional_training:
-- structured analysis, design, programming and testing
-- system testing
-- objected oriented analysis, design, programming and testing
-- consulting and facilitating skills
-- Neuro-Linguistic Programming Certified Practitioner
-- project management
-- public speaking and presentation skills
+  - Structured analysis, design, programming and testing
+  - System testing
+  - Objected oriented analysis, design, programming and testing
+  - Consulting and facilitating skills
+  - Neuro-linguistic programming certified practitioner
+  - Project management
+  - Public speaking and presentation skills
+  - "You Don't Know JS with Kyle Simpson"
+  - "Advanced JavaScript"
 self_training:
-- Web interface design, Web application design, User Experience
-- 'Relational database management and database design: MySQL, SQLite, PostgreSQL'
-- Continuous Development, Continuous Testing, Continuous Deployment
-- 'Scripting: Bash/Grep/Sed/Awk, Perl, Ruby'
-- 'Web Development: Ruby on Rails, Sinatra, HAML, SCSS, Coffeescript, Perl/CGI, PHP'
-- "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Test'em"
-- jQuery, Backbone.js, Node.js
-- Jekyll, Octopress, Frank, Middleman
-- 'Non-relational (key-value) database management and design: MongoDB, Redis'
-- 'Unix and Linux System Administration and DevOps: Chef, Vagrant'
+  Scripting: Bash/Grep/Sed/Awk, Perl, Ruby
+  Web Development: Perl/CGI, Coldfusion, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, Coffeescript
+  Testing: "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Test'em"
+  JavaScript: jQuery, Backbone.js, Node.js
+  Static Websites: Jekyll, Middleman
+  Web: Web interface design, Web application design, User Experience
+  Relational database management and database design: MySQL, SQLite, PostgreSQL
+  Non-relational (key-value) database management and design: MongoDB, Redis
+  Unix and Linux System Administration and DevOps: Chef, Puppet, Ansible, Vagrant
+  Continuous Everything: Guard, Travis-CI, Codeship.IO, Git Hooks
 experience:
-- label: ttwebdev
-  years: 2001-Present
-  position: Web Developer
-  company: Tamara Temple Web Development
-  description: Freelance web design and development, including pro bono work
-    for non-profits and individuals desiring a presence on the Web. Includes finding
-    hosting space, development of information architecture, design layout of site,
-    development and/or repurposing of content, and maintenance. Work in Perl, PHP,
-    Ruby on Rails, CSS, MySQL, SQLite, Apache, Lighttpd, Linux, Mac OS X.
-  location: Mendota Heights, Minnesota
-  accomplishments_and_duties:
-  - User experience and User-centered design for interactive web sites
-  - Database design for dynamic web sites and applications
-  - Creation and developing on frameworks for generating static web sites
-  - Frameworks and infrastructure to implement business logic and web site features
-  - Environments and tools for development, testing, integration and deployment
-  - Teach and coach new developers
-- label: a_d
-  years: 2013-Present
-  position: Freelance Web Developer
-  company: "Ackmann and Dickenson"
-  description: |
-    On contract with Ackmann and Dickenson for web development and design work for 30 hours per week.
-  location: Minneapolis, Minnesota
-  accomplishments_and_duties:
-    - add features, debug and test client web applications
-    - add features, debug and test Brewtoad.com
-    - add Brewtoad pro features and integrate with Braintree payment gateway
-- label: novu
-  years: 2012-2013
-  position: Deployment Validation Lead
-  company: Novu, LLC
-  description: |
-    Ensure the quality, accuracy, and timely delivery of web site
-    features and software, including development of automated test
-    suites (DevQA), automated deployment to operations (DevOps),
-    establishing quality goals and program for planning, design,
-    development, and operations of new features, and providing
-    guidance and leadership in best practices for web application
-    development, testing, and deployment under Ruby on Rails.
-  location: St. Louis Park, Minnesota
-  accomplishments_and_duties:
-  - Ensure web site features and external design are implemented as expected and intended
-  - Provide guidance during planning, design, and development to ensure testable and
-    maintainable code
-  - "Provide feedback to designers and developers on user experience, usability, accessibility
-    and other aspects of the overall site's quality"
-  - Create automated front-end integration and full-system testing suite based on
-    Cucumber, Capybara and Watir-webdriver
-  - Develop and maintain automated build environment using Hosted Chef
-    to deploy on AWS EC2, S3, and RDS
-  - Worked in an Agile/Scrum environment
-- label: shopzilla
-  years: 2007-2008
-  position: Senior QA Engineer
-  company: Shopzilla, Inc.
-  description: Sole software quality assurance engineer on business information engineering
-    software providing testing, validation, automation, consulting, and quality leadership
-    to development teams.
-  location: Los Angeles, California
-  accomplishments_and_duties:
-  - Capturing business intelligence information from the website logs for upstream
-    viewing for the health and financials of the company. Created test scripts and
-    automation in Perl. Used Oracle 9i and 10g data bases.
-  - "Service to provide a logging facility to record redirects (click-throughs) which
-    is how the company obtains it's revenue. Development of tools to provide testing
-    capabilities. Modeled in UML."
-  - Worked in an Agile/Scrum environment
-- label: hpba
-  years: 2003-2006
-  position: Business Analyst
-  company: Hewlett-Packard
-  description: Providing technical leadership and support for the migration of the
-    contracts management system to a new system, ensuring the smooth transition of
-    users and data.
-  location: Cupertino, California
-  accomplishments_and_duties:
-  - Analyzed requirements and wrote a detailed requirements specification and migration
-    plan for users, meta-data, and contract files. Documentation done in FrameMaker.
-  - Developed several Perl tools to analyze and convert data to the new system. Demonstrated
-    the migration tools for potential clients and their stakeholders. Analyzed clients\'
-    business processes and matched them to processes for the new system; created process
-    and flowchart diagrams to communicate the processes to client users.
-  - Provided training for clients.
-  - Provided ongoing technical support for the new contract management system.
-- label: fedicao
-  years: 2002-2003
-  position: Web Developer
-  company: FEDICO
-  description: Primary web developer for database-driven external and internal web
-    sites.
-  location: San Mateo, California
-  accomplishments_and_duties:
-  - Designed and developed intranet application in HTML, Javascript and MySQL utilizing
-    a proprietary backend language for managing the insurance sign up process for
-    federal employees.
-  - Designed and developed a secure web form to collect and transmit insurance applicant
-    information to the insurance administration site, using JavaScript to validate
-    the form.
-- label: hpswi
-  years: 1991-2001
-  position: Software Process Improvement Consultant
-  company: Hewlett-Packard
-  description: Provided internal business and technical consulting to senior managers,
-    middle managers and individual contributors to improve business processes and
-    product market performance.
-  location: Palo Alto. California
-  accomplishments_and_duties:
-  - Analyzed engineering processes for strategies to improve processes and ensure
-    standards compliance.
-  - Facilitated teams and people networks, analyzed and modeled data flow, and identified
-    successful solutions to existing challenges. Methodologies included NLP, UML,
-    IDEF-0, Dataflow analysis, TQC, RCA, Mindmapping and others.
-  - Assisted multiple teams with implementing Lightweight and Agile programming techniques.
-  - Developed several web-based applications including CRM, contact, and contract
-    applications for managing client information, using UML, Dreamweaver, HTML, PHP,
-    Perl/CGI, and JavaScript.
-  - Recognized as the key resource for starting up new teams in client organizations,
-    with the ability to enable teams to ramp up quickly and to more effectively reach
-    their goals.
-  - Conducted several software process assessments and implemented process improvement
-    programs based on the Software Engineering Institute (SEI) Capability Maturity
-    Model for Software (SW-CMM).
-  - Significant author of SEI special report "IDEAL- A User's Guide for Software Process
-    Improvement". Documentation done in FrameMaker.
-- label: hpnet
-  years: 1989-1991
-  position: Senior Software Engineer
-  company: Hewlett-Packard
-  description: Developed network and nodal management tools for HP-UX.
-  location: Cupertino, California
-  accomplishments_and_duties:
-  - Provided technical project management for the development of software for the
-    managing network configurations.
-  - Investigated the future direction of host-based installation, configuration, verification,
-    and troubleshooting tools.
-  - Designed and developed networking software in C and C++, Perl, and shell scripts.
-  - Wrote customer documentation in FrameMaker and man pages for features implemented.
-  - Gathered and analyzed product requirements utilizing UML and IDEF-0 diagrams,
-    obtained commitments from project dependencies, wrote and presented the investigation
-    report, and led high-level design of network management software.
-  - Wrote white papers using FrameMaker describing future directions of network management
-    software.
-- label: hpsqeng2
-  years: 1987-1989
-  position: Senior Quality Assurance Engineer
-  company: Hewlett-Packard
-  description: Improved the quality assurance and testing processes for network software
-    development.
-  location: Cupertino, California
-  accomplishments_and_duties:
-  - Managed experiments, collected metrics, and developed tools to increase effectiveness
-    and efficiency of network software quality assurance.
-  - Developed and implemented strategies to reduce the costs of testing network software.
-  - Increased the quality and usefulness of network management software, making it
-    a more efficient tool for users.
-- label: hpsqmgr
-  years: 1985-1987
-  position: Quality Assurance Manager
-  company: Hewlett-Packard
-  description: Led a team of software reliability engineers focusing on networking
-    products.
-  location: Cupertino, California
-  accomplishments_and_duties:
-  - Managed 10 software quality assurance engineers, including assigning tasks, creating
-    schedules, reviewing performance, determining ranking and salary, and assisting
-    the engineers in achieving their professional goals within the organizational
-    framework.
-  - Managed the interoperability testing project for the different TCP/IP implementations
-    on company systems. Led a team of 2 engineers, created test plans, developed tests
-  - Built and operated a test laboratory, monitored testing, and reported to senior
-    management.
-- label: hpsqeng1
-  years: 1982-1985
-  position: Software Quality Assurance Engineer
-  company: Hewlett-Packard
-  description: Provided quality assurance and testing for networking products.
-  location: Cupertino, California
-  accomplishments_and_duties:
-  - Specified quality criteria, wrote test plans, developed test cases and executed
-    black box, white box, integration and system testing, and monitored and reported
-    testing progress.
-  - Designed a testing laboratory that made it possible to quickly switch test configurations
-    without rewiring hardware, saving approximately two weeks setup time for each
-    configuration change.
+  - label: ttwebdev
+    years: 2001-Present
+    position: Web Developer
+    company: Tamara Temple Web Development
+    description: >-
+      Freelance web design and development, including pro bono work
+      for non-profits and individuals desiring a presence on the Web. Includes finding
+      hosting space, development of information architecture, design layout of site,
+      development and/or repurposing of content, and maintenance. Work in Perl, PHP,
+      Ruby on Rails, JavaScript, jQuery, Backbone.JS, AngularJS, CSS,
+      MySQL, SQLite, Apache, Lighttpd, Linux, Mac OS X.
+    location: Mendota Heights, Minnesota
+    accomplishments_and_duties:
+      - User experience and User-centered design for interactive web sites
+      - Database design for dynamic web sites and applications
+      - Creation and developing on frameworks for generating static web sites
+      - Frameworks and infrastructure to implement business logic and web site features
+      - Environments and tools for development, testing, integration and deployment
+      - Teach and coach new developers
+      - Volunteer mentor/coach/instructor for Rails.MN, RubyBridge, Twin Cities Rails hack night
+  - label: ackmann-dickenson
+    years: 2013-present
+    position: Contract Developer
+    company: "Ackmann-Dickenson"
+    location: Minneapolis, Minnesota
+    description: >-
+      Contract development in the areas of Rails and JavaScript on
+      several A-D projects.
+    accomplishments_and_duties:
+      - Pro subscriptions in Brewtoad
+      - One-button recipe ordering in Brewtoad
+      - Customer Onboarding
+      - Micro-service architecture and implementation
+      - Angular SPA clients for MSA backend
+      - Massive and complex data analysis product
+  - label: novu
+    years: 2012-2013
+    position: Deployment Validation Lead
+    company: Novu, LLC
+    description: >-
+      Ensure the quality, accuracy and timely delivery of web site features
+      and software, establishing quality goals and program for planning, design and
+      development of new features, and providing guidance and leadership in best practices
+      for web application development under Ruby on Rails.
+    location: St. Louis Park, Minnesota
+    accomplishments_and_duties:
+      - Ensure web site features and external design are implemented as expected and intended
+      - Provide guidance during planning, design, and development to ensure testable and maintainable code
+      - Provide feedback to designers and developers on user experience, usability, accessibility and other aspects of the overall site\'s quality
+      - Create automated front-end integration and full-system testing suite based on Cucumber, Capybara and Watir-webdriver
+  - label: shopzilla
+    years: 2007-2008
+    position: Senior QA Engineer
+    company: Shopzilla, Inc.
+    description: >-
+      Sole software quality assurance engineer on business information engineering
+      software providing testing, validation, automation, consulting, and quality leadership
+      to development teams.
+    location: Los Angeles, California
+    accomplishments_and_duties:
+      - Capturing business intelligence information from the website logs for upstream viewing for the health and financials of the company. Created test scripts and automation in Perl. Used Oracle 9i and 10g data bases.
+      - Service to provide a logging facility to record redirects (click-throughs) which is how the company obtains it\'s revenue.
+      - Development of tools to provide testing capabilities in Java, Spring, Hibernate, Mason and Jython (Python) using Eclipse.
+      - Modeled in UML.
+      - Worked in an Agile/Scrum environment
+  - label: hpba
+    years: 2003-2006
+    position: Business Analyst
+    company: Hewlett-Packard
+    description: >-
+      Providing technical leadership and support for the migration of the
+      contracts management system to a new system, ensuring the smooth transition of
+      users and data.
+    location: Cupertino, California
+    accomplishments_and_duties:
+      - Analyzed requirements and wrote a detailed requirements specification and migration plan for users, meta-data, and contract files. Documentation done in FrameMaker.
+      - Developed several Perl tools to analyze and convert data to the new system.
+      - Demonstrated the migration tools for potential clients and their stakeholders.
+      - Analyzed clients\' business processes and matched them to processes for the new system; created process flowchart diagrams to communicate the processes to client users.
+      - Provided training for clients.
+      - Provided ongoing technical support for the new contract management system.
+  - label: fedico
+    years: 2002-2003
+    position: Web Developer
+    company: FEDICO
+    description: >-
+      Primary web developer for database-driven external and internal web
+      sites.
+    location: San Mateo, California
+    accomplishments_and_duties:
+      - Designed and developed intranet application in HTML, Javascript and MySQL utilizing a proprietary backend language for managing the insurance sign up process for federal employees.
+      - Designed and developed a secure web form to collect and transmit insurance applicant information to the insurance administration site, using JavaScript to validate form.
+  - label: hpswi
+    years: 1991-2001
+    position: Software Process Improvement Consultant
+    company: Hewlett-Packard
+    description: >-
+      Provided internal business and technical consulting to senior managers,
+      middle managers and individual contributors to improve business processes and
+      product market performance.
+    location: Palo Alto. California
+    accomplishments_and_duties:
+      - Analyzed engineering processes for strategies to improve processes and ensure standards compliance.
+      - Facilitated teams and people networks, analyzed and modeled data flow, and identified successful solutions to existing challenges. Methodologies included NLP, UML, IDEF-0, Dataflow analysis, TQC, RCA, Mindmapping and others.
+      - Assisted multiple teams with implementing Lightweight and Agile programming techniques.
+      - Developed several web-based applications including CRM, contact, and contract applications for managing client information, using UML, Dreamweaver, HTML, PHP, Perl/CGI, and JavaScript.
+      - Recognized as the key resource for starting up new teams in client organizations, with the ability to enable teams to ramp up quickly and to more effectively reach their goals.
+      - Conducted several software process assessments and implemented process improvement programs based on the Software Engineering Institute (SEI) Capability Maturity Model for Software (SW-CMM).
+      - Significant author of SEI special report "IDEAL- A User's Guide for Software Process Improvement". Documentation done in FrameMaker.
+  - label: hpnet
+    years: 1989-1991
+    position: Senior Software Engineer
+    company: Hewlett-Packard
+    description: Developed network and nodal management tools for HP-UX.
+    location: Cupertino, California
+    accomplishments_and_duties:
+      - Provided technical project management for the development of software for the managing network configurations.
+      - Investigated the future direction of host-based installation, configuration, verification, and troubleshooting tools.
+      - Designed and developed networking software in C and C++, Perl, and shell scripts.
+      - Wrote customer documentation in FrameMaker and man pages for features implemented.
+      - Gathered and analyzed product requirements utilizing UML and IDEF-0 diagrams, obtained commitments from project dependencies, wrote and presented the investigation report, and led high-level design of network management software.
+      - Wrote white papers using FrameMaker describing future directions of network management software.
+  - label: hpsqeng2
+    years: 1987-1989
+    position: Senior Quality Assurance Engineer
+    company: Hewlett-Packard
+    description: Improved the quality assurance and testing processes for network software development.
+    location: Cupertino, California
+    accomplishments_and_duties:
+      - Managed experiments, collected metrics, and developed tools to increase effectiveness and efficiency of network software quality assurance.
+      - Developed and implemented strategies to reduce the costs of testing network software.
+      - Increased the quality and usefulness of network management software, making it a more efficient tool for users.
+  - label: hpsqmgr
+    years: 1985-1987
+    position: Quality Assurance Manager
+    company: Hewlett-Packard
+    description: Led a team of software reliability engineers focusing on networking products.
+    location: Cupertino, California
+    accomplishments_and_duties:
+      - Managed 10 software quality assurance engineers, including assigning tasks, creating schedules, reviewing performance, determining ranking and salary, and assisting the engineers in achieving their professional goals within the organizational framework.
+      - Managed the interoperability testing project for the different TCP/IP implementations on company systems. Led a team of 2 engineers, created test plans, developed tests
+      - Built and operated a test laboratory, monitored testing, and reported to senior management.
+  - label: hpsqeng1
+    years: 1982-1985
+    position: Software Quality Assurance Engineer
+    company: Hewlett-Packard
+    description: Provided quality assurance and testing for networking products.
+    location: Cupertino, California
+    accomplishments_and_duties:
+      - Specified quality criteria, wrote test plans, developed test cases and executed black box, white box, integration and system testing, and monitored and reported testing progress.
+      - Designed a testing laboratory that made it possible to quickly switch test configurations without rewiring hardware, saving approximately two weeks setup time for each configuration change.

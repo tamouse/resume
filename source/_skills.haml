@@ -8,9 +8,8 @@
     .panel.panel-primary
       .panel-heading
         %p
-          Methodologies
-          %br
-          %small techniques and practices that I use and mix in many ways
+          Methodologies.
+          %small Techniques and practices that I use and mix in many ways.
       .panel-body
         %ul
           - methodologies.each do |item|
@@ -18,7 +17,7 @@
     - skills.each do |key,list|
       .panel.panel-primary
         .panel-heading
-          %p= key
+          %p= titlecase(humanize(key))
         .panel-body
           %ul
             - list.each do |item|

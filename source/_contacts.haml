@@ -17,12 +17,6 @@
 
     .row
       .col-md-8
-        %h3 Social:
-        - contact.social.each do |soc|
-          = partial(:social, locals: { :soc => soc })
-
-    .row
-      .col-md-8
         %h3 Web:
         - contact.web_sites.each do |site|
           = partial(:website, locals: { :site => site })

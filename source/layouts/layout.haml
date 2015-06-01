@@ -8,6 +8,11 @@
     %script{:src=>"//code.jquery.com/jquery.js"}
     %script{:src=>"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"}
     = javascript_include_tag 'resume'
+
+    %link{type: "text/plain", rel: "author", href: "/humans.txt"}
+
   %body
+    %header#header= partial(:header, locals: {:title => full_name})
     .container
-      = yield
+      %main#main= yield
+    %footer#footer= partial 'footer'

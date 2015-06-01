@@ -1,0 +1,36 @@
+---
+layout: layout
+---
+%header#header= partial(:header, locals: {:title => full_name})
+%main#main
+  :markdown
+    ## Colophon
+
+    Why an online resumé?
+
+    Because I am a web maven, a webologist, and the web and the
+    internet is where I live.
+
+    The tools used in making this include:
+
+    * [Middleman](http://middlemanapp.com), a static web site
+    generator that uses the same tools I use in my work life: Ruby,
+    Haml, Sass, and includes several helper features from Rails.
+
+    * [Twitter Bootstrap](http://getbootstrap.com), a responsive CSS
+    framework that makes designing a web page simple, yet stylish. I'm
+    using the Cerulean theme for this site.
+
+    ### Structured and Repurposable Data
+
+    My resumé data is contained in a YAML file, a structured
+    representation of information that is easily converted to a Ruby
+    object, that is then inserted into the appropriate slots in the
+    HTML output with Haml.
+
+    That same data is repurposed into a LaTeX file in much the same
+    way. Similarly, it is used again in another file that ends up
+    being converted into RTF, an interchangeable editable file for
+    when people demand such.
+
+%footer#footer= partial 'footer'

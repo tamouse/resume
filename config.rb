@@ -43,7 +43,14 @@ helpers do
   def full_name
     %w[given middle family].map{|np| data.resume.name[np]}.join(" ")
   end
+  def humanize(s)
+    s.gsub(/_+/,' ')
+  end
+  def titlecase(s)
+    s.split(/\W+/).map{|w| w.capitalize}.join(" ")
+  end
 end
+
 
 set :css_dir, 'stylesheets'
 
@@ -87,7 +94,7 @@ end
 # Create the PDF and RTF versions after_build
 
 class CreatePDFandRTF < Middleman::Extension
-  
+
   def initialize(app, options_hash={}, &block)
     super
     app.after_build do |builder|
