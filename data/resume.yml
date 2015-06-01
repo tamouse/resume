@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2013-10-22 17:22:43 tamara>
+  Time-stamp: <2014-03-27 15:16:25 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -128,7 +128,7 @@ skills:
   - Capybara
   - Watir-Webdriver
   - Guard
-  - Test'em
+  - "Test'em"
   - Mocha
   - Chai
   - Jasmine
@@ -148,15 +148,15 @@ skills:
   - UML
   - IDEF-0
 methodologies:
-- Advanced Quality Assurance, Automation and Remote Testing
 - User-/Task-Centered Design
-- Test-/Behaviour-Driven Development
-- Structured Analysis, Design, Development, and Testing
-- Process Flow Analysis, Systems Theory, Cybernetics
 - Object-Oriented Analysis, Design, Development, and Testing
+- Structured Analysis, Design, Development, and Testing
 - Agile Development, Scrum Master
 - 'Continuous Everything: Integration, Testing, Deployment'
+- Process Flow Analysis, Systems Theory, Cybernetics
+- Test-/Behaviour-Driven Development
 - Precision Elicitation and Facilitation, Communication for Action
+- Advanced Quality Assurance, Automation and Remote Testing
 education:
 - label: bscs
   degree: Bachelor of Science, Computer Science
@@ -165,25 +165,24 @@ education:
   school: University of Minnesota
   years: 1975-1980
 additional_training:
-- Structured Analysis, Design, Programming and Testing
+- structured analysis, design, programming and testing
 - system testing
-- Objected Oriented Analysis, Design, Programming and Testing
+- objected oriented analysis, design, programming and testing
 - consulting and facilitating skills
 - Neuro-Linguistic Programming Certified Practitioner
 - project management
 - public speaking and presentation skills
 self_training:
-- 'Scripting: Bash/Grep/Sed/Awk, Perl, Ruby'
-- 'Web Development: Perl/CGI, Coldfusion, PHP, Ruby on Rails, Sinatra, HAML, SCSS,
-  Coffeescript'
-- TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Test'em
-- jQuery, Backbone.js, Node.js
-- Jekyll, Octopress, Frank, Middleman
 - Web interface design, Web application design, User Experience
 - 'Relational database management and database design: MySQL, SQLite, PostgreSQL'
+- Continuous Development, Continuous Testing, Continuous Deployment
+- 'Scripting: Bash/Grep/Sed/Awk, Perl, Ruby'
+- 'Web Development: Ruby on Rails, Sinatra, HAML, SCSS, Coffeescript, Perl/CGI, PHP'
+- "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Test'em"
+- jQuery, Backbone.js, Node.js
+- Jekyll, Octopress, Frank, Middleman
 - 'Non-relational (key-value) database management and design: MongoDB, Redis'
 - 'Unix and Linux System Administration and DevOps: Chef, Vagrant'
-- Continuous Development, Continuous Testing, Continuous Deployment
 experience:
 - label: ttwebdev
   years: 2001-Present
@@ -202,23 +201,41 @@ experience:
   - Frameworks and infrastructure to implement business logic and web site features
   - Environments and tools for development, testing, integration and deployment
   - Teach and coach new developers
+- label: a_d
+  years: 2013-Present
+  position: Freelance Web Developer
+  company: "Ackmann and Dickenson"
+  description: |
+    On contract with Ackmann and Dickenson for web development and design work for 30 hours per week.
+  location: Minneapolis, Minnesota
+  accomplishments_and_duties:
+    - add features, debug and test client web applications
+    - add features, debug and test Brewtoad.com
+    - add Brewtoad pro features and integrate with Braintree payment gateway
 - label: novu
   years: 2012-2013
   position: Deployment Validation Lead
   company: Novu, LLC
-  description: Ensure the quality, accuracy and timely delivery of web site features
-    and software, establishing quality goals and program for planning, design and
-    development of new features, and providing guidance and leadership in best practices
-    for web application development under Ruby on Rails.
+  description: |
+    Ensure the quality, accuracy, and timely delivery of web site
+    features and software, including development of automated test
+    suites (DevQA), automated deployment to operations (DevOps),
+    establishing quality goals and program for planning, design,
+    development, and operations of new features, and providing
+    guidance and leadership in best practices for web application
+    development, testing, and deployment under Ruby on Rails.
   location: St. Louis Park, Minnesota
   accomplishments_and_duties:
   - Ensure web site features and external design are implemented as expected and intended
   - Provide guidance during planning, design, and development to ensure testable and
     maintainable code
-  - Provide feedback to designers and developers on user experience, usability, accessibility
-    and other aspects of the overall site's quality
+  - "Provide feedback to designers and developers on user experience, usability, accessibility
+    and other aspects of the overall site's quality"
   - Create automated front-end integration and full-system testing suite based on
     Cucumber, Capybara and Watir-webdriver
+  - Develop and maintain automated build environment using Hosted Chef
+    to deploy on AWS EC2, S3, and RDS
+  - Worked in an Agile/Scrum environment
 - label: shopzilla
   years: 2007-2008
   position: Senior QA Engineer
@@ -231,10 +248,9 @@ experience:
   - Capturing business intelligence information from the website logs for upstream
     viewing for the health and financials of the company. Created test scripts and
     automation in Perl. Used Oracle 9i and 10g data bases.
-  - Service to provide a logging facility to record redirects (click-throughs) which
-    is how the company obtains it\'s revenue. Development of tools to provide testing
-    capabilities in Java, Spring, Hibernate, Mason and Jython (Python) using Eclipse.
-    Modeled in UML.
+  - "Service to provide a logging facility to record redirects (click-throughs) which
+    is how the company obtains it's revenue. Development of tools to provide testing
+    capabilities. Modeled in UML."
   - Worked in an Agile/Scrum environment
 - label: hpba
   years: 2003-2006
