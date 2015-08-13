@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2015-06-01 09:04:48 tamara>
+  Time-stamp: <2015-08-13 15:56:41 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -240,7 +240,7 @@ experience:
     accomplishments_and_duties:
       - Ensure web site features and external design are implemented as expected and intended
       - Provide guidance during planning, design, and development to ensure testable and maintainable code
-      - Provide feedback to designers and developers on user experience, usability, accessibility and other aspects of the overall site\'s quality
+      - "Provide feedback to designers and developers on user experience, usability, accessibility and other aspects of the overall site's quality"
       - Create automated front-end integration and full-system testing suite based on Cucumber, Capybara and Watir-webdriver
   - label: shopzilla
     years: 2007-2008
@@ -253,7 +253,7 @@ experience:
     location: Los Angeles, California
     accomplishments_and_duties:
       - Capturing business intelligence information from the website logs for upstream viewing for the health and financials of the company. Created test scripts and automation in Perl. Used Oracle 9i and 10g data bases.
-      - Service to provide a logging facility to record redirects (click-throughs) which is how the company obtains it\'s revenue.
+      - "Service to provide a logging facility to record redirects (click-throughs) which is how the company obtains its revenue."
       - Development of tools to provide testing capabilities in Java, Spring, Hibernate, Mason and Jython (Python) using Eclipse.
       - Modeled in UML.
       - Worked in an Agile/Scrum environment
@@ -270,7 +270,7 @@ experience:
       - Analyzed requirements and wrote a detailed requirements specification and migration plan for users, meta-data, and contract files. Documentation done in FrameMaker.
       - Developed several Perl tools to analyze and convert data to the new system.
       - Demonstrated the migration tools for potential clients and their stakeholders.
-      - Analyzed clients\' business processes and matched them to processes for the new system; created process flowchart diagrams to communicate the processes to client users.
+      - "Analyzed clients' business processes and matched them to processes for the new system; created process flowchart diagrams to communicate the processes to client users."
       - Provided training for clients.
       - Provided ongoing technical support for the new contract management system.
   - label: fedico
