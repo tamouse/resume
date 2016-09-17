@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2015-08-13 16:26:01 tamara>
+  Time-stamp: <2016-09-17 05:01:16 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -21,6 +21,8 @@ contact_info:
     - label: Gvoice
       number: +1-(415) 503-9241
   web_sites:
+    - label: Home
+      url: http://www.tamouse.org
     - label: Github
       url: http://github.com/tamouse
     - label: DevBlog
@@ -71,41 +73,37 @@ skills:
     - Sinatra
     - Jekyll
     - Middleman
-    - HAML
-    - SASS/SCSS
     - jQuery
-    - Backbone.js
-    - node.js / io.js
     - AngularJS
+    - React/Redux
     - PHP
   web_design:
-    - HTML5
-    - CSS3
-    - SCSS/SASS
+    - HTML5/Haml
+    - CSS3/SCSS/Sass
     - Twitter Bootstrap
     - SMACSS
+    - ITCSS
   databases:
     - PostgreSQL
     - MySQL
     - SQLite
     - MongoDB
+    - Cassandra
     - Redis
   languages:
     - Ruby
     - JavaScript
-    - Coffeescript
+    - TypeScript
     - Perl
     - C/C++
     - Shell
     - PHP
-    - Gherkin
   servers:
-    - Lighttpd
     - nginx
     - unicorn
     - puma
     - Apache
-  software:
+  tools:
     - Emacs
     - Sublime Text 2
     - RubyMine
@@ -113,31 +111,26 @@ skills:
     - Git
     - GitHub
     - JIRA
-    - Pivotal
   testing:
+    - Minitest
     - RSpec
-    - Cucumber (Gherkin)
+    - Cucumber
     - Capybara
     - Watir-Webdriver
     - Guard
-    - "Test'em"
     - Mocha
     - Chai
     - Jasmine
     - Karma
     - Protractor
   dev_ops:
+    - Ansible
     - Chef
     - Puppet
-    - Ansible
     - Vagant
     - Docker
     - Travis.CI
     - Codeship.IO
-    - TeamCity
-    - DataDog
-    - New Relic
-    - Airbrake
   operating_systems:
     - Linux
     - Mac OS X
@@ -203,6 +196,33 @@ experience:
       - Environments and tools for development, testing, integration and deployment
       - Teach and coach new developers
       - Volunteer mentor/coach/instructor for Rails.MN, RubyBridge, Twin Cities Rails hack night
+
+  - label: gdi-mpls
+    years: 2015-present
+    position: volunteer
+    company: Girl Develop It, Minneapolis Chapter
+    location: Minneapolis, Minnesota
+    description: >-
+      Volunteer to help women learn web skills in HTML, CSS, JavaScript, Git, and publishing.
+
+    accomplishments_and_duties:
+      - Teaching Assistant in several classes
+      - 'Tuesday "Toast and Tech" sessions to help people study and work on projects'
+      - 'Teach various classes, including: "Stylin With Sass", "Falling in Love With Git" '
+
+  - label: bluewater-brand
+    company: "Bluewater, LLC"
+    years: 2016-present
+    position: Software Engineer
+    location: Minneapolis, Minnesota
+    description: >-
+      Developing a service to provide Bluewater clients quick and easy franchise marketing direct mail, email, and other marketing campaign services.
+    accomplishments_and_duties:
+      - "architect external user contact intercepts to absorb into client's data collection in the Data Warehouse"
+      - develop various features in Ruby on Rails and JavaScript
+
+
+
   - label: ackmann-dickenson
     years: 2013-present
     position: Contract Developer
@@ -218,6 +238,9 @@ experience:
       - Micro-service architecture and implementation
       - Angular SPA clients for MSA backend
       - Massive and complex data analysis product
+      - Data ETL middle layer to provide a massive speed-up for an e-commerce website
+
+
   - label: novu
     years: 2012-2013
     position: Deployment Validation Lead
