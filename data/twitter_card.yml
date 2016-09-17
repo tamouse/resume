@@ -1,0 +1,24 @@
+website:
+  url: "http://resume.tamouse.org"
+  type: "website"
+  title: "Resume of Tamara Temple"
+  description: "Online resume built with middleman."
+  image: ""
+  site_name: "tamouse.org"
+  twitter: tamouse
+  github: tamouse
+  repo: "https://github.com/tamouse/resume.tamouse.org"
+
+sections:
+  about:
+    title: About
+    link: "#page-top"
+  projects:
+    title: Projects
+    link: "#projects"
+  skills:
+    title: Skills
+    link: "#skills"
+  contact:
+    title: Contact Me
+    link: "#contact"

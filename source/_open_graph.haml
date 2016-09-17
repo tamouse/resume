@@ -1,0 +1,3 @@
+// open graph data
+- data.open_graph.og.each do |k, v|
+  %meta{content: "#{v}", property: "og:#{k}"}
