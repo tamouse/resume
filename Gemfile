@@ -2,16 +2,12 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.10"
+gem "middleman", "~>4"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
-
-# For faster file watcher updates on Windows:
-gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
-
-# Windows does not come with time zone data
-gem "tzinfo-data", platforms: [:mswin, :mingw]
+gem "middleman-livereload"
 
 # Deployment
-gem "middleman-deploy", "~> 1.0"
+# Doesn't seem to be progressing - last commits on master were Aug 16, 2015
+# Gem is incompatible for middleman 4.1.7
+# gem "middleman-deploy", "~> 1.0"

@@ -78,18 +78,18 @@ end
 
 ## Extensions
 
-# Deploy
+# Sadly, it looks like the middleman-deploy gem is not being worked on
+# and is no longer compatible.
+# # Deploy
+#
+# activate :deploy do |deploy|
+#   deploy.build_before = true    # always make sure we've built before we deploy
 
-activate :deploy do |deploy|
-  deploy.build_before = true    # always make sure we've built before we deploy
-
-  deploy.method = :rsync
-  deploy.host   = 'tamouse.org'
-  deploy.path   = 'Sites/tamouse.org/resume'
-  deploy.clean  = true
-end
-
-
+#   deploy.method = :rsync
+#   deploy.host   = 'tamouse.org'
+#   deploy.path   = 'Sites/tamouse.org/resume'
+#   deploy.clean  = true
+# end
 
 # Create the PDF and RTF versions after_build
 
@@ -99,11 +99,13 @@ class CreatePDFandRTF < Middleman::Extension
     super
     app.after_build do |builder|
       Dir.chdir "build" do |builddir|
-        builder.run "pdflatex resume.tex"
-        builder.run "pandoc -s docx.html -o resume.rtf"
+        builder.thor.run "pdflatex resume.tex"
+        builder.thor.run "pandoc -s docx.html -o resume.rtf"
       end
     end
   end
+
+  # alias :included :registered
 end
 
 ::Middleman::Extensions.register(:create_pdf_and_rtf, CreatePDFandRTF)
