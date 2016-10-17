@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2016-09-17 05:01:16 tamara>
+  Time-stamp: <2016-10-17 11:19:04 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -178,6 +178,10 @@ self_training:
 experience:
   - label: ttwebdev
     years: 2001-Present
+    duration:
+      from:
+        year: 2001
+        month: 9
     position: Web Developer
     company: Tamara Temple Web Development
     description: >-
@@ -199,6 +203,10 @@ experience:
 
   - label: gdi-mpls
     years: 2015-present
+    duration:
+      from:
+        year: 2015
+        month: 9
     position: volunteer
     company: Girl Develop It, Minneapolis Chapter
     location: Minneapolis, Minnesota
@@ -213,6 +221,13 @@ experience:
   - label: bluewater-brand
     company: "Bluewater, LLC"
     years: 2016-present
+    duration:
+      from:
+        year: 2016
+        month: 8
+      to:
+        year: 2016
+        month: 10
     position: Software Engineer
     location: Minneapolis, Minnesota
     description: >-
@@ -225,6 +240,13 @@ experience:
 
   - label: ackmann-dickenson
     years: 2013-present
+    duration:
+      from:
+        year: 2013
+        month: 12
+      to:
+        year: 2016
+        month: 4
     position: Contract Developer
     company: "Ackmann-Dickenson"
     location: Minneapolis, Minnesota
@@ -243,6 +265,13 @@ experience:
 
   - label: novu
     years: 2012-2013
+    duration:
+      from:
+        year: 2012
+        month: 10
+      to:
+        year: 2013
+        month: 6
     position: Deployment Validation Lead
     company: Novu, LLC
     description: >-
@@ -258,6 +287,13 @@ experience:
       - Create automated front-end integration and full-system testing suite based on Cucumber, Capybara and Watir-webdriver
   - label: shopzilla
     years: 2007-2008
+    duration:
+      from:
+        year: 2007
+        month: 5
+      to:
+        year: 2008
+        month: 4
     position: Senior QA Engineer
     company: Shopzilla, Inc.
     description: >-
@@ -271,8 +307,35 @@ experience:
       - Development of tools to provide testing capabilities in Java, Spring, Hibernate, Mason and Jython (Python) using Eclipse.
       - Modeled in UML.
       - Worked in an Agile/Scrum environment
+  - label: hp2
+    years: 2003-2006
+    duration:
+      from:
+        year: 2003
+        month: 8
+      to:
+        year: 2006
+        month: 6
+    position: "Business Analyst"
+    company: "Hewlett-Packard"
+    location: "California"
+    description: |
+      Provide training and migration services for users from an old contract management system to a new system.
+    accomplishments_and_duties:
+      - review customer needs
+      - provide in-depth training
+      - provide migration analysis and services
+      - implement migration from legacy application to new system
+
   - label: hp
-    years: 1982-2006
+    years: 1982-2001
+    duration:
+      from:
+        year: 1982
+        month: 1
+      to:
+        year: 2001
+        month: 8
     position: Various
     company: Hewlett-Packard
     description: >-

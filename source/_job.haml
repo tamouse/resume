@@ -1,6 +1,6 @@
 .row.job
   .col-md-2
-    %h3.label.label-primary= job.years
+    %h3.label.label-primary= calculate_duration(job.duration)
   .col-md-8
     %p.job-info
       %span.position>= job.position
@@ -10,7 +10,7 @@
       %span.company>= job.company
       ,
       %span
-      
+
       %span.location= job.location
     %p.description= job.description
     %h4 Accomplishments and Duties

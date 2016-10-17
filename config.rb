@@ -49,6 +49,18 @@ helpers do
   def titlecase(s)
     s.split(/\W+/).map{|w| w.capitalize}.join(" ")
   end
+  def calculate_duration(duration)
+    from = duration.fetch('from', { 'year' => nil, 'month' => nil } )
+    to   = duration.fetch('to',   { 'year' => nil, 'month' => nil } )
+    [calc_date(from), calc_date(to)].compact.join(" to ")
+  end
+  def calc_date(date)
+    if date['year']
+      Date.new(date['year'], date['month']).strftime("%B %Y")
+    else
+      'present'
+    end
+  end
 end
 
 

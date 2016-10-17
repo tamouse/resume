@@ -3,7 +3,7 @@ layout: false
 ---
 - data.resume.name.tap do |n|
   %h1= [n.given, n.middle, n.family].join(" ")
-  
+
 %h2 Summary
 %p= data.resume.brief_summary
 
@@ -37,7 +37,7 @@ layout: false
   .job
     %a{:name => job.label}= ''
     %h3
-      %span.years= job.years
+      %span.duration= calculate_duration(job.duration)
       \:
       %span.position= job.position
       ,
@@ -48,4 +48,3 @@ layout: false
     %ul.duties
       - job.accomplishments_and_duties.each do |t|
         %li.task= t
-
