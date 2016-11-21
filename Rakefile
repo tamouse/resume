@@ -1,9 +1,18 @@
 # Rake tasks
 
 desc "Deploy to site (make up for missing middleman-deploy)"
-task :deploy => :build do |_t, _args|
-  sh 'rsync -avz --progress --delete build/ tamouse.org:Sites/tamouse.org/resume'
+task :deploy => :docs do |_t, _args|
+    sh 'git add --all'
+    sh "git commit -m 'Published #{Time.now.strftime("%FT%T.%Z")}'"
+    sh "git push -fu origin HEAD"
 end
+
+desc "Transfer build to docs"
+task :docs => :build do |_t, _args|
+  cp_r 'build', 'docs'
+end
+
+
 
 desc "Build the site"
 task :build do |_t, _args|
