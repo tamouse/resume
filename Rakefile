@@ -2,9 +2,9 @@
 
 desc "Deploy to site (make up for missing middleman-deploy)"
 task :deploy => :docs do |_t, _args|
-    sh 'git add --all'
-    sh "git commit -m 'Published #{Time.now.strftime("%FT%T.%Z")}'"
-    sh "git push -fu origin HEAD"
+  sh 'git add --all'
+  sh "git commit -m 'Published #{Time.now.strftime("%FT%T.%Z")}'"
+  sh "git push -fu origin HEAD"
 end
 
 desc "Transfer build to docs"
