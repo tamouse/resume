@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2016-10-17 11:19:04 tamara>
+  Time-stamp: <2017-01-12 01:01:13 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -127,7 +127,7 @@ skills:
     - Ansible
     - Chef
     - Puppet
-    - Vagant
+    - Vagrant
     - Docker
     - Travis.CI
     - Codeship.IO
@@ -164,17 +164,18 @@ additional_training:
   - Public speaking and presentation skills
   - "You Don't Know JS with Kyle Simpson"
   - "Advanced JavaScript"
+  - Numerous courses through FrontendMasters.com on Angular, React, Webpack, others
 self_training:
-  Scripting: Bash/Grep/Sed/Awk, Perl, Ruby
-  Web Development: Perl/CGI, Coldfusion, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, Coffeescript
-  Testing: "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Test'em"
-  JavaScript: jQuery, Backbone.js, Node.js
+  Scripting: Bash/Grep/Sed/Awk, Perl, Ruby, Python
+  Web Development: Perl/CGI, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, TypeScrpt
+  Testing: "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Kharma, Protractor"
+  JavaScript: jQuery, Backbone.js, Node.js, Angular 2, React/Redux
   Static Websites: Jekyll, Middleman
   Web: Web interface design, Web application design, User Experience
   Relational database management and database design: MySQL, SQLite, PostgreSQL
-  Non-relational (key-value) database management and design: MongoDB, Redis
+  Non-relational (key-value) database management and design: MongoDB, Redis, Cassandra
   Unix and Linux System Administration and DevOps: Chef, Puppet, Ansible, Vagrant
-  Continuous Everything: Guard, Travis-CI, Codeship.IO, Git Hooks
+  Continuous Everything: Guard, Travis-CI, Codeship.IO, Git Hooks, Jenkins
 experience:
   - label: ttwebdev
     years: 2001-Present
