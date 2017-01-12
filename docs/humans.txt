@@ -10,7 +10,7 @@ Site: http://resume.tamouse.org
 
 /* SITE */
 
-Last update: 2016/11/21
+Last update: 2017/01/12
 Standards: HTML5, CSS3
 Components: Twitter Bootstrap 3.0, Haml, Scss
 Software: Middleman
