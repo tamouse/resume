@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2017-01-12 01:01:13 tamara>
+  Time-stamp: <2017-02-15 15:48:42 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -56,7 +56,7 @@ summary:
   - '* creating sharable development environments'
 summary_links:
   - text: Software As A Craft
-    link: http://swaac.tamouse.org/swaac-intro/
+    link: http://swaac.tamouse.org/pages/swaac-intro/
   - text: Test Driven Development
     link: http://www.agiledata.org/essays/tdd.html
   - text: Behaviour Driven Development (Dan North)
