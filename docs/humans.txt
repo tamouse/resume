@@ -1,0 +1,16 @@
+/* http://humanstxt.org/ */
+/* The humans responsible & technology colophon */
+
+/* TEAM */
+
+Author: Tamara Temple
+Email: tamouse@gmail.com
+Twitter: http://twitter.com/tamouse
+Site: http://resume.tamouse.org
+
+/* SITE */
+
+Last update: 2017/02/28
+Standards: HTML5, CSS3
+Components: Twitter Bootstrap 3.0, Haml, Scss
+Software: Middleman
