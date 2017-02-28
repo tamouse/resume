@@ -1,26 +1,21 @@
 # Rake tasks
 
 desc "Deploy to site (make up for missing middleman-deploy)"
-task :deploy => :docs do |_t, _args|
+task :deploy => :build do
+  rm_rf 'docs'
+  cp_r 'build', 'docs'
   sh 'git add --all'
   sh "git commit -m 'Published #{Time.now.strftime("%FT%T.%Z")}'"
   sh "git push -fu deploy master"
 end
 
-desc "Transfer build to docs"
-task :docs => :build do |_t, _args|
-  cp_r 'build', 'docs'
-end
-
-
-
 desc "Build the site"
-task :build do |_t, _args|
+task :build do
   sh 'bundle exec middleman build'
 end
 
 desc "Start the middleman server"
-task :serve do |_t, _args|
+task :serve do
   sh 'bundle exec middleman'
 end
 

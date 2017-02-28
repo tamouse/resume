@@ -11,3 +11,5 @@ gem "middleman-livereload"
 # Doesn't seem to be progressing - last commits on master were Aug 16, 2015
 # Gem is incompatible for middleman 4.1.7
 # gem "middleman-deploy", "~> 1.0"
+
+gem "pry"
