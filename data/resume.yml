@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2017-02-28 15:31:22 tamara>
+  Time-stamp: <2017-03-02 13:18:43 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -75,6 +75,7 @@ skills:
     - AngularJS 2.x / NgRx
     - React/Redux
     - Webpack 1 and 2
+    - Node.js / Express
     - Django / Flask
     - Laravel
   web_design:
@@ -165,7 +166,7 @@ self_training:
   Scripting: Bash/Grep/Sed/Awk, Perl, Ruby, Python
   Web Development: Perl/CGI, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, TypeScrpt
   Testing: "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Kharma, Protractor"
-  JavaScript: jQuery, Backbone.js, Node.js, Angular 2, React/Redux
+  JavaScript: jQuery, Backbone.js, Node.js, Angular 2, React/Redux, Node.js, Webpack
   Static Websites: Jekyll, Middleman
   Web: Web interface design, Web application design, User Experience
   Relational database management and database design: MySQL, SQLite, PostgreSQL
@@ -186,7 +187,8 @@ experience:
       for non-profits and individuals desiring a presence on the Web. Includes finding
       hosting space, development of information architecture, design layout of site,
       development and/or repurposing of content, and maintenance. Work in Perl, PHP,
-      Ruby on Rails, JavaScript, jQuery, Backbone.JS, AngularJS, CSS,
+      Ruby on Rails, JavaScript, jQuery, Backbone.JS, AngularJS,
+      Node.js, React/Redux, CSS, Sass,
       MySQL, SQLite, Apache, Lighttpd, Linux, Mac OS X.
     location: Mendota Heights, Minnesota
     accomplishments_and_duties:
