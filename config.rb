@@ -86,6 +86,7 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+  config[:baseurl] = "/resume"
 end
 
 ## Extensions
