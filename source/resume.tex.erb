@@ -41,7 +41,7 @@ layout: false
 
 \section{Skills}
 <% data.resume.skills.each_slice(2) do |a,b| %>
-\cvcomputer{<%= a.first.gsub(/_/,' ') %>}{<%= a.last.join(", ")%>}{<%= b.first.gsub(/_/,' ') %>}{<%= b.last.join(", ") %>}
+\cvcomputer{<%= a.first.gsub(/_/,' ') %>}{<%= a.last.join(", ")%>}{<%= b.first.gsub(/_/,' ') unless b.nil? %>}{<%= b.last.join(", ") unless b.nil? %>}
 <% end %>
 
 \cvline{Methods}{\small <%= data.resume.methodologies.join("; ") %>}

@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2017-03-02 13:18:43 tamara>
+  Time-stamp: <2018-01-05 03:17:13 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -68,22 +68,37 @@ brief_summary: |
     especially related to the disciplines of software quality, web
     applications, user experience, and team building.
 skills:
-  web_development:
-    - Rails / Sinatra
-    - Jekyll / Middleman
-    - jQuery
-    - AngularJS 2.x / NgRx
-    - React/Redux
-    - Webpack 1 and 2
-    - Node.js / Express
-    - Django / Flask
+  general:
+    - software engineering
+    - web development
+    - dev-ops
+    - business analysis
+    - consulting
+    - facilitating
+    - teaching
+  software_engineering:
+    - architecture
+    - full-stack
+    - backend
+    - APIs
+    - frontend
+    - low-level design
+    - coding
+    - debugging
+    - testing
+    - tooling
+  web_frameworks:
+    - Rails
+    - Sinatra
+    - Django
+    - Flask
     - Laravel
-  web_design:
-    - HTML5/Haml
-    - CSS3/SCSS/Sass
-    - Twitter Bootstrap
-    - SMACSS
-    - ITCSS
+  web_libraries:
+    - jQuery
+    - React
+    - Redux
+    - GraphQL
+    - Apollo
   databases:
     - PostgreSQL
     - MySQL
@@ -94,28 +109,37 @@ skills:
   languages:
     - Ruby
     - JavaScript
-    - TypeScript
     - Perl
     - C/C++
     - Shell
     - Python 3
     - PHP
+    - HTML5
+    - CSS3
+    - SCSS/SASS
+    - HAML
   servers:
     - nginx
     - unicorn
     - puma
     - Apache
   tools:
-    - Emacs / Sublime Text 2 / Atom
-    - RubyMine /  WebStorm / PyCharm / PhpStorm
-    - Git / GitHub / GitLab
-    - JIRA / Asana / Trello
+    - bundler
+    - rake
+    - webpack
+    - babel
+    - npm
+    - grunt
+    - gulp
+    - make
   testing:
     - Minitest
     - RSpec
     - Cucumber
     - Capybara
     - Guard
+    - Jest
+    - Enzyme
     - Mocha
     - Chai
     - Jasmine
@@ -127,13 +151,11 @@ skills:
     - Puppet
     - Vagrant
     - Docker
-    - Travis.CI
+    - Travis CI
+    - Circle CI
   operating_systems:
     - Linux
     - Mac OS X
-  analysis:
-    - UML
-    - IDEF-0
 methodologies:
   - Program architecture and design
   - User-/task-centered design
@@ -165,15 +187,35 @@ additional_training:
 self_training:
   Scripting: Bash/Grep/Sed/Awk, Perl, Ruby, Python
   Web Development: Perl/CGI, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, TypeScrpt
-  Testing: "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Kharma, Protractor"
-  JavaScript: jQuery, Backbone.js, Node.js, Angular 2, React/Redux, Node.js, Webpack
-  Static Websites: Jekyll, Middleman
+  Testing: "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Kharma, Protractor, Jest, Enzyme"
+  JavaScript: jQuery, Backbone.js, Node.js, Angular 2, React/Redux, Node.js, Webpack, Babel
+  Static Websites: Jekyll, Middleman, Gatsby
   Web: Web interface design, Web application design, User Experience
   Relational database management and database design: MySQL, SQLite, PostgreSQL
   Non-relational (key-value) database management and design: MongoDB, Redis, Cassandra
-  Unix and Linux System Administration and DevOps: Chef, Puppet, Ansible, Vagrant
-  Continuous Everything: Guard, Travis-CI, Codeship.IO, Git Hooks, Jenkins
+  Unix and Linux System Administration and DevOps: Chef, Puppet, Ansible, Vagrant, Docker
+  Continuous Everything: Guard, Travis-CI, CircleCI, Codeship.IO, Git Hooks, Jenkins
 experience:
+  - label: kickserv
+    years: 2017-present
+    duration:
+      from:
+        year: 2017
+        month: 3
+    position: "API-driven Rubyist, React/GraphQL Maven"
+    company: ReachLocal (Gannett)
+    description: >-
+      Implement modern APIs for the Kickerv product, and develop
+      replacement React web client using GraphQL interface.
+    location: Minneapolis, Minnesota
+    accomplishments_and_duties:
+      - work on the Kickserv product
+      - build robust APIs to enable modern web client applications for desktop and mobile to access backend data
+      - migrate API to use GraphQL
+      - create a React web client using GraphQL to talk to the back end application
+      - fix defects in existing frontend software
+      - work with other engineers to build common components
+
   - label: ttwebdev
     years: 2001-Present
     duration:
@@ -206,7 +248,7 @@ experience:
       from:
         year: 2015
         month: 9
-    position: volunteer
+    position: Volunteer, TA, Mentor
     company: Girl Develop It, Minneapolis Chapter
     location: Minneapolis, Minnesota
     description: >-
@@ -214,16 +256,19 @@ experience:
 
     accomplishments_and_duties:
       - Teaching Assistant in several classes
-      - 'Tuesday "Toast and Tech" sessions to help people study and work on projects'
+      - 'Lead Tuesday "Toast and Tech" sessions to help people study and work on projects'
       - 'Teach various classes, including: "Stylin With Sass", "Falling in Love With Git" '
 
   - label: railsmn
-    years: 2014-1017
+    years: 2014-2017
     duration:
       from:
         year: 2014
         month: 10
-    position: organizer
+      to:
+        year: 2017
+        month: 10
+    position: Organizer
     company: Rails.MN Beginners meetup
     location: Minneapolis, Minnesota
     description: >-
