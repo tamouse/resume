@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2018-01-05 03:17:13 tamara>
+  Time-stamp: <2018-05-15 20:53:02 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -15,6 +15,8 @@ contact_info:
       state: MN
       zip: 55118
   email:
+    - label: Maintain
+
     - label: Gmail
       address: tamouse@gmail.com
   phone:
@@ -22,11 +24,11 @@ contact_info:
       number: +1-(415) 503-9241
   web_sites:
     - label: Home
-      url: http://www.tamouse.org
+      url: http://tamouse.org
     - label: Github
       url: http://github.com/tamouse
     - label: DevBlog
-      url: http://swaac.tamouse.org/
+      url: http://tamouse.github.io/swaac
     - label: Twitter
       url: http://twitter.com/tamouse
   social:
@@ -56,7 +58,7 @@ summary:
   - '* creating sharable development environments'
 summary_links:
   - text: Software As A Craft
-    link: http://swaac.tamouse.org/pages/swaac-intro/
+    link: http://tamouse.github.io/swaac/pages/swaac-intro/
   - text: Test Driven Development
     link: http://www.agiledata.org/essays/tdd.html
   - text: Behaviour Driven Development (Dan North)
