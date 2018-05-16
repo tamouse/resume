@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2018-05-15 20:53:02 tamara>
+  Time-stamp: <2018-05-15 21:37:04 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -15,8 +15,8 @@ contact_info:
       state: MN
       zip: 55118
   email:
-    - label: Maintain
-
+    - label: Main
+      address: tamara@tamouse.org
     - label: Gmail
       address: tamouse@gmail.com
   phone:
@@ -88,19 +88,22 @@ skills:
     - coding
     - debugging
     - testing
-    - tooling
+    - tool chains
   web_frameworks:
     - Rails
     - Sinatra
     - Django
     - Flask
-    - Laravel
   web_libraries:
     - jQuery
     - React
     - Redux
     - GraphQL
     - Apollo
+    - Angular (1.x)
+    - Bootstrap
+    - Knockout
+    - Backbone
   databases:
     - PostgreSQL
     - MySQL
@@ -125,13 +128,16 @@ skills:
     - unicorn
     - puma
     - Apache
+    - lighttpd
   tools:
+    - Emacs
+    - Webstorm
+    - RubyMine
     - bundler
     - rake
     - webpack
     - babel
     - npm
-    - grunt
     - gulp
     - make
   testing:
@@ -207,14 +213,14 @@ experience:
     position: "API-driven Rubyist, React/GraphQL Maven"
     company: ReachLocal (Gannett)
     description: >-
-      Implement modern APIs for the Kickerv product, and develop
-      replacement React web client using GraphQL interface.
+      Implement modern GraphQL APIs in Ruby for the Kickerv product, and develop
+      replacement React web client using GraphQL interface with Apollo Client.
     location: Minneapolis, Minnesota
     accomplishments_and_duties:
       - work on the Kickserv product
       - build robust APIs to enable modern web client applications for desktop and mobile to access backend data
-      - migrate API to use GraphQL
-      - create a React web client using GraphQL to talk to the back end application
+      - migrate API to use GraphQL in Ruby
+      - create a React web client using Apollo to talk GraphQL to the back end application
       - fix defects in existing frontend software
       - work with other engineers to build common components
 
@@ -225,15 +231,15 @@ experience:
         year: 2001
         month: 9
     position: Web Developer
-    company: Tamara Temple Web Development
+    company: Tamara Temple Web Development (Pontiki Software Crafts)
     description: >-
       Freelance web design and development, including pro bono work
       for non-profits and individuals desiring a presence on the Web. Includes finding
       hosting space, development of information architecture, design layout of site,
       development and/or repurposing of content, and maintenance. Work in Perl, PHP,
-      Ruby on Rails, JavaScript, jQuery, Backbone.JS, AngularJS,
-      Node.js, React/Redux, CSS, Sass,
-      MySQL, SQLite, Apache, Lighttpd, Linux, Mac OS X.
+      Ruby on Rails, JavaScript, jQuery, Backbone.JS, AngularJS (1.x),
+      Node.js, React, Redux, GraphQL (Apollo), CSS, Sass,
+      Postgresql, MySQL, SQLite, Apache, nginx, lighttpd, Linux, Mac OS X.
     location: Mendota Heights, Minnesota
     accomplishments_and_duties:
       - User experience and User-centered design for interactive web sites
@@ -301,30 +307,11 @@ experience:
       - write training questions and entity extraction code
       - write extraction, transfer, and load scripts for external data
       - provide code review and expertise to other project members
-
-
-  - label: bluewater-brand
-    company: "Bluewater, LLC"
-    years: 2016-present
-    duration:
-      from:
-        year: 2016
-        month: 8
-      to:
-        year: 2016
-        month: 10
-    position: Contract Software Developer
-    location: Minneapolis, Minnesota
-    description: >-
-      Developing a service to provide Bluewater clients quick and easy franchise marketing direct mail, email, and other marketing campaign services.
-    accomplishments_and_duties:
-      - "architect external user contact intercepts to absorb into client's data collection in the Data Warehouse"
-      - develop various features in Ruby on Rails and JavaScript
-
+      - Wrote mainly in Python
 
 
   - label: ackmann-dickenson
-    years: 2013-present
+    years: 2013-2016
     duration:
       from:
         year: 2013
@@ -346,96 +333,24 @@ experience:
       - Angular SPA clients for MSA backend
       - Massive and complex data analysis product
       - Data ETL middle layer to provide a massive speed-up for an e-commerce website
+      - Lots of Ruby on Rails and JavaScript
 
-
-  - label: novu
-    years: 2012-2013
+  - label: prior
+    years: 1980-present
     duration:
       from:
-        year: 2012
-        month: 10
-      to:
-        year: 2013
-        month: 6
-    position: Deployment Validation Lead
-    company: Novu, LLC
+        month: 7
+        year: 1980
+    position: Various positions
+    company: Hewlett-Packard, Shopzilla, NovuHealth, BluewaterBrand
     description: >-
-      Ensure the quality, accuracy and timely delivery of web site features
-      and software, establishing quality goals and program for planning, design and
-      development of new features, and providing guidance and leadership in best practices
-      for web application development under Ruby on Rails.
-    location: St. Louis Park, Minnesota
+      Career as a software developer, business analyst, process and
+      technology consultant, author, facilitator, trainer
     accomplishments_and_duties:
-      - Ensure web site features and external design are implemented as expected and intended
-      - Provide guidance during planning, design, and development to ensure testable and maintainable code
-      - "Provide feedback to designers and developers on user experience, usability, accessibility and other aspects of the overall site's quality"
-      - Create automated front-end integration and full-system testing suite based on Cucumber, Capybara and Watir-webdriver
-
-
-
-  - label: shopzilla
-    years: 2007-2008
-    duration:
-      from:
-        year: 2007
-        month: 5
-      to:
-        year: 2008
-        month: 4
-    position: Senior QA Engineer
-    company: Shopzilla, Inc.
-    description: >-
-      Sole software quality assurance engineer on business information engineering
-      software providing testing, validation, automation, consulting, and quality leadership
-      to development teams.
-    location: Los Angeles, California
-    accomplishments_and_duties:
-      - Capturing business intelligence information from the website logs for upstream viewing for the health and financials of the company. Created test scripts and automation in Perl. Used Oracle 9i and 10g data bases.
-      - "Service to provide a logging facility to record redirects (click-throughs) which is how the company obtains its revenue."
-      - Development of tools to provide testing capabilities in Java, Spring, Hibernate, Mason and Jython (Python) using Eclipse.
-      - Modeled in UML.
-      - Worked in an Agile/Scrum environment
-
-
-
-  - label: hp2
-    years: 2003-2006
-    duration:
-      from:
-        year: 2003
-        month: 8
-      to:
-        year: 2006
-        month: 6
-    position: "Business Analyst"
-    company: "Hewlett-Packard"
-    location: "California"
-    description: >-
-      Provide training and migration services for users from an old contract management system to a new system.
-    accomplishments_and_duties:
-      - review customer needs
-      - provide in-depth training
-      - provide migration analysis and services
-      - implement migration from legacy application to new system
-
-  - label: hp
-    years: 1982-2001
-    duration:
-      from:
-        year: 1982
-        month: 1
-      to:
-        year: 2001
-        month: 8
-    position: Various
-    company: Hewlett-Packard
-    description: >-
-      Business and Technology Process Consulting, Senior Software Quality Engineering and Management, Senior Software Engineering, Business Analysis.
-    location: California
-    accomplishments_and_duties:
-      - "Analyzed clients' business processes and matched them to processes for the new system; created process flowchart diagrams to communicate the processes to client users."
-      - Provided internal business and technical consulting to senior managers, middle managers and individual contributors to improve business processes and product market performance.
-      - Developed network and nodal management tools for HP-UX.
-      - Improved the quality assurance and testing processes for network software development.
-      - Led a team of software reliability engineers focusing on networking products.
-      - Provided quality assurance and testing for networking products.
+      - Web development in PHP, JavaScript, Ruby on Rails
+      - Software development on unix system software
+      - Taught relationship-based skills to engineers, managers, and senior execs.
+      - Consulted with various software development groups within Hewlett-Packard to improve software development capabilities
+      - Developed software for network management at Hewlett-Packard
+      - Software Quality Engineer manager of 10 engineers
+      - Software Quality Engineer

@@ -4,9 +4,9 @@ desc "Deploy to site (make up for missing middleman-deploy)"
 task :deploy => :build do
   rm_rf 'docs'
   cp_r 'build', 'docs'
-  sh 'git add --all'
+  sh 'git add --all --verbose'
   sh "git commit -m 'Published #{Time.now.strftime("%FT%T.%Z")}'"
-  sh "git push -fu deploy master"
+  sh "git push  origin master"
 end
 
 desc "Build the site"
