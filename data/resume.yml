@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2018-05-15 21:37:04 tamara>
+  Time-stamp: <2019-07-16 22:18:42 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -251,23 +251,33 @@ experience:
       - Volunteer mentor/coach/instructor for Rails.MN, RubyBridge, Twin Cities Rails hack night
 
   - label: gdi-mpls
-    years: 2015-present
+    omit: true
+    years: 2015-2018
     duration:
       from:
         year: 2015
         month: 9
+      to:
+        year: 2018
+        month: 10
     position: Volunteer, TA, Mentor
     company: Girl Develop It, Minneapolis Chapter
     location: Minneapolis, Minnesota
     description: >-
       Volunteer to help women learn web skills in HTML, CSS, JavaScript, Git, and publishing.
-
+      <br><br>
+      During my time as a mentor with GDI, my local chapter in Minneapolis had some horrible incidents of overt racism and denial at the leadership level. I count myself as culpable in this problem as I had no realization it was happening. This set of incidents festered and spread through other chapters, and on to the national headquarters.
+      <br><br>
+      I ended my relationship with Girl Develop It after it became apparent to me the organization leadership had absolutely no intention to repair the problems with including Women of Color and hearing the problems they spoke up about.
+      <br><br>
+      For information on the issues with GDI, see <a href="http://an-open-letter-to-gdi-board.com/">An Open Letter to the Board of Girl Develop It</a>
+      <br><br>
+      <strong>Do not support this group. It is not diverse or inclusive. Worse, it refuses to admit and confront these failings in itself.</strong>
     accomplishments_and_duties:
-      - Teaching Assistant in several classes
-      - 'Lead Tuesday "Toast and Tech" sessions to help people study and work on projects'
-      - 'Teach various classes, including: "Stylin With Sass", "Falling in Love With Git" '
+      - mentor, teach
 
   - label: railsmn
+    omit: true
     years: 2014-2017
     duration:
       from:

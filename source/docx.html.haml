@@ -34,6 +34,7 @@ layout: false
 
 %h2 Experience
 - data.resume.experience.each do |job|
+  - next if job.omit
   .job
     %a{:name => job.label}= ''
     %h3

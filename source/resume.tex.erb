@@ -55,6 +55,7 @@ layout: false
 
 \section{Experience}
 <% data.resume.experience.each do |job| %>
+<% next if job.omit %>
 \cventry{<%= job.years %>}{<%= job.position %>}{<%= job.company %>}{<%= job.location %>}{}{%
 <%= job.description %>
 }
