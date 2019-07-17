@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2019-07-16 22:18:42 tamara>
+  Time-stamp: <2019-07-16 22:26:37 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -225,11 +225,14 @@ experience:
       - work with other engineers to build common components
 
   - label: ttwebdev
-    years: 2001-Present
+    years: 2001-2017
     duration:
       from:
         year: 2001
         month: 9
+      to:
+        year: 2017
+        month: 3
     position: Web Developer
     company: Tamara Temple Web Development (Pontiki Software Crafts)
     description: >-
