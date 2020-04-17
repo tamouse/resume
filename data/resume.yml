@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2019-07-16 22:26:37 tamara>
+  Time-stamp: <2020-04-17 09:13:09 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -20,17 +20,23 @@ contact_info:
     - label: Gmail
       address: tamouse@gmail.com
   phone:
+    - label: Mobile
+      number: +1-651-485-2195
     - label: Gvoice
-      number: +1-(415) 503-9241
+      number: +1-415 503-9241
   web_sites:
     - label: Home
-      url: http://tamouse.org
+      url: https://tamouse.org
     - label: Github
-      url: http://github.com/tamouse
+      url: https://github.com/tamouse
     - label: DevBlog
-      url: http://tamouse.github.io/swaac
+      url: https://swaac.tamouse.org
     - label: Twitter
-      url: http://twitter.com/tamouse
+      url: https://twitter.com/tamouse
+    - label: LinkedIn
+      url: https://linkedin.com/in/tamaratemple
+    - label: Keybase.IO
+      url: https://keybase.io/tamouse_
   social:
     twitter: tamouse
     github: tamouse
@@ -58,7 +64,7 @@ summary:
   - '* creating sharable development environments'
 summary_links:
   - text: Software As A Craft
-    link: http://tamouse.github.io/swaac/pages/swaac-intro/
+    link: https://github.com/tamouse/swaac/blob/master/posts/2011/01/swaac-intro.org
   - text: Test Driven Development
     link: http://www.agiledata.org/essays/tdd.html
   - text: Behaviour Driven Development (Dan North)
@@ -68,12 +74,11 @@ summary_links:
 brief_summary: |
     Deeply experienced in software design and development methodologies,
     especially related to the disciplines of software quality, web
-    applications, user experience, and team building.
+    applications, user experience, and team building. Presently working at the intersection of Rails, GraphQL, and React, developing modern web applications with fast response times.
 skills:
   general:
     - software engineering
     - web development
-    - dev-ops
     - business analysis
     - consulting
     - facilitating
@@ -94,28 +99,24 @@ skills:
     - Sinatra
     - Django
     - Flask
+    - Express
+    - ApolloServer
+    - JAMstack
+    - Gatsby
   web_libraries:
-    - jQuery
     - React
-    - Redux
     - GraphQL
-    - Apollo
-    - Angular (1.x)
-    - Bootstrap
-    - Knockout
-    - Backbone
+    - ApolloClient
   databases:
     - PostgreSQL
     - MySQL
     - SQLite
     - MongoDB
-    - Cassandra
     - Redis
   languages:
     - Ruby
     - JavaScript
     - Perl
-    - C/C++
     - Shell
     - Python 3
     - PHP
@@ -123,47 +124,35 @@ skills:
     - CSS3
     - SCSS/SASS
     - HAML
+    - C/C++
   servers:
+    - Netlify
     - nginx
-    - unicorn
     - puma
-    - Apache
-    - lighttpd
+  static_site_generators:
+    - jekyll
+    - middleman
+    - hugo
+    - gatsby
+    - elleventy
   tools:
     - Emacs
     - Webstorm
     - RubyMine
     - bundler
     - rake
+    - thor
+    - yeoman (yo)
     - webpack
     - babel
-    - npm
+    - npm/npx
     - gulp
     - make
   testing:
     - Minitest
     - RSpec
-    - Cucumber
-    - Capybara
-    - Guard
     - Jest
-    - Enzyme
-    - Mocha
-    - Chai
-    - Jasmine
-    - Karma
-    - Protractor
-  dev_ops:
-    - Ansible
-    - Chef
-    - Puppet
-    - Vagrant
-    - Docker
-    - Travis CI
-    - Circle CI
-  operating_systems:
-    - Linux
-    - Mac OS X
+    - Testing Library
 methodologies:
   - Program architecture and design
   - User-/task-centered design
@@ -174,6 +163,7 @@ methodologies:
   - Agile development, scrum master
   - 'Continuous everything: integration, testing, deployment'
   - Precision elicitation and facilitation, communication for action
+
 education:
   - label: bscs
     degree: Bachelor of Science, Computer Science
@@ -181,6 +171,7 @@ education:
     location: Minneapolis
     school: University of Minnesota
     years: 1975-1980
+
 additional_training:
   - Structured analysis, design, programming and testing
   - System testing
@@ -191,7 +182,7 @@ additional_training:
   - Public speaking and presentation skills
   - "You Don't Know JS with Kyle Simpson"
   - "Advanced JavaScript"
-  - Numerous courses through FrontendMasters.com on Angular, React, Webpack, others
+  - Numerous courses through FrontendMasters.com on React, Webpack, GraphQL, JAMstack, Angular, others
 self_training:
   Scripting: Bash/Grep/Sed/Awk, Perl, Ruby, Python
   Web Development: Perl/CGI, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, TypeScrpt
@@ -205,11 +196,14 @@ self_training:
   Continuous Everything: Guard, Travis-CI, CircleCI, Codeship.IO, Git Hooks, Jenkins
 experience:
   - label: kickserv
-    years: 2017-present
+    years: 2017-2020
     duration:
       from:
         year: 2017
         month: 3
+      to:
+        year: 2020
+        month: 4
     position: "API-driven Rubyist, React/GraphQL Maven"
     company: ReachLocal (Gannett)
     description: >-
@@ -225,24 +219,18 @@ experience:
       - work with other engineers to build common components
 
   - label: ttwebdev
-    years: 2001-2017
+    years: 2001-present
     duration:
       from:
         year: 2001
         month: 9
-      to:
-        year: 2017
-        month: 3
     position: Web Developer
-    company: Tamara Temple Web Development (Pontiki Software Crafts)
+    company: Pontiki Software Crafts
     description: >-
       Freelance web design and development, including pro bono work
       for non-profits and individuals desiring a presence on the Web. Includes finding
       hosting space, development of information architecture, design layout of site,
-      development and/or repurposing of content, and maintenance. Work in Perl, PHP,
-      Ruby on Rails, JavaScript, jQuery, Backbone.JS, AngularJS (1.x),
-      Node.js, React, Redux, GraphQL (Apollo), CSS, Sass,
-      Postgresql, MySQL, SQLite, Apache, nginx, lighttpd, Linux, Mac OS X.
+      development and/or repurposing of content, and maintenance.
     location: Mendota Heights, Minnesota
     accomplishments_and_duties:
       - User experience and User-centered design for interactive web sites
@@ -250,8 +238,26 @@ experience:
       - Creation and developing on frameworks for generating static web sites
       - Frameworks and infrastructure to implement business logic and web site features
       - Environments and tools for development, testing, integration and deployment
-      - Teach and coach new developers
-      - Volunteer mentor/coach/instructor for Rails.MN, RubyBridge, Twin Cities Rails hack night
+      - Teach and coach new developers, running "Toast \& Tech" study groups
+      - Volunteer mentor/coach/instructor for Women Who Code Twin Cities, Hack-the-Gap, Code Switch (Code for America)
+
+  - label: javascriptmn
+    omit: true
+    years: 2019-present
+    duration:
+      from:
+        year: 2019
+        month: 1
+    position: Board Member
+    company: JavaScript MN
+    location: Minneapolis, Minnesota
+    description: >-
+      Board member to help produce the monthly JavaScript users group in Minnesota.
+    accomplishments_and_duties:
+      - convince JS users in the communitity to give talks at meetups
+      - coach speakers
+      - welcome attendees, ensure the space is welcoming and inclusive for all comers
+      - reach out to underserved communities to help them participate
 
   - label: gdi-mpls
     omit: true
