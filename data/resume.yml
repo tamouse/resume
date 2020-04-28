@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2020-04-28 15:57:39 tamara>
+  Time-stamp: <2020-04-28 16:01:17 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -210,10 +210,11 @@ experience:
     location: Minneapolis, Minnesota
     accomplishments_and_duties:
       - work on the Kickserv product
-      - build robust APIs to enable modern web client applications for desktop and mobile to access backend data
-      - migrate API to use GraphQL in Ruby
+      - build robust APIs (REST and GraphQL) to enable modern web client applications for desktop and mobile to access backend data
+      - migrate REST API to GraphQL API
       - create a React web client using Apollo to talk GraphQL to the back end application
-      - fix defects in existing frontend software
+      - create various React components to work in Rails webpacker environment with AJAX services using both REST and GraphQL
+      - migrate legacy javascript to modern webpacker architecture
       - deployments to AWS ECS via terraform
       - work with other engineers to build common components
 
