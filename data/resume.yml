@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2020-04-17 09:13:09 tamara>
+  Time-stamp: <2020-04-28 15:14:52 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -129,17 +129,15 @@ skills:
     - Netlify
     - nginx
     - puma
+    - AWS ECS, EBS, S3, Cloudfront
   static_site_generators:
     - jekyll
     - middleman
-    - hugo
     - gatsby
-    - elleventy
   tools:
     - Emacs
     - Webstorm
     - RubyMine
-    - bundler
     - rake
     - thor
     - yeoman (yo)
@@ -216,6 +214,7 @@ experience:
       - migrate API to use GraphQL in Ruby
       - create a React web client using Apollo to talk GraphQL to the back end application
       - fix defects in existing frontend software
+      - deployments to AWS ECS via terraform
       - work with other engineers to build common components
 
   - label: ttwebdev
@@ -326,8 +325,8 @@ experience:
       - write training questions and entity extraction code
       - write extraction, transfer, and load scripts for external data
       - provide code review and expertise to other project members
-      - Wrote mainly in Python
-
+      - wrote mainly in Python
+      - deployments using Ansible to AWS
 
   - label: ackmann-dickenson
     years: 2013-2016
@@ -353,6 +352,7 @@ experience:
       - Massive and complex data analysis product
       - Data ETL middle layer to provide a massive speed-up for an e-commerce website
       - Lots of Ruby on Rails and JavaScript
+      - Deployments using chef, puppet, and ansible to Rackspace and AWS EBS
 
   - label: prior
     years: 1980-present
