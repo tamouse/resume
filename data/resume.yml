@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2020-04-28 15:14:52 tamara>
+  Time-stamp: <2020-04-28 15:57:39 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -87,7 +87,7 @@ skills:
     - architecture
     - full-stack
     - backend
-    - APIs
+    - "APIs: SOAP, REST, GraphQL, other"
     - frontend
     - low-level design
     - coding
