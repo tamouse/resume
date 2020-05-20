@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2020-04-28 16:04:54 tamara>
+  Time-stamp: <2020-05-20 09:31:26 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -135,6 +135,7 @@ skills:
     - middleman
     - gatsby
   tools:
+    - Node.js
     - Emacs
     - Webstorm
     - RubyMine
@@ -184,8 +185,8 @@ additional_training:
 self_training:
   Scripting: Bash/Grep/Sed/Awk, Perl, Ruby, Python
   Web Development: Perl/CGI, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, TypeScrpt
-  Testing: "TDD & BDD, RSpec, Cucumber, Watir-Webdriver, Mocha, Jasmine, Kharma, Protractor, Jest, Enzyme"
-  JavaScript: jQuery, Backbone.js, Node.js, Angular 2, React/Redux, Node.js, Webpack, Babel
+  Testing: "TDD & BDD, RSpec, Jest, JS Testing Library"
+  JavaScript: React, jQuery, Backbone, Node, Webpack, Babel
   Static Websites: Jekyll, Middleman, Gatsby
   Web: Web interface design, Web application design, User Experience
   Relational database management and database design: MySQL, SQLite, PostgreSQL
@@ -193,32 +194,6 @@ self_training:
   Unix and Linux System Administration and DevOps: Chef, Puppet, Ansible, Vagrant, Docker
   Continuous Everything: Guard, Travis-CI, CircleCI, Codeship.IO, Git Hooks, Jenkins
 experience:
-  - label: kickserv
-    years: 2017-2020
-    duration:
-      from:
-        year: 2017
-        month: 3
-      to:
-        year: 2020
-        month: 4
-    position: "API-driven Rubyist, React/GraphQL Maven"
-    company: ReachLocal (Gannett)
-    description: >-
-      Implement modern GraphQL APIs in Ruby for the Kickerv product, and develop
-      replacement React web client using GraphQL interface with Apollo Client.
-    location: Minneapolis, Minnesota
-    accomplishments_and_duties:
-      - work on the Kickserv product
-      - build robust APIs (REST and GraphQL) to enable modern web client applications for desktop and mobile to access backend data
-      - migrate REST API to GraphQL API
-      - create a React web client using Apollo to talk GraphQL to the back end application
-      - create various React components to work in Rails webpacker environment with AJAX services using both REST and GraphQL
-      - migrate legacy javascript to modern webpacker architecture
-      - write code to consume 3rd party REST and SOAP APIs
-      - deployments to AWS ECS via terraform
-      - work with other engineers to build common components
-
   - label: ttwebdev
     years: 2001-present
     duration:
@@ -259,6 +234,32 @@ experience:
       - coach speakers
       - welcome attendees, ensure the space is welcoming and inclusive for all comers
       - reach out to underserved communities to help them participate
+
+  - label: kickserv
+    years: 2017-2020
+    duration:
+      from:
+        year: 2017
+        month: 3
+      to:
+        year: 2020
+        month: 4
+    position: "API-driven Rubyist, React/GraphQL Maven"
+    company: ReachLocal (Gannett)
+    description: >-
+      Implement modern GraphQL APIs in Ruby for the Kickerv product, and develop
+      replacement React web client using GraphQL interface with Apollo Client.
+    location: Minneapolis, Minnesota
+    accomplishments_and_duties:
+      - work on the Kickserv product
+      - build robust APIs (REST and GraphQL) to enable modern web client applications for desktop and mobile to access backend data
+      - migrate REST API to GraphQL API
+      - create a React web client using Apollo to talk GraphQL to the back end application
+      - create various React components to work in Rails webpacker environment with AJAX services using both REST and GraphQL
+      - migrate legacy javascript to modern webpacker architecture
+      - write code to consume 3rd party REST and SOAP APIs
+      - deployments to AWS ECS via terraform
+      - work with other engineers to build common components
 
   - label: gdi-mpls
     omit: true
