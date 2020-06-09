@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2020-05-20 09:31:26 tamara>
+  Time-stamp: <2020-06-09 14:58:03 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -13,7 +13,7 @@ contact_info:
       apartment: 202
       city: Mendota Heights
       state: MN
-      zip: 55118
+      postcode: 55118
   email:
     - label: Main
       address: tamara@tamouse.org
@@ -23,7 +23,7 @@ contact_info:
     - label: Mobile
       number: +1-651-485-2195
     - label: Gvoice
-      number: +1-415 503-9241
+      number: +1-415-503-9241
   web_sites:
     - label: Home
       url: https://tamouse.org
@@ -247,19 +247,17 @@ experience:
     position: "API-driven Rubyist, React/GraphQL Maven"
     company: ReachLocal (Gannett)
     description: >-
-      Implement modern GraphQL APIs in Ruby for the Kickerv product, and develop
-      replacement React web client using GraphQL interface with Apollo Client.
+      Software engineering across the entire Kickserv application stack from the back end in Ruby on Rails with a Postgresql database, implementing a GraphQL server controller with various queries, types, mutations, and resolvers to implement a GraphQL API, and create a React front end that consumes that GraphQL API with Apolloclient in order to replace the legacy JavaScript code from over a decade of various implementation styles and libraries, giving a modern, cohesive approach to front end web application development.
     location: Minneapolis, Minnesota
     accomplishments_and_duties:
-      - work on the Kickserv product
-      - build robust APIs (REST and GraphQL) to enable modern web client applications for desktop and mobile to access backend data
-      - migrate REST API to GraphQL API
-      - create a React web client using Apollo to talk GraphQL to the back end application
-      - create various React components to work in Rails webpacker environment with AJAX services using both REST and GraphQL
-      - migrate legacy javascript to modern webpacker architecture
-      - write code to consume 3rd party REST and SOAP APIs
-      - deployments to AWS ECS via terraform
-      - work with other engineers to build common components
+      - provide queries, mutations, types, and resolvers that call Rails ActiveRecord and ActiveModel models to create, read, update, and destroy records as necessary for the operation of the application.
+      - architect and develop the JavaScript front end code in React to provide a good separation of concerns ensuring testability and writing tests where none existed prior; lowering maintenance costs, and ensuring easy replaceability to enable new features to be added with less overall effort and more predictability.
+      - build Rails models, controllers, views, and React components for new Kickserv features.
+      - rewrite several legacy JavaScript and jQuery files into cohesive React component trees.
+      - implement various POROs (Plain Old Ruby Objects) to extract complicated and repeated code from controllers into testable and repurposeable units, including service objects for interfacing with third party APIs.
+      - rebuild all the tooling for building, testing, and delivering front end code with the Rails application, using modern build technology such as webpack (using webpacker), jest, and the JavaScript Testing Library
+      - document all work in order to provide other current and future engineers information on how to use and extend the GraphQL API and React front end components and architecture
+      - mentor, train, coach, and guide other engineers in learning Ruby, Rails, JavaScript, React, GraphQL, Apollo and the architecture and technologies used in the Kickserv product, as well as useful documentation skills, communication skills, remote team interactions, planning, estimating, and management skills
 
   - label: gdi-mpls
     omit: true
