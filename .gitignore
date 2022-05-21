@@ -12,3 +12,6 @@ public
 tmp
 
 .vendor/
+*.aux
+*.log
+*.out
