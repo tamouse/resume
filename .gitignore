@@ -2,8 +2,8 @@
 .bundle/
 
 # Ignore the build directory
-build
-public
+build/*
+public/*
 
 # Ignore Sass' cache
 .sass-cache
