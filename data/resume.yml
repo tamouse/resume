@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2020-06-09 14:58:03 tamara>
+  Time-stamp: <2022-05-21 17:26:58 tamouse>
 name:
   given: Tamara
   middle: Paula
@@ -27,10 +27,12 @@ contact_info:
   web_sites:
     - label: Home
       url: https://tamouse.org
+    - label: Calendly
+      url: https://calendly.com/tamouse
     - label: Github
       url: https://github.com/tamouse
     - label: DevBlog
-      url: https://swaac.tamouse.org
+      url: https://swaac.dev
     - label: Twitter
       url: https://twitter.com/tamouse
     - label: LinkedIn
@@ -63,6 +65,8 @@ summary:
   - '* designing and assembling development-to-deployment processes'
   - '* creating sharable development environments'
 summary_links:
+  - text: Murmurations at Drip
+    link: https://www.dripships.gold/2021/07/09/murmurations-at-drip.html
   - text: Software As A Craft
     link: https://github.com/tamouse/swaac/blob/master/posts/2011/01/swaac-intro.org
   - text: Test Driven Development
@@ -77,91 +81,87 @@ brief_summary: |
     applications, user experience, and team building. Presently working at the intersection of Rails, GraphQL, and React, developing modern web applications with fast response times.
 skills:
   general:
-    - software engineering
-    - web development
     - business analysis
     - consulting
     - facilitating
+    - software engineering
     - teaching
+    - web development
   software_engineering:
+    - "APIs, REST, GraphQL"
     - architecture
-    - full-stack
     - backend
-    - frontend
-    - low-level design
     - coding
     - debugging
+    - frontend
+    - full-stack
+    - low-level design
     - testing
     - tool chains
-    - "APIs: SOAP, REST, GraphQL"
-  web_frameworks:
-    - Rails
-    - Sinatra
-    - Django
-    - Flask
-    - Express
-    - ApolloServer
-    - JAMstack
-    - Gatsby
-  web_libraries:
-    - React
-    - GraphQL
+  web_libraries_and_frameworks:
     - ApolloClient
+    - ApolloServer
+    - GraphQL
+    - jekyll
+    - middleman
+    - Rails
+    - React
+    - Sinatra
   databases:
     - PostgreSQL
-    - MySQL
-    - SQLite
-    - MongoDB
     - Redis
+    - TimeScaleDB
   languages:
-    - Ruby
-    - JavaScript
-    - Perl
-    - Shell
-    - Python 3
-    - PHP
-    - HTML5
-    - CSS3
-    - SCSS/SASS
-    - HAML
     - C/C++
+    - CSS3
+    - HAML
+    - HTML5
+    - JavaScript
+    - PHP
+    - Perl
+    - Python 3
+    - Ruby
+    - SCSS/SASS
+    - Shell
   servers:
+    - AWS ECS, EBS, S3, Cloudfront
     - Netlify
     - nginx
     - puma
-    - AWS ECS, EBS, S3, Cloudfront
-  static_site_generators:
-    - jekyll
-    - middleman
-    - gatsby
+    - unicorn
   tools:
-    - Node.js
-    - Emacs
-    - Webstorm
-    - RubyMine
-    - rake
-    - thor
-    - yeoman (yo)
-    - webpack
     - babel
-    - npm/npx
-    - gulp
+    - Emacs and Org-mode
     - make
+    - Miro
+    - Node.js
+    - Notion
+    - npm/npx
+    - rake
+    - RubyMine
+    - Storybook
+    - thor
+    - webpack
+    - Webstorm
+    - yeoman (yo)
   testing:
+    - Jest
     - Minitest
     - RSpec
-    - Jest
     - Testing Library
+
 methodologies:
-  - Program architecture and design
-  - User-/task-centered design
-  - Test-/behaviour-driven development
-  - Structured analysis, design, development, and testing
-  - Process flow analysis, systems theory, cybernetics
-  - Object-oriented analysis, design, programming, and testing
   - Agile development, scrum master
-  - 'Continuous everything: integration, testing, deployment'
+  - Continuous everything -- integration, testing, deployment
+  - Object-oriented analysis, design, programming, and testing
   - Precision elicitation and facilitation, communication for action
+  - Process flow analysis, systems theory, cybernetics
+  - Program architecture and design
+  - NLP (Neuro-linguistic Programming), practitioner
+  - Structured analysis, design, development, and testing
+  - Test-/behaviour-driven development
+  - Time series analysis
+  - User-/task-centered design
 
 education:
   - label: bscs
@@ -182,6 +182,7 @@ additional_training:
   - "You Don't Know JS with Kyle Simpson"
   - "Advanced JavaScript"
   - Numerous courses through FrontendMasters.com on React, Webpack, GraphQL, JAMstack, Angular, others
+
 self_training:
   Scripting: Bash/Grep/Sed/Awk, Perl, Ruby, Python
   Web Development: Perl/CGI, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, TypeScrpt
@@ -190,32 +191,38 @@ self_training:
   Static Websites: Jekyll, Middleman, Gatsby
   Web: Web interface design, Web application design, User Experience
   Relational database management and database design: MySQL, SQLite, PostgreSQL
+  Time series analysis: TimeScaleDB
   Non-relational (key-value) database management and design: MongoDB, Redis, Cassandra
   Unix and Linux System Administration and DevOps: Chef, Puppet, Ansible, Vagrant, Docker
   Continuous Everything: Guard, Travis-CI, CircleCI, Codeship.IO, Git Hooks, Jenkins
+
 experience:
-  - label: ttwebdev
-    years: 2001-present
+
+  - label: drip
+    years: 2020-2022
     duration:
       from:
-        year: 2001
-        month: 9
-    position: Web Developer
-    company: Pontiki Software Crafts
+        year: 2020
+        month: 7
+      to:
+        year: 2022
+        month: 5
+    position: Staff Software Engineer
+    company: Drip, LLC
+    location: Remote
     description: >-
-      Freelance web design and development, including pro bono work
-      for non-profits and individuals desiring a presence on the Web. Includes finding
-      hosting space, development of information architecture, design layout of site,
-      development and/or repurposing of content, and maintenance.
-    location: Mendota Heights, Minnesota
+      Primarily focused on providing consumer and market analytics, insights, and guidance in the Drip app that enables Drip customers to become more capable email marketers. Acted as a project manager to plan, document, and track projects for the team. Software architecture and design for major features in the insights area, and providing mentoring, direction and guidance to other engineers in Drip.
     accomplishments_and_duties:
-      - User experience and User-centered design for interactive web sites
-      - Database design for dynamic web sites and applications
-      - Creation and developing on frameworks for generating static web sites
-      - Frameworks and infrastructure to implement business logic and web site features
-      - Environments and tools for development, testing, integration and deployment
-      - Teach and coach new developers, running "Toast \& Tech" study groups
-      - Volunteer mentor/coach/instructor for Women Who Code Twin Cities, Hack-the-Gap, Code Switch (Code for America)
+      - Member of the Diversity, Equity, and Inclusion team at Drip, and led the DEI Affinity Groups project to produce a guide for forming and running affinity groups (i.e. employee resource groups) within Drip
+      - Led a team to produce a mentoring and learning environment at Drip, including a guide for mentors and mentees, tools to find or offer mentoring, connecting mentees with mentors, and reporting results
+      - Mentored individuals new to the organization and new to software engineering. Provided mentoring, feedback, and guidance to individuals seeking to expand their understanding and skills
+      - In the absense of any project management or leadership in the insights area, acted to perform discovery, planning, discussion, documentation, and create the Epics and Stories for each project, and monitored seeing it through to completion
+      - Taught and led several forward-viewing project and team retrospectives to provide learning and actionable changes. Feedback from these was very positive, sometimes the participants were surprised at how well they worked
+      - Designed an architecture to provide a Guidance System that would be able to take requirements and copy for guidance from any product team and others, and provide it to the front end where needed based on metrices and benchmarks
+      - Developed a microservice to deliver time scale metrics in order to speed up customer analytics pages
+      - Developed an architecture for providing recommendations, insights, and proposed next actions to Drip users (i.e. email marketers)
+      - Contributed on company-wide quality weeks and company-wide SMS feature initiative
+      - Contributed to engineering-wide improvement projects
 
   - label: javascriptmn
     omit: true
@@ -258,6 +265,32 @@ experience:
       - rebuild all the tooling for building, testing, and delivering front end code with the Rails application, using modern build technology such as webpack (using webpacker), jest, and the JavaScript Testing Library
       - document all work in order to provide other current and future engineers information on how to use and extend the GraphQL API and React front end components and architecture
       - mentor, train, coach, and guide other engineers in learning Ruby, Rails, JavaScript, React, GraphQL, Apollo and the architecture and technologies used in the Kickserv product, as well as useful documentation skills, communication skills, remote team interactions, planning, estimating, and management skills
+
+  - label: ttwebdev
+    years: 2001-2017
+    duration:
+      from:
+        year: 2001
+        month: 9
+      to:
+        year: 2017
+        month: 3
+    position: Web Developer
+    company: Pontiki Software Crafts
+    description: >-
+      Freelance web design and development, including pro bono work
+      for non-profits and individuals desiring a presence on the Web. Includes finding
+      hosting space, development of information architecture, design layout of site,
+      development and/or repurposing of content, and maintenance.
+    location: Mendota Heights, Minnesota
+    accomplishments_and_duties:
+      - User experience and User-centered design for interactive web sites
+      - Database design for dynamic web sites and applications
+      - Creation and developing on frameworks for generating static web sites
+      - Frameworks and infrastructure to implement business logic and web site features
+      - Environments and tools for development, testing, integration and deployment
+      - Teach and coach new developers, running "Toast \& Tech" study groups
+      - Volunteer mentor/coach/instructor for Women Who Code Twin Cities, Hack-the-Gap, Code Switch (Code for America)
 
   - label: gdi-mpls
     omit: true

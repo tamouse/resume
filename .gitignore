@@ -12,6 +12,7 @@ public/*
 tmp
 
 .vendor/
+vendor/*
 *.aux
 *.log
 *.out
