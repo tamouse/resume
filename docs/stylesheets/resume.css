@@ -2,5 +2,6 @@
 .job {padding-bottom: 2em; margin-bottom: 2em; border-bottom: 1px solid #999}
 .page-header{border-bottom: 1px dotted #333;}
 /* .navbar a {color: #CCC} */
-.job-info .position {font-weight: bold; font-style: italic;}
+.job-info .position {font-size: 120%; font-weight: bold; font-style: italic;}
 .job-info .company {font-weight: bold; font-size: 110%;}
+.job-dates { max-width: 200px; font-size: 120%;  }
