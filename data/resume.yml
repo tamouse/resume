@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2022-05-23 12:11:23 tamouse>
+  Time-stamp: <2022-05-23 17:13:15 tamouse>
 name:
   given: Tamara
   middle: Paula
@@ -76,10 +76,10 @@ summary_links:
   - text: Technical Debt (Martin Fowler)
     link: http://martinfowler.com/bliki/TechnicalDebt.html
 brief_summary: |
-    Deeply experienced in software architecture, design, and development methodologies,
-    especially related to the disciplines of web applications, user experience, team
-    building, and processes. Working at the intersection of Rails, GraphQL, and React,
-    developing modern web applications with fast response times.
+    Working at the intersection of Rails, GraphQL, and React, developing modern web
+    applications with fast response times. Deeply experienced in software architecture,
+    design, and development methodologies, especially related to the disciplines of web
+    applications, user experience, team building, and processes.
 skills:
   general:
     - business analysis
@@ -89,14 +89,17 @@ skills:
     - teaching
     - web development
   software_engineering:
-    - "APIs, REST, GraphQL"
+    - APIs
     - architecture
     - backend
     - coding
     - debugging
     - frontend
     - full-stack
+    - GraphQL
     - low-level design
+    - macro- and microservices
+    - REST
     - testing
     - tool chains
   libraries_+_frameworks:
@@ -113,9 +116,7 @@ skills:
     - Redis
     - TimeScaleDB
   languages:
-    - C/C++
     - CSS3
-    - HAML
     - HTML5
     - JavaScript
     - PHP
@@ -153,7 +154,8 @@ skills:
 
 methodologies:
   - Agile development, scrum master
-  - Continuous everything -- integration, testing, deployment
+  - Continuous everything -- testing, integration, deployment (CT/CI/CD)
+  - Functional Programming
   - Object-oriented analysis, design, programming, and testing
   - Precision elicitation and facilitation, communication for action
   - Process flow analysis, systems theory, cybernetics
