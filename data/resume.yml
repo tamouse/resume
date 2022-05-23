@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2022-05-23 17:13:15 tamouse>
+  Time-stamp: <2022-05-23 17:30:21 tamouse>
 name:
   given: Tamara
   middle: Paula
@@ -236,7 +236,7 @@ experience:
         month: 1
     position: Board Member
     company: JavaScript MN
-    location: Minneapolis, Minnesota
+    location: Minneapolis, Minnesota/Remote
     description: >-
       Board member to help produce the monthly JavaScript users group in Minnesota.
     accomplishments_and_duties:
@@ -258,7 +258,7 @@ experience:
     company: ReachLocal (Gannett)
     description: >-
       Software engineering across the entire Kickserv application stack from the back end in Ruby on Rails with a Postgresql database, implementing a GraphQL server controller with various queries, types, mutations, and resolvers to implement a GraphQL API, and create a React front end that consumes that GraphQL API with Apolloclient in order to replace the legacy JavaScript code from over a decade of various implementation styles and libraries, giving a modern, cohesive approach to front end web application development.
-    location: Minneapolis, Minnesota
+    location: Minneapolis, Minnesota/Remote
     accomplishments_and_duties:
       - provide queries, mutations, types, and resolvers that call Rails ActiveRecord and ActiveModel models to create, read, update, and destroy records as necessary for the operation of the application.
       - architect and develop the JavaScript front end code in React to provide a good separation of concerns ensuring testability and writing tests where none existed prior; lowering maintenance costs, and ensuring easy replaceability to enable new features to be added with less overall effort and more predictability.
@@ -285,7 +285,7 @@ experience:
       for non-profits and individuals desiring a presence on the Web. Includes finding
       hosting space, development of information architecture, design layout of site,
       development and/or repurposing of content, and maintenance.
-    location: Mendota Heights, Minnesota
+    location: Mendota Heights, Minnesota/Remote
     accomplishments_and_duties:
       - User experience and User-centered design for interactive web sites
       - Database design for dynamic web sites and applications
@@ -353,7 +353,7 @@ experience:
         year: 2017
         month: 3
     position: Contract Software Developer
-    location: Minneapolis, Minnesota
+    location: Minneapolis, Minnesota/Remote
     description: >-
       Provide software to enable clients to query a large datastore
       with natural language and return meaningful datasets.
@@ -376,7 +376,7 @@ experience:
         month: 4
     position: Contract Software Developer
     company: "Ackmann-Dickenson"
-    location: Minneapolis, Minnesota
+    location: Minneapolis, Minnesota/Remote
     description: >-
       Contract development in the areas of Rails and JavaScript on
       several A-D projects.
@@ -398,7 +398,7 @@ experience:
         month: 7
         year: 1980
     position: Various positions
-    company: Hewlett-Packard, Shopzilla, NovuHealth, BluewaterBrand
+    company: Hewlett-Packard (San Jose, Palo Alto), Shopzilla (Los Angeles), NovuHealth (St. Louis Park), BluewaterBrand (Remote)
     description: >-
       Career as a software developer, business analyst, process and
       technology consultant, author, facilitator, trainer

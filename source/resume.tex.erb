@@ -13,6 +13,7 @@ layout: false
 \moderncvcolor{blue}
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 \usepackage[scale=0.8]{geometry}
+\usepackage{parskip}
 
 % personal data
 \name{<%= data.resume.name.given %> <%= data.resume.name.middle %>}{<%= data.resume.name.family %>}
@@ -53,6 +54,7 @@ layout: false
 
 \cvline{Additional Training}{<%= data.resume.additional_training.join(", ")%>}
 
+\pagebreak
 \section{Experience}
 <% data.resume.experience.each do |job| %>
 <% next if job.omit %>

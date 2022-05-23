@@ -4,6 +4,7 @@
     %small who I am and what I do
 .row
   .col-md-6.col-md-offset-1
+    %p= brief_summary
     - summary.each do |par|
       :markdown
         #{par}
