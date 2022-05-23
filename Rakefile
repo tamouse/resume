@@ -6,7 +6,7 @@ task :deploy => :build do
   cp_r 'build', 'docs'
   sh 'git add --all --verbose'
   sh "git commit -m 'Published #{Time.now.strftime("%FT%T.%Z")}'"
-  sh "git push  origin master"
+  sh "git push  origin main"
 end
 
 desc "Build the site"
