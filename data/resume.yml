@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2022-05-23 17:30:21 tamouse>
+  Time-stamp: <2022-05-27 11:47:17 tamouse>
 name:
   given: Tamara
   middle: Paula
@@ -216,16 +216,13 @@ experience:
     description: >-
       Primarily focused on providing consumer and market analytics, insights, and guidance in the Drip app that enables Drip customers to become more capable email marketers. Acted as a project manager to plan, document, and track projects for the team. Software architecture and design for major features in the insights area, and providing mentoring, direction and guidance to other engineers in Drip.
     accomplishments_and_duties:
+      - Developed an architecture for providing recommendations, insights, and proposed next actions to Drip users (i.e. email marketers)
+      - Developed a microservice to deliver time scale metrics in order to speed up customer analytics pages
+      - Designed an architecture to provide a Guidance System that would be able to take requirements and copy for guidance from any product team and others, and provide it to the front end where needed based on metrices and benchmarks
       - Member of the Diversity, Equity, and Inclusion team at Drip, and led the DEI Affinity Groups project to produce a guide for forming and running affinity groups (i.e. employee resource groups) within Drip
       - Led a team to produce a mentoring and learning environment at Drip, including a guide for mentors and mentees, tools to find or offer mentoring, connecting mentees with mentors, and reporting results
-      - Mentored individuals new to the organization and new to software engineering. Provided mentoring, feedback, and guidance to individuals seeking to expand their understanding and skills
       - In the absense of any project management or leadership in the insights area, acted to perform discovery, planning, discussion, documentation, and create the Epics and Stories for each project, and monitored seeing it through to completion
-      - Taught and led several forward-viewing project and team retrospectives to provide learning and actionable changes. Feedback from these was very positive, sometimes the participants were surprised at how well they worked
-      - Designed an architecture to provide a Guidance System that would be able to take requirements and copy for guidance from any product team and others, and provide it to the front end where needed based on metrices and benchmarks
-      - Developed a microservice to deliver time scale metrics in order to speed up customer analytics pages
-      - Developed an architecture for providing recommendations, insights, and proposed next actions to Drip users (i.e. email marketers)
-      - Contributed on company-wide quality weeks and company-wide SMS feature initiative
-      - Contributed to engineering-wide improvement projects
+      
 
   - label: javascriptmn
     omit: true
@@ -240,10 +237,10 @@ experience:
     description: >-
       Board member to help produce the monthly JavaScript users group in Minnesota.
     accomplishments_and_duties:
-      - convince JS users in the communitity to give talks at meetups
-      - coach speakers
-      - welcome attendees, ensure the space is welcoming and inclusive for all comers
-      - reach out to underserved communities to help them participate
+      - convinced Javascript users in the communitity to give talks at meetups
+      - coached speakers
+      - welcomed attendees, ensure the space is welcoming and inclusive for all comers
+      - reached out to underserved communities to help them participate
 
   - label: kickserv
     years: 2017-2020
@@ -255,45 +252,16 @@ experience:
         year: 2020
         month: 4
     position: "API-driven Rubyist, React/GraphQL Maven"
-    company: ReachLocal (Gannett)
+    company: ReachLocal (Gannett), Kickserv Product
     description: >-
-      Software engineering across the entire Kickserv application stack from the back end in Ruby on Rails with a Postgresql database, implementing a GraphQL server controller with various queries, types, mutations, and resolvers to implement a GraphQL API, and create a React front end that consumes that GraphQL API with Apolloclient in order to replace the legacy JavaScript code from over a decade of various implementation styles and libraries, giving a modern, cohesive approach to front end web application development.
+      Software engineering across the entire application stack from the back end in Ruby on Rails with a Postgresql database, implementing a GraphQL server controller with various queries, types, mutations, and resolvers to implement a GraphQL API, and create a React front end that consumes that GraphQL API with Apolloclient in order to replace the legacy JavaScript code from over a decade of various implementation styles and libraries, giving a modern, cohesive approach to front end web application development.
     location: Minneapolis, Minnesota/Remote
     accomplishments_and_duties:
-      - provide queries, mutations, types, and resolvers that call Rails ActiveRecord and ActiveModel models to create, read, update, and destroy records as necessary for the operation of the application.
-      - architect and develop the JavaScript front end code in React to provide a good separation of concerns ensuring testability and writing tests where none existed prior; lowering maintenance costs, and ensuring easy replaceability to enable new features to be added with less overall effort and more predictability.
-      - build Rails models, controllers, views, and React components for new Kickserv features.
-      - rewrite several legacy JavaScript and jQuery files into cohesive React component trees.
-      - implement various POROs (Plain Old Ruby Objects) to extract complicated and repeated code from controllers into testable and repurposeable units, including service objects for interfacing with third party APIs.
-      - rebuild all the tooling for building, testing, and delivering front end code with the Rails application, using modern build technology such as webpack (using webpacker), jest, and the JavaScript Testing Library
-      - document all work in order to provide other current and future engineers information on how to use and extend the GraphQL API and React front end components and architecture
-      - mentor, train, coach, and guide other engineers in learning Ruby, Rails, JavaScript, React, GraphQL, Apollo and the architecture and technologies used in the Kickserv product, as well as useful documentation skills, communication skills, remote team interactions, planning, estimating, and management skills
+      - developed the Rails GraphQL backend for the product.
+      - architected and developed the JavaScript front end code in React to provide a good separation of concerns ensuring testability and writing tests where none existed prior; lowering maintenance costs, and ensuring easy replaceability to enable new features to be added with less overall effort and more predictability.
+      - built Rails models, controllers, views, and React components for new Kickserv features.
+      - rebuilt all the tooling for building, testing, and delivering front end code with the Rails application, using modern build technology such as webpack (using webpacker), jest, and the JavaScript Testing Library
 
-  - label: ttwebdev
-    years: 2001-2017
-    duration:
-      from:
-        year: 2001
-        month: 9
-      to:
-        year: 2017
-        month: 3
-    position: Web Developer
-    company: Pontiki Software Crafts
-    description: >-
-      Freelance web design and development, including pro bono work
-      for non-profits and individuals desiring a presence on the Web. Includes finding
-      hosting space, development of information architecture, design layout of site,
-      development and/or repurposing of content, and maintenance.
-    location: Mendota Heights, Minnesota/Remote
-    accomplishments_and_duties:
-      - User experience and User-centered design for interactive web sites
-      - Database design for dynamic web sites and applications
-      - Creation and developing on frameworks for generating static web sites
-      - Frameworks and infrastructure to implement business logic and web site features
-      - Environments and tools for development, testing, integration and deployment
-      - Teach and coach new developers, running "Toast \& Tech" study groups
-      - Volunteer mentor/coach/instructor for Women Who Code Twin Cities, Hack-the-Gap, Code Switch (Code for America)
 
   - label: gdi-mpls
     omit: true
@@ -319,7 +287,7 @@ experience:
       <br><br>
       <strong>Do not support this group. It is not diverse or inclusive. Worse, it refuses to admit and confront these failings in itself.</strong>
     accomplishments_and_duties:
-      - mentor, teach
+      - mentoring, teaching
 
   - label: railsmn
     omit: true
@@ -338,11 +306,32 @@ experience:
       Train people new to Ruby on Rails how to develop web
       applications using the Rails framework.
     accomplishments_and_duties:
-      - Teach monthly classes
-      - Provide resources and support for students
-      - Maintain web resources
+      - Taught monthly classes
+      - Provided resources and support for students
+      - Maintained web resources
+
+
+
+  - label: ttwebdev
+    years: 2001-2017
+    duration:
+      from:
+        year: 2001
+        month: 9
+      to:
+        year: 2017
+        month: 3
+    position: Indepndent Contractor
+    company: Pontiki Software Crafts
+    description: >-
+      Constract software development of web applications, websites, and tools
+    location: Mendota Heights, Minnesota/Remote
+    accomplishments_and_duties:
+      - "Clients: Ackmann and Dickenson, Software for Good, Bluewaterbrand, Novu, Shopzilla"
+      
 
   - label: sfg
+    omit: true
     company: "Software for Good"
     years: 2016-2017
     duration:
@@ -359,13 +348,10 @@ experience:
       with natural language and return meaningful datasets.
     accomplishments_and_duties:
       - write anisble and shell scripts to deploy project to staging
-      - write training questions and entity extraction code
-      - write extraction, transfer, and load scripts for external data
-      - provide code review and expertise to other project members
-      - wrote mainly in Python
-      - deployments using Ansible to AWS
+      - write natural language training questions and entity extraction code
 
   - label: ackmann-dickenson
+    omit: true
     years: 2013-2016
     duration:
       from:
@@ -381,15 +367,11 @@ experience:
       Contract development in the areas of Rails and JavaScript on
       several A-D projects.
     accomplishments_and_duties:
-      - Pro subscriptions and e-commerce in Brewtoad
-      - One-button recipe ordering in Brewtoad
+      - Pro subscriptions and e-commerce
+      - One-button recipe ordering
       - Customer Onboarding
       - Micro-service architecture and implementation
-      - Angular SPA clients for MSA backend
-      - Massive and complex data analysis product
-      - Data ETL middle layer to provide a massive speed-up for an e-commerce website
       - Lots of Ruby on Rails and JavaScript
-      - Deployments using chef, puppet, and ansible to Rackspace and AWS EBS
 
   - label: prior
     years: 1980-present
@@ -398,15 +380,9 @@ experience:
         month: 7
         year: 1980
     position: Various positions
-    company: Hewlett-Packard (San Jose, Palo Alto), Shopzilla (Los Angeles), NovuHealth (St. Louis Park), BluewaterBrand (Remote)
+    company: Hewlett-Packard (San Jose, Palo Alto)
     description: >-
-      Career as a software developer, business analyst, process and
-      technology consultant, author, facilitator, trainer
+      Internal Process and Technology Consultant,  Senior Software Engineer/Scientist, Software Quality Engineer manager of 10 engineers, Senior Software Quality Engineer
     accomplishments_and_duties:
-      - Web development in PHP, JavaScript, Ruby on Rails
-      - Software development on unix system software
-      - Taught relationship-based skills to engineers, managers, and senior execs.
-      - Consulted with various software development groups within Hewlett-Packard to improve software development capabilities
-      - Developed software for network management at Hewlett-Packard
-      - Software Quality Engineer manager of 10 engineers
-      - Software Quality Engineer
+      - Career as a software developer, business analyst,
+        process and technology consultant, author, facilitator, trainer
