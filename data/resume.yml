@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Craftsperson
 last_update:
-  Time-stamp: <2022-05-27 11:47:17 tamouse>
+  Time-stamp: <2022-05-27 12:34:27 tamouse>
 name:
   given: Tamara
   middle: Paula
@@ -29,6 +29,8 @@ contact_info:
       url: https://tamouse.org
     - label: Calendly
       url: https://calendly.com/tamouse
+    - label: Telegram
+      url: https://t.me/tamouse_pontiki
     - label: Github
       url: https://github.com/tamouse
     - label: DevBlog
@@ -39,6 +41,14 @@ contact_info:
       url: https://linkedin.com/in/tamaratemple
     - label: Keybase.IO
       url: https://keybase.io/tamouse_
+    - label: Art
+      url: https://tamouse.art
+    - label: Cooking
+      url: https://recipes.tamouse.org
+    - label: Blog
+      url: https://blog.tamouse.org
+      
+
   social:
     twitter: tamouse
     github: tamouse
@@ -330,59 +340,62 @@ experience:
       - "Clients: Ackmann and Dickenson, Software for Good, Bluewaterbrand, Novu, Shopzilla"
       
 
-  - label: sfg
-    omit: true
-    company: "Software for Good"
-    years: 2016-2017
-    duration:
-      from:
-        year: 2016
-        month: 11
-      to:
-        year: 2017
-        month: 3
-    position: Contract Software Developer
-    location: Minneapolis, Minnesota/Remote
-    description: >-
-      Provide software to enable clients to query a large datastore
-      with natural language and return meaningful datasets.
-    accomplishments_and_duties:
-      - write anisble and shell scripts to deploy project to staging
-      - write natural language training questions and entity extraction code
+  # - label: sfg
+  #   omit: true
+  #   company: "Software for Good"
+  #   years: 2016-2017
+  #   duration:
+  #     from:
+  #       year: 2016
+  #       month: 11
+  #     to:
+  #       year: 2017
+  #       month: 3
+  #   position: Contract Software Developer
+  #   location: Minneapolis, Minnesota/Remote
+  #   description: >-
+  #     Provide software to enable clients to query a large datastore
+  #     with natural language and return meaningful datasets.
+  #   accomplishments_and_duties:
+  #     - write anisble and shell scripts to deploy project to staging
+  #     - write natural language training questions and entity extraction code
 
-  - label: ackmann-dickenson
-    omit: true
-    years: 2013-2016
-    duration:
-      from:
-        year: 2013
-        month: 12
-      to:
-        year: 2016
-        month: 4
-    position: Contract Software Developer
-    company: "Ackmann-Dickenson"
-    location: Minneapolis, Minnesota/Remote
-    description: >-
-      Contract development in the areas of Rails and JavaScript on
-      several A-D projects.
-    accomplishments_and_duties:
-      - Pro subscriptions and e-commerce
-      - One-button recipe ordering
-      - Customer Onboarding
-      - Micro-service architecture and implementation
-      - Lots of Ruby on Rails and JavaScript
+  # - label: ackmann-dickenson
+  #   omit: true
+  #   years: 2013-2016
+  #   duration:
+  #     from:
+  #       year: 2013
+  #       month: 12
+  #     to:
+  #       year: 2016
+  #       month: 4
+  #   position: Contract Software Developer
+  #   company: "Ackmann-Dickenson"
+  #   location: Minneapolis, Minnesota/Remote
+  #   description: >-
+  #     Contract development in the areas of Rails and JavaScript on
+  #     several A-D projects.
+  #   accomplishments_and_duties:
+  #     - Pro subscriptions and e-commerce
+  #     - One-button recipe ordering
+  #     - Customer Onboarding
+  #     - Micro-service architecture and implementation
+  #     - Lots of Ruby on Rails and JavaScript
 
   - label: prior
-    years: 1980-present
+    years: 1980-2001
     duration:
       from:
         month: 7
         year: 1980
+      to:
+        month: 8
+        year: 2001
     position: Various positions
-    company: Hewlett-Packard (San Jose, Palo Alto)
+    company: Hewlett-Packard (San Jose, Palo Alto, CA), Control Data (Arden Hills, MN)
     description: >-
       Internal Process and Technology Consultant,  Senior Software Engineer/Scientist, Software Quality Engineer manager of 10 engineers, Senior Software Quality Engineer
-    accomplishments_and_duties:
-      - Career as a software developer, business analyst,
-        process and technology consultant, author, facilitator, trainer
+    # accomplishments_and_duties:
+    #   - Career as a software developer, business analyst,
+    #     process and technology consultant, author, facilitator, trainer

@@ -13,7 +13,8 @@
 
       %span.location= job.location
     %p.description= job.description
-    %h4 Accomplishments and Duties
-    %ul
-      - job.accomplishments_and_duties.each do |t|
-        %li= t
+    - if job.accomplishments_and_duties
+      %h4 Accomplishments and Duties
+      %ul
+        - job.accomplishments_and_duties.each do |t|
+          %li= t

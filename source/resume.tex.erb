@@ -53,10 +53,11 @@ layout: false
 \cventry{<%= job.years %>}{<%= job.position %>}{<%= job.company %>}{<%= job.location %>}{}{%
 <%= job.description %>
 }
+<% if job.accomplishments_and_duties %>
 <% job.accomplishments_and_duties.each do |duty| %>
 \cvlistitem{\small <%= duty %>}
 <% end %>
-
+<% end %>
 <% end %>
 
 \section{Education}

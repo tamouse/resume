@@ -47,5 +47,6 @@ layout: false
       %span.location= job.location
     .description= job.description
     %ul.duties
-      - job.accomplishments_and_duties.each do |t|
-        %li.task= t
+      - if job.accomplishments_and_duties
+        - job.accomplishments_and_duties.each do |t|
+          %li.task= t
