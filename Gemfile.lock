@@ -92,7 +92,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.7)
-    rack (2.2.3)
+    rack (2.2.3.1)
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.11.1)
@@ -116,6 +116,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   middleman (~> 4)
