@@ -47,14 +47,6 @@ layout: false
 
 \cvline{Methods}{\small <%= data.resume.methodologies.join("; ") %>}
 
-\section{Education}
-<% data.resume.education.each do |e| %>
-\cventry{<%= e.years %>}{<%= e.degree %>}{<%= e.school %>}{<%= e.location %>}{\textit{<%= e.gpa %> GPA}}{}
-<% end %>
-
-\cvline{Additional Training}{<%= data.resume.additional_training.join(", ")%>}
-
-\pagebreak
 \section{Experience}
 <% data.resume.experience.each do |job| %>
 <% next if job.omit %>
@@ -66,6 +58,13 @@ layout: false
 <% end %>
 
 <% end %>
+
+\section{Education}
+<% data.resume.education.each do |e| %>
+\cventry{<%= e.years %>}{<%= e.degree %>}{<%= e.school %>}{<%= e.location %>}{\textit{<%= e.gpa %> GPA}}{}
+<% end %>
+
+\cvline{Additional Training}{<%= data.resume.additional_training.join(", ")%>}
 
 %\subsection{Miscellaneous}
 %\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}% arguments 3 to 6 are optional
