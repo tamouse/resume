@@ -19,3 +19,8 @@ Senior / Staff Software Engineer
 I must be fully remote, with no expectation of ever coming into the office.
 
 - This requires the support of management and coworkers to ensure I’m included in meetings and information exchanged
+
+## salary
+
+- $150-$170,000 base annual
+- not seeking equity
