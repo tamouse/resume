@@ -1,0 +1,17 @@
+- Agile development cycle, scrum, kanban
+- Continuous Everything: Guard, Travis-CI, CircleCI, Codeship.IO, Git Hooks
+- Functional programming: Lisp, SmallTalk, Elm
+- JavaScript: React, jQuery, Backbone, Node, Webpack, Babel
+- Non-relational (key-value) database management and design: MongoDB, Redis, Cassandra
+- Precision elicitation and facilitation, communication for action
+- Process flow analysis, systems theory, cybernetics
+- Relational database management and database design: MySQL, SQLite, PostgreSQL
+- Scripting: Bash/Grep/Sed/Awk, Perl, Ruby, Python
+- Software architecture and design
+- Static Websites: Jekyll, Middleman, Gatsby
+- Testing: TDD & BDD, RSpec, Minitest, Jest, JS Testing Library
+- Time series analysis: TimeScaleDB
+- Unix and Linux System Administration and DevOps: Chef, Puppet, Ansible, Vagrant, Docker
+- User- and task-centered design
+- Web Development: Perl/CGI, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript
+- Web: Web interface design, Web application design, User Experience
