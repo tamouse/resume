@@ -10,7 +10,7 @@ layout: false
 %h2 Skills
 %dl
   - data.resume.skills.each do |k,v|
-    %dt{style: "display:inline-block;minwidth: 12%;width: 20%;"}= k.gsub(/_/,' ')
+    %dt{style: "display:inline-block;minwidth: 12%;width: 20%;"}= k.gsub(/_/,' ').capitalize
     %dd{style: "display:inline-block"}= v.join(", ")
     %dd= ""
 
