@@ -6,6 +6,7 @@ gem "middleman", "~>4"
 
 # Live-reloading plugin
 gem "middleman-livereload"
+gem "kramdown"
 
 # Deployment
 # Doesn't seem to be progressing - last commits on master were Aug 16, 2015

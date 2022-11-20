@@ -18,6 +18,8 @@
 
   %body
     %header#header= partial(:header, locals: {:title => full_name})
+    %div{style: 'height: 1in'}
+      &nbsp;
     .container
       %main#main= yield
     %footer#footer= partial 'footer'

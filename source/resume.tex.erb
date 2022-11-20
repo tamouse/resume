@@ -8,7 +8,7 @@ layout: false
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-\documentclass[11pt,letterpaper]{moderncv}
+\documentclass[10pt,letterpaper]{moderncv}
 \moderncvstyle{classic}
 \moderncvcolor{blue}
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
@@ -42,7 +42,7 @@ layout: false
 
 \section{Skills}
 <% data.resume.skills.each_slice(2) do |a,b| %>
-\cvcomputer{<%= a.first.gsub(/_/,' ') %>}{<%= a.last.join(", ")%>}{<%= b.first.gsub(/_/,' ') unless b.nil? %>}{<%= b.last.join(", ") unless b.nil? %>}
+\cvcomputer{<%= a.first.gsub(/_/,' ').capitalize %>}{<%= a.last.join(", ")%>}{<%= b.first.gsub(/_/,' ').capitalize unless b.nil? %>}{<%= b.last.join(", ") unless b.nil? %>}
 <% end %>
 
 \cvline{Methods}{\small <%= data.resume.methodologies.join("; ") %>}

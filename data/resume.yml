@@ -1,7 +1,7 @@
 ---
-title: Webologist and Software Craftsperson
+title: Webologist and Software Crafts-person
 last_update:
-  Time-stamp: <2022-05-27 12:34:27 tamouse>
+  Time-stamp: <2022-11-20 15:26:37 tamouse>
 name:
   given: Tamara
   middle: Paula
@@ -92,12 +92,13 @@ brief_summary: |
     applications, user experience, team building, and processes.
 skills:
   general:
-    - business analysis
+    - software engineering
+    - web development
+    - mentoring
     - consulting
     - facilitating
-    - software engineering
     - teaching
-    - web development
+    - business analysis
   software_engineering:
     - APIs
     - architecture
@@ -113,53 +114,50 @@ skills:
     - testing
     - tool chains
   libraries_+_frameworks:
+    - Rails
+    - React
+    - Vue
     - ApolloClient
     - ApolloServer
     - GraphQL
-    - jekyll
-    - middleman
-    - Rails
-    - React
     - Sinatra
   databases:
     - PostgreSQL
     - Redis
     - TimeScaleDB
   languages:
-    - CSS3
-    - HTML5
+    - Ruby
     - JavaScript
+    - Python 3
+    - Shell
+    - CSS3
+    - SCSS/SASS
+    - HTML5
     - PHP
     - Perl
-    - Python 3
-    - Ruby
-    - SCSS/SASS
-    - Shell
   servers:
     - AWS ECS, EBS, S3, Cloudfront
     - Netlify
     - nginx
-    - puma
-    - unicorn
   tools:
-    - babel
     - Emacs and Org-mode
-    - make
-    - Miro
-    - Node.js
-    - Notion
-    - npm/npx
-    - rake
     - RubyMine
-    - Storybook
-    - thor
-    - webpack
     - Webstorm
+    - rake
+    - Thor
+    - make
+    - Node.js
+    - webpack
+    - babel
+    - npm/npx
+    - Storybook
     - yeoman (yo)
+    - Miro
+    - Notion
   testing:
-    - Jest
     - Minitest
     - RSpec
+    - Jest
     - Testing Library
 
 methodologies:
@@ -170,7 +168,7 @@ methodologies:
   - Precision elicitation and facilitation, communication for action
   - Process flow analysis, systems theory, cybernetics
   - Program architecture and design
-  - NLP (Neuro-linguistic Programming) practitioner
+  - NLP (Neurolinguistic Programming) practitioner
   - Structured analysis, design, development, and testing
   - Test-/behaviour-driven development
   - Time series analysis
@@ -189,7 +187,7 @@ additional_training:
   - System testing
   - Objected oriented analysis, design, programming and testing
   - Consulting and facilitating skills
-  - Neuro-linguistic programming certified practitioner
+  - Neurolinguistic programming certified practitioner
   - Project management
   - Public speaking and presentation skills
   - "You Don't Know JS with Kyle Simpson"
@@ -211,6 +209,25 @@ self_training:
 
 experience:
 
+  - label: wherefour
+    years: 2022
+    duration:
+      from:
+        year: 2022
+        month: 7
+      to:
+        year: 2022
+        month: 11
+    position: Senior Rails Engineer
+    company: Wherefour
+    location: Remote
+    description: >-
+      One of three full-time engineers working mainly with Rails on the back end, adding new features.
+    accomplishments_and_duties:
+      - Importing orders from a 3rd party
+      - Automating testing of a major new feature
+      - Fixing some defects and small asks from customer success
+
   - label: drip
     years: 2020-2022
     duration:
@@ -228,10 +245,10 @@ experience:
     accomplishments_and_duties:
       - Developed an architecture for providing recommendations, insights, and proposed next actions to Drip users (i.e. email marketers)
       - Developed a microservice to deliver time scale metrics in order to speed up customer analytics pages
-      - Designed an architecture to provide a Guidance System that would be able to take requirements and copy for guidance from any product team and others, and provide it to the front end where needed based on metrices and benchmarks
+      - Designed an architecture to provide a Guidance System that would be able to take requirements and copy for guidance from any product team and others, and provide it to the front end where needed based on metrics and benchmarks
       - Member of the Diversity, Equity, and Inclusion team at Drip, and led the DEI Affinity Groups project to produce a guide for forming and running affinity groups (i.e. employee resource groups) within Drip
       - Led a team to produce a mentoring and learning environment at Drip, including a guide for mentors and mentees, tools to find or offer mentoring, connecting mentees with mentors, and reporting results
-      - In the absense of any project management or leadership in the insights area, acted to perform discovery, planning, discussion, documentation, and create the Epics and Stories for each project, and monitored seeing it through to completion
+      - In the absence of any project management or leadership in the insights area, acted to perform discovery, planning, discussion, documentation, and create the Epics and Stories for each project, and monitored seeing it through to completion
       
 
   - label: javascriptmn
@@ -247,7 +264,7 @@ experience:
     description: >-
       Board member to help produce the monthly JavaScript users group in Minnesota.
     accomplishments_and_duties:
-      - convinced Javascript users in the communitity to give talks at meetups
+      - convinced JavaScript users in the community to give talks at meetups
       - coached speakers
       - welcomed attendees, ensure the space is welcoming and inclusive for all comers
       - reached out to underserved communities to help them participate
@@ -264,7 +281,7 @@ experience:
     position: "API-driven Rubyist, React/GraphQL Maven"
     company: ReachLocal (Gannett), Kickserv Product
     description: >-
-      Software engineering across the entire application stack from the back end in Ruby on Rails with a Postgresql database, implementing a GraphQL server controller with various queries, types, mutations, and resolvers to implement a GraphQL API, and create a React front end that consumes that GraphQL API with Apolloclient in order to replace the legacy JavaScript code from over a decade of various implementation styles and libraries, giving a modern, cohesive approach to front end web application development.
+      Software engineering across the entire application stack from the back end in Ruby on Rails with a PostgreSQL database, implementing a GraphQL server controller with various queries, types, mutations, and resolvers to implement a GraphQL API, and create a React front end that consumes that GraphQL API with ApolloClient in order to replace the legacy JavaScript code from over a decade of various implementation styles and libraries, giving a modern, cohesive approach to front end web application development.
     location: Minneapolis, Minnesota/Remote
     accomplishments_and_duties:
       - developed the Rails GraphQL backend for the product.
@@ -331,10 +348,10 @@ experience:
       to:
         year: 2017
         month: 3
-    position: Indepndent Contractor
+    position: Independent Contractor
     company: Pontiki Software Crafts
     description: >-
-      Constract software development of web applications, websites, and tools
+      Contract software development of web applications, websites, and tools
     location: Mendota Heights, Minnesota/Remote
     accomplishments_and_duties:
       - "Clients: Ackmann and Dickenson, Software for Good, Bluewaterbrand, Novu, Shopzilla"
@@ -395,7 +412,9 @@ experience:
     position: Various positions
     company: Hewlett-Packard (San Jose, Palo Alto, CA), Control Data (Arden Hills, MN)
     description: >-
-      Internal Process and Technology Consultant,  Senior Software Engineer/Scientist, Software Quality Engineer manager of 10 engineers, Senior Software Quality Engineer
-    # accomplishments_and_duties:
-    #   - Career as a software developer, business analyst,
-    #     process and technology consultant, author, facilitator, trainer
+      Internal Process and Technology Consultant,  Senior Software Engineer/Scientist, Software Engineer Manager of 10 engineers, Senior Software Quality Engineer
+    accomplishments_and_duties:
+      - 10 years as Internal Cunsultant helping software teams level up in productivity and quality
+      - 3 years Senior Software Engineer developing tools for network configuration and management
+      - 2 years Software Engineering Manager with 10 software engineers
+      - 5 years Senior Software Quality Engineer running a networking interoperability test lab and quality engineering on a technical team producing TCP/IP
