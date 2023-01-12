@@ -118,6 +118,7 @@ class CreatePDFandRTF < Middleman::Extension
     app.after_build do |builder|
       Dir.chdir "build" do |builddir|
         builder.thor.run "pdflatex resume.tex"
+        builder.thor.run "pdflatex cover_letter.tex"
         builder.thor.run "pandoc -s docx.html -o resume.rtf"
       end
     end
