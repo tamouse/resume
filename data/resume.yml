@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Crafts-person
 last_update:
-  Time-stamp: <2023-01-11 20:15:29 tamara>
+  Time-stamp: <2023-01-12 11:09:16 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -17,32 +17,34 @@ contact_info:
   email:
     - label: Main
       address: tamara@tamouse.org
-    - label: Gmail
+    - label: Gmail (calendar stuff)
       address: tamouse@gmail.com
   phone:
     - label: Mobile
       number: +1-651-485-2195
-    - label: Gvoice
-      number: +1-415-503-9241
   web_sites:
     - label: Home
       url: https://tamouse.org
     - label: Calendly
       url: https://calendly.com/tamouse
-    - label: Telegram
-      url: https://t.me/tamouse_pontiki
     - label: Github
       url: https://github.com/tamouse
     - label: DevBlog
       url: https://swaac.dev
+    - label: mastodon (social)
+      url: https://ruby.social/@tamouse
     - label: Twitter
       url: https://twitter.com/tamouse
+    - label: Telegram
+      url: https://t.me/tamouse_pontiki
     - label: LinkedIn
       url: https://linkedin.com/in/tamaratemple
     - label: Keybase.IO
       url: https://keybase.io/tamouse_
     - label: Art
       url: https://tamouse.art
+    - label: mastodon (art)
+      url: https://mastodon.art/@tamouse
     - label: Cooking
       url: https://recipes.tamouse.org
     - label: Blog
@@ -87,7 +89,7 @@ summary_links:
 brief_summary: |
     Working at the intersection of Rails, GraphQL, and React, developing modern web
     applications with fast response times. Deeply experienced in software architecture,
-    design, and development methodologies, especially related to the disciplines of web
+    design, development and deployment tools and methodologies, especially related to the disciplines of web
     applications, user experience, team building, and processes.
 skills:
   general:
