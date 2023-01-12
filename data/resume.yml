@@ -1,7 +1,7 @@
 ---
 title: Webologist and Software Crafts-person
 last_update:
-  Time-stamp: <2022-11-20 15:26:37 tamouse>
+  Time-stamp: <2023-01-12 11:09:16 tamara>
 name:
   given: Tamara
   middle: Paula
@@ -17,32 +17,34 @@ contact_info:
   email:
     - label: Main
       address: tamara@tamouse.org
-    - label: Gmail
+    - label: Gmail (calendar stuff)
       address: tamouse@gmail.com
   phone:
     - label: Mobile
       number: +1-651-485-2195
-    - label: Gvoice
-      number: +1-415-503-9241
   web_sites:
     - label: Home
       url: https://tamouse.org
     - label: Calendly
       url: https://calendly.com/tamouse
-    - label: Telegram
-      url: https://t.me/tamouse_pontiki
     - label: Github
       url: https://github.com/tamouse
     - label: DevBlog
       url: https://swaac.dev
+    - label: mastodon (social)
+      url: https://ruby.social/@tamouse
     - label: Twitter
       url: https://twitter.com/tamouse
+    - label: Telegram
+      url: https://t.me/tamouse_pontiki
     - label: LinkedIn
       url: https://linkedin.com/in/tamaratemple
     - label: Keybase.IO
       url: https://keybase.io/tamouse_
     - label: Art
       url: https://tamouse.art
+    - label: mastodon (art)
+      url: https://mastodon.art/@tamouse
     - label: Cooking
       url: https://recipes.tamouse.org
     - label: Blog
@@ -67,8 +69,7 @@ summary:
   - 'Work with team members to provide a fun, healthy, productive, diverse, and cohesive
     team of managers, analysts, developers, quality assurance, and operations.'
   - 'Experienced in:'
-  - '* architecting and developing web applications, software products, and utilities'
-  - '* designing and developing static and dynamic websites.'
+  - '* architecting, developing, testing, and deplooying web applications, software products, and utilities'
   - '* technical leadership, knowledge sharing, teaching, and coaching'
   - '* managing and facilitating teams'
   - '* analyzing technical and business processes'
@@ -88,7 +89,7 @@ summary_links:
 brief_summary: |
     Working at the intersection of Rails, GraphQL, and React, developing modern web
     applications with fast response times. Deeply experienced in software architecture,
-    design, and development methodologies, especially related to the disciplines of web
+    design, development and deployment tools and methodologies, especially related to the disciplines of web
     applications, user experience, team building, and processes.
 skills:
   general:
@@ -135,8 +136,25 @@ skills:
     - HTML5
     - PHP
     - Perl
-  servers:
-    - AWS ECS, EBS, S3, Cloudfront
+  AWS:
+    - S3
+    - ECS
+    - EC2
+    - DynamoDB
+    - RDS
+    - Elasticache
+    - Lambda
+    - IAM
+    - Amazon MemoryDB for Redis
+    - CloudFront
+    - Route 53
+    - API Gateway
+    - CodeBuild
+    - CloudWatch
+    - KMS
+    - Secrets
+    
+  Servers:
     - Netlify
     - nginx
   tools:
@@ -243,6 +261,7 @@ experience:
     description: >-
       Primarily focused on providing consumer and market analytics, insights, and guidance in the Drip app that enables Drip customers to become more capable email marketers. Acted as a project manager to plan, document, and track projects for the team. Software architecture and design for major features in the insights area, and providing mentoring, direction and guidance to other engineers in Drip.
     accomplishments_and_duties:
+      - Worked in fully scripted continuous testing, integration, and deployment system, including wiring scripts for CircleCI, AWS CodeBuild, Cloudwatch logging, Docker containers, and Terraform.
       - Developed an architecture for providing recommendations, insights, and proposed next actions to Drip users (i.e. email marketers)
       - Developed a microservice to deliver time scale metrics in order to speed up customer analytics pages
       - Designed an architecture to provide a Guidance System that would be able to take requirements and copy for guidance from any product team and others, and provide it to the front end where needed based on metrics and benchmarks
@@ -284,6 +303,8 @@ experience:
       Software engineering across the entire application stack from the back end in Ruby on Rails with a PostgreSQL database, implementing a GraphQL server controller with various queries, types, mutations, and resolvers to implement a GraphQL API, and create a React front end that consumes that GraphQL API with ApolloClient in order to replace the legacy JavaScript code from over a decade of various implementation styles and libraries, giving a modern, cohesive approach to front end web application development.
     location: Minneapolis, Minnesota/Remote
     accomplishments_and_duties:
+      - worked in a scripted environment for continuous testing and integation, and scripts to build containers for deployment to AWS ECS, EC2, S3, RDB, as well as some other AWS services along the way.
+      - created AWS Lamdas with AWS API Gateway to crunch uploaded customer files, deduplicate them, and move them to CloudFront for rapid downloads.
       - developed the Rails GraphQL backend for the product.
       - architected and developed the JavaScript front end code in React to provide a good separation of concerns ensuring testability and writing tests where none existed prior; lowering maintenance costs, and ensuring easy replaceability to enable new features to be added with less overall effort and more predictability.
       - built Rails models, controllers, views, and React components for new Kickserv features.
@@ -354,6 +375,8 @@ experience:
       Contract software development of web applications, websites, and tools
     location: Mendota Heights, Minnesota/Remote
     accomplishments_and_duties:
+      - created a Ruby on Rails template for new applications that provided Ansible instructions to create the home development and testing environments, as well as higher level environments of QA, Staging, and Production.
+      -  "developed features for several clients' web apps, complex SQL expressions and internal stored functions, and include payment processing for websites for subscriptions and drop-shipped orders."
       - "Clients: Ackmann and Dickenson, Software for Good, Bluewaterbrand, Novu, Shopzilla"
       
 
