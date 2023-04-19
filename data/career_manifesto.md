@@ -29,10 +29,10 @@ I must be fully remote, with no expectation of ever coming into the office.
 - on the IPO track, funded sufficiently, plenty of runway
 - a company that already knows what it's business and value proposition is
 - digital/remote first, asynchronous
-- No Java stack, if possible
+- I love working with Rails, Postgresql, and JavaScript, including several frameworks; no Java or PHP, please
 
 ## salary
 
-- $160-$200,000 base annual
+- $140-$200,000 base annual
 - not seeking equity
 
