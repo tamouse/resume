@@ -33,26 +33,13 @@ contact_info:
       url: https://swaac.dev
     - label: mastodon (social)
       url: https://ruby.social/@tamouse
-    - label: Twitter
-      url: https://twitter.com/tamouse
-    - label: Telegram
-      url: https://t.me/tamouse_pontiki
     - label: LinkedIn
       url: https://linkedin.com/in/tamaratemple
     - label: Keybase.IO
       url: https://keybase.io/tamouse_
-    - label: Art
-      url: https://tamouse.art
-    - label: mastodon (art)
-      url: https://mastodon.art/@tamouse
-    - label: Cooking
-      url: https://recipes.tamouse.org
-    - label: Blog
-      url: https://blog.tamouse.org
-      
 
   social:
-    twitter: tamouse
+    mastodon: '@tamouse@ruby.social'
     github: tamouse
 summary:
   - '**Webologist** and Tech Maven, deeply into the practice of **Software Engineering
@@ -69,7 +56,7 @@ summary:
   - 'Work with team members to provide a fun, healthy, productive, diverse, and cohesive
     team of managers, analysts, developers, quality assurance, and operations.'
   - 'Experienced in:'
-  - '* architecting, developing, testing, and deplooying web applications, software products, and utilities'
+  - '* architecting, developing, testing, and deploying web applications, software products, and utilities'
   - '* technical leadership, knowledge sharing, teaching, and coaching'
   - '* managing and facilitating teams'
   - '* analyzing technical and business processes'
@@ -87,10 +74,11 @@ summary_links:
   - text: Technical Debt (Martin Fowler)
     link: http://martinfowler.com/bliki/TechnicalDebt.html
 brief_summary: |
-    Working at the intersection of Rails, GraphQL, and React, developing modern web
-    applications with fast response times. Deeply experienced in software architecture,
-    design, development and deployment tools and methodologies, especially related to the disciplines of web
-    applications, user experience, team building, and processes.
+    Deeply experienced in delivering high-quality, performant, and scalable web
+    applications utilizing the best of software architecture, design,
+    development, and deployment tools and methodologies, especially related to
+    the disciplines of web applications, user experience, team building, and
+    processes.
 skills:
   general:
     - software engineering
@@ -126,6 +114,8 @@ skills:
     - PostgreSQL
     - Redis
     - TimeScaleDB
+    - MySQL
+    - SQOite
   languages:
     - Ruby
     - JavaScript
@@ -134,8 +124,6 @@ skills:
     - CSS3
     - SCSS/SASS
     - HTML5
-    - PHP
-    - Perl
   AWS:
     - S3
     - ECS
@@ -164,6 +152,7 @@ skills:
     - rake
     - Thor
     - make
+    - Docker
     - Node.js
     - webpack
     - babel
@@ -175,8 +164,11 @@ skills:
   testing:
     - Minitest
     - RSpec
+    - Capybara
+    - Mocha
     - Jest
-    - Testing Library
+    - JS Testing Library
+    - Cypress
 
 methodologies:
   - Agile development, scrum master
@@ -213,20 +205,43 @@ additional_training:
   - Numerous courses through FrontendMasters.com on React, Webpack, GraphQL, JAMstack, Angular, others
 
 self_training:
-  Scripting: Bash/Grep/Sed/Awk, Perl, Ruby, Python
-  Web Development: Perl/CGI, PHP, Ruby on Rails, Sinatra, HAML, SCSS, JavaScript, TypeScrpt
-  Testing: "TDD & BDD, RSpec, Jest, JS Testing Library"
-  JavaScript: React, jQuery, Backbone, Node, Webpack, Babel
+  Scripting: Bash/Grep/Sed/Awk, Perl, Ruby (incl. Rake and Thor), Python
+  Web Development: Ruby on Rails, Sinatra, JavaScript, React, Django, CSS/SCSS/Saas, HTML
+  Testing: "TDD & BDD, RSpec, Capybara, Mocha, Jest, JS Testing Library, Cypress"
+  JavaScript: React, Node, Webpack, Babel
   Static Websites: Jekyll, Middleman, Gatsby
   Web: Web interface design, Web application design, User Experience
   Relational database management and database design: MySQL, SQLite, PostgreSQL
   Time series analysis: TimeScaleDB
   Non-relational (key-value) database management and design: MongoDB, Redis, Cassandra
   Unix and Linux System Administration and DevOps: Chef, Puppet, Ansible, Vagrant, Docker
-  Continuous Everything: Guard, Travis-CI, CircleCI, Codeship.IO, Git Hooks, Jenkins
+  Continuous Everything: Guard, Travis-CI, CircleCI, Codeship.IO, Git Hooks, Jenkins, GitHub actions
 
 experience:
 
+  - label: mrets
+    location: Minneapolis, MN (Remote)
+    years: 2023
+    duration:
+      from:
+        year: 2023
+        month: 5
+    position: Senior Software Engineer
+    company: M-RETS
+    description: General software development of new and existing features, including architecture, design, tests, code, tools, support. Extensive technical documentation writing. Crafting and improving processes for all areas of the software development lifecycle
+    accomplishments_and_duties:
+      - Find, fix, and document erroneously duplicated transactions and renewable energy generation entries in first few months on the team
+      - Document the transaction subsystem
+      - Review, enact, and update the product release procedures; train next release manager in line
+      - Find and fix several blocking defects, documenting their effects and resolutions, extending test suites to prevent further issues in the same area.
+      - Opportunistic refactoring when it made sense to simplify and clarify classes, modules, and tests
+      - Lead (as in plan, coordinate, drive, and document, as well as providing input and feedback) various architectural teams of senior engineers and management for reducing the considerable technical debt in the application
+      - Contributing as a subject matter expert in some complex areas of the application I had recently learned
+      - Coach other members of engineering and management in working through various procedures and general aspects of working in technical teams
+      - Contributing daily to the health and vitality of the company, especially with other functional areas and across contracting boundaries, promoting positive and inclusive discussions and resolutions
+      - Lend expertise in pairing and walk-throughs on Ruby on Rails, Sidekiq, Puma, JavaScript, React, misc. web stacks, PostgreSQL, Redis, AWS, command line tools, editors (especially JetBrains IDEs), Jira, Confluence, Slack (bots), general design, coding, testing, and debugging skills and tools, documentation
+
+    
   - label: wherefour
     years: 2022
     duration:
