@@ -1,11 +1,10 @@
-# Career Objectives
 
 ## role i am seeking
 
 Senior / Staff Software Engineer
 
 - full time direct hire
-- not a leadership role, but senior individual contributor that can lead by example and mentoring others
+- not a management role, but an engineering technical leader that can mentor and guide others with architecture, direction, coaching, pairing, and discussions
 - I love helping people level up
 
 ## desired outcomes
@@ -26,14 +25,14 @@ I must be fully remote, with no expectation of ever coming into the office.
 
 **Characteristics:** 
 
-- a small company, under 500
+- a small company, under 500 (an engineering department in a larger company is great)
 - on the IPO track, funded sufficiently, plenty of runway
-- a company that already knows what it's business and value proposition is
+- a company that already knows what it's business and value proposition are
 - digital/remote first, asynchronous
-- No Java stack, if possible
+- I love working with Rails, Postgresql, and JavaScript, including several frameworks; no Java or PHP, please
 
 ## salary
 
-- $160-$200,000 base annual
-- not seeking equity
+- $150-$200,000 base annual
+- not especially seeking equity
 
