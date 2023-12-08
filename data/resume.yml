@@ -115,7 +115,7 @@ skills:
     - Redis
     - TimeScaleDB
     - MySQL
-    - SQOite
+    - SQLite
   languages:
     - Ruby
     - JavaScript
