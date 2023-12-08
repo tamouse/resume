@@ -161,6 +161,9 @@ skills:
     - yeoman (yo)
     - Miro
     - Notion
+    - Jira
+    - Confluence
+    - 'git + Github'
   testing:
     - Minitest
     - RSpec
