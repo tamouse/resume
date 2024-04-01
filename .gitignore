@@ -16,3 +16,4 @@ vendor/*
 *.aux
 *.log
 *.out
+source/.auctex-auto/
