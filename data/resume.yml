@@ -23,18 +23,18 @@ contact_info:
     - label: Mobile
       number: +1-651-485-2195
   web_sites:
-    - label: Home
-      url: https://tamouse.org
-    - label: Calendly
-      url: https://calendly.com/tamouse
-    - label: Github
-      url: https://github.com/tamouse
-    - label: DevBlog
-      url: https://swaac.dev
-    - label: mastodon (social)
-      url: https://ruby.social/@tamouse
     - label: LinkedIn
       url: https://linkedin.com/in/tamaratemple
+    - label: Github
+      url: https://github.com/tamouse
+    - label: Calendly
+      url: https://calendly.com/tamouse
+    - label: Home
+      url: https://tamouse.org
+    - label: DevBlog
+      url: https://swaac.dev
+    - label: mastodon
+      url: https://ruby.social/@tamouse
     - label: Keybase.IO
       url: https://keybase.io/tamouse_
 
@@ -104,23 +104,31 @@ skills:
     - tool chains
   libraries_+_frameworks:
     - Rails
+    - Node.js
     - React
     - Vue
     - ApolloClient
     - ApolloServer
     - GraphQL
     - Sinatra
+    - Gastby.js
+    - Astro.js
+    - Netlify
+    - nginx
   databases:
     - PostgreSQL
     - Redis
     - TimeScaleDB
     - MySQL
     - SQLite
+    - MongoDB
+    - Cassandra
   languages:
     - Ruby
     - JavaScript
     - Python 3
     - Shell
+    - PHP
     - CSS3
     - SCSS/SASS
     - HTML5
@@ -141,19 +149,15 @@ skills:
     - CloudWatch
     - KMS
     - Secrets
-    
-  Servers:
-    - Netlify
-    - nginx
   tools:
+    - 'git + Github'
+    - Docker
     - Emacs and Org-mode
     - RubyMine
     - Webstorm
     - rake
     - Thor
     - make
-    - Docker
-    - Node.js
     - webpack
     - babel
     - npm/npx
@@ -163,7 +167,6 @@ skills:
     - Notion
     - Jira
     - Confluence
-    - 'git + Github'
   testing:
     - Minitest
     - RSpec
@@ -258,7 +261,7 @@ experience:
     company: Wherefour
     location: Remote
     description: >-
-      One of three full-time engineers working mainly with Rails on the back end, adding new features.
+      One of three full-time engineers working mainly with Rails on the back end, Vue on the frontend, adding new features.
     accomplishments_and_duties:
       - Importing orders from a 3rd party
       - Automating testing of a major new feature
