@@ -1,0 +1,48 @@
+# References
+---
+- name: Kevin Bullock
+  company: Software for Good
+  title: Senior Architect
+  email: kevin@softwareforgood.com
+  phone: 612-220-1582
+  when: 2016-12 to 2017-03
+  projects:
+    - Mantis
+
+- name: Peter Edstrom
+  company: Software for Good
+  title: Project Manager
+  email: peter@softwareforgood.com
+  phone: .
+  when: 2016-12 to 2017-03
+  projects:
+    - Mantis
+
+- name: Sam Slotsky
+  company: Ackmann-Dickenson
+  title: Software Engineer
+  email: sam@malarky.net
+  phone: 952-491-3787
+  when: 2013-12 to 2016-04
+  projects:
+    - Sullivan-Cotter
+    - NatCam
+
+- name: Erica Tava Johnson
+  company: Ackmann-Dickenson
+  title: Project Manager
+  email: erica@ackmandickenson.com
+  phone: 651-295-1580
+  when: 2013-12 to 2016-04
+  projects:
+    - NatCam
+    - Brewtoad
+
+- name: Jason Bucki
+  company: Ackmann-Dickenson
+  title: Engineering Manager
+  email: jason@ackmanndickenson.com
+  phone: .
+  when: 2013-12 to 2016-04
+  projects:
+    - NatCam
