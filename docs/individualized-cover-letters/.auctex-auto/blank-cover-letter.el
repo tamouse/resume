@@ -1,5 +1,5 @@
 (TeX-add-style-hook
- "cover_letter"
+ "blank-cover-letter"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-package-options
                      '(("fontenc" "T1") ("inputenc" "utf8")))
